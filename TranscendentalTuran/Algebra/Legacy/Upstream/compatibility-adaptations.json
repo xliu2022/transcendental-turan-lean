@@ -1,0 +1,789 @@
+{
+  "mathlib_repository": "https://github.com/leanprover-community/mathlib4",
+  "mathlib_commit": "6b7abb3c7686292736be2955bd3eb9ebf63b456a",
+  "mathlib_file": "Mathlib/Algebra/Polynomial/Sturm/Sequence.lean",
+  "mathlib_upstream_sha256": "9b0f52b215e46ddd7fb75a0188c24f967a052a95a7e5b5e516f13d54b3e3cdc5",
+  "mathlib_local_path": "TuranUniversality/Algebraicity/Upstream/Mathlib/Algebra/Polynomial/Sturm/Sequence.lean",
+  "mathlib_local_sha256": "9b0f52b215e46ddd7fb75a0188c24f967a052a95a7e5b5e516f13d54b3e3cdc5",
+  "adaptations": [
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/QuadraticDiscriminant.lean",
+      "prior_sha256": "ad428db270b680aeb1888347539ad6b4cebd75378149466657ed4337d50ec8a7",
+      "current_sha256": "7c09ad25763c6c442e8ab479fd1303034f6762b890ad4fbe6fca42e27bf7e5ca",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/IsRealClosed/Real.lean",
+      "prior_sha256": "2865f850d08c62dcefb33e7ece9994b8832b5173fbe252164ecfe2726976907b",
+      "current_sha256": "bd82514338c935093e34b2f6ac1a12b46198f9511e6aa66d29795441f17b096f",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/Galois.lean",
+      "prior_sha256": "e1008eb78bbd32b5fce02c76fc49663de2b878320c1da6c57d3e9332d9e1457c",
+      "current_sha256": "5e850edc00713e07f2d4e0656684ce9fe64452e004d46c5d0484e006e6fe3927",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/IVT.lean",
+      "prior_sha256": "3eba2282f3296eb551c220cb81cf190685a8ccfa05f91659624c95b777f82b7b",
+      "current_sha256": "95cfa5de7db821c47fb1a5cc66a0d9a643d1c26e5fa4e5ad9d0021f9d5c0adf9",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/AbstractRolle.lean",
+      "prior_sha256": "d5c96b2875a07144c0652f1fd5b38075a1192e8cf63a927859edb98c7c895a97",
+      "current_sha256": "5b1fa56ccb406715436df9b43b4c05b83212bcd9eb26f78609d55f733b5c55e8",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/AlgebraicClosed.lean",
+      "prior_sha256": "8c84b6aacd8af578e190c28cb9e7aca68ce4476c2d3d4a5222180d378941902c",
+      "current_sha256": "33640080f1f542200c3eb499787538479b1d216db83c3d65bbe0c43ea74a9ce6",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/FiniteExtension.lean",
+      "prior_sha256": "91328e13bc8c827d40a882995df1745f1dada2e5c481b46322814b44241727fc",
+      "current_sha256": "d7de091cb3b54e30e0ea6b3d20619c6a4f9d71a4d20177474108b8161fe950d5",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/Complexification.lean",
+      "prior_sha256": "1cfe9b5a4895e49ab2d000c1058aef41fbca8c10be69626a913826a2644cb637",
+      "current_sha256": "5f9ab2fd5b29934fc713d010363c8c32d6497f5cb007aa04856041b6e9025ad8",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Matrix/OccCount.lean",
+      "prior_sha256": "610c5cc93395987e233147a468968f9fd442e8b23045d25dcdbed2fdb27c0ae8",
+      "current_sha256": "108c9f0e35840d0ebd6a630acd5a41d259bf4dc0b02294cab28c0d62fe013d02",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Finset/Jumps.lean",
+      "prior_sha256": "b29db2e143aab6b8dd39098857607fe325e7067421384f9408b607e5a15b7563",
+      "current_sha256": "b122ca15b7979ee299b1148c0892b906417fbdaf19e6c9049aa577779b15eb66",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/Range.lean",
+      "prior_sha256": "19eb519a8734296350efb260b49b7787274d6dac9583abc4c4590fd73f4ab236",
+      "current_sha256": "00a75c0300a29b6502f16a2ab192345588020b5ae97f3bff03ededd5aa73ccb1",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/PermanencesMinusVariations.lean",
+      "prior_sha256": "68b04032a492294c777b7705cb146425195319cf52cea0fea29f099a9fb30c2c",
+      "current_sha256": "f42f7d41e8149fc83985df2f94315b9247db0d0514a88c83e756fa3980651992",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/SignVariations.lean",
+      "prior_sha256": "78e6af7bb45a508b7e802023102594f4af2696de1e9afede7876a0d551209a28",
+      "current_sha256": "6ec6667b94e349326c82ecd4ac30f04ef54fe1e5961395cd2a5463401a8dfa46",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/SignType/Lagrange.lean",
+      "prior_sha256": "8c690e2d22194a8d3cd924e921c0180499c8ffeedddd2d2124ad6fc5412a65e4",
+      "current_sha256": "57e4b1253b09b261c67472f5e277719c7f851f01621e8827041ef0aad347b8f5",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/SignType/Parity.lean",
+      "prior_sha256": "b6f4b9f0569b774f1650fcd1757d5b49f5eb42576d57e67dbed079f7fa581e21",
+      "current_sha256": "2c9562ef3e480487638640213cffad40f3a343d4f7b51bad2367a01dc284abfe",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Fintype/Fiber.lean",
+      "prior_sha256": "382fb8a641e8fefbcec424100383e80666850676dcc463fa08661f73b21f30d4",
+      "current_sha256": "ef8ed3b2110d3344736b6327ba5bdd40f42866821e32e3977c6834cc92032b79",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Nat/Choose/Basic.lean",
+      "prior_sha256": "3eb6e2299689955a1a83724b4fc49511de4fa410e044c6e60795415db0629f7e",
+      "current_sha256": "86b193781075626d3c1fdd7919dcdf37f579d135c0f46de2774b4b9135477c5d",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Reductum.lean",
+      "prior_sha256": "99a77babb9b6c6e589ee057df14fc865b2dad40dab7c86dac11a88e867fb19b2",
+      "current_sha256": "7f2c3f1c4d73cf5652ef692921617ad5e637b051f51e56ccdf4398b2be931709",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Polynomial.lean",
+      "prior_sha256": "1da5291002b6e4f99059d316ded0562a9cc66216bd704d86f7a23e5614d42444",
+      "current_sha256": "0d5cb75d244dc8a847aae324fe5fc348c63862f4bec76ba26bc20ef4032c383e",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Euclidean.lean",
+      "prior_sha256": "bbd79a85ed1df62dc94f5c854c3cc91eb2e53b01d6eead0590168d407f091cc4",
+      "current_sha256": "60ca8040ff5d95dfaa6039dd296fec5c5759652e4c7cbc8a8b36457520484cdc",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/CauchyIndex.lean",
+      "prior_sha256": "26fc2837fb769378932cd9b5b372c9e631663a47ef9df090a6ac81920c89bdf9",
+      "current_sha256": "d0c4b5321605935f34e560ef3ffc3e7262ce0fb6db8ee57a783c7805aa08c9c8",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Signed.lean",
+      "prior_sha256": "e18a170530f2526611588591f791fd310a1254ec46615063c568f07b84d52071",
+      "current_sha256": "f1b270718afff99b7aa4cea0cc7cff645b18c6a139e40345a38469d65a83fba5",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Basic.lean",
+      "prior_sha256": "6ae33480e3d718e6317c98ca5ae1eb096a5f856e011e2e0a692111e6faee9979",
+      "current_sha256": "7c6a7c3a4448f28a39a78025ec77c18afecc93063160932a6cdc1b9fbffc69be",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/DegreeDrop/Basic.lean",
+      "prior_sha256": "2d9ae9acd519339664fdce57f4a4707fddc41416cb095dbe10426278444a8755",
+      "current_sha256": "55dbbccc6615e1c66bc4d7d9cd837c2ae6cbbb98b854bda6d763dac67982e60d",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Polynomial.lean",
+      "prior_sha256": "656afcd6c49b6cdd52bef1d4a3932e8228b0b87b1cf1e9b76f3fee65334f6bc4",
+      "current_sha256": "fae39cb1d863a8e6564137d1871649636907992aa8d204d7ac29ec42308cadb6",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/WholeLine.lean",
+      "prior_sha256": "e043a84186dc7185e38cbfd5bf3a18c127886f4404f4c5937685182336b66124",
+      "current_sha256": "8f2e0e202bf17a8a220402e8dabf687a5742c0c2723d4d3d82d80662f4ba2521",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Defs.lean",
+      "prior_sha256": "2a127932dadba632b7e4bc4f953db5891f7dd5d7cf5dae5318dc7ae3056d93dd",
+      "current_sha256": "55517caee745e95bcb083890d529bac8a126107b855abdf9372a8c7171cf6061",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Roots.lean",
+      "prior_sha256": "6745f83905837c1a7bfebf4dcf4c051c6b8536fa2b295e867265f29bd30cba4e",
+      "current_sha256": "ed37b7dd769b31e8076e380aa7cf545acdea3a3eeac7e1d154532c4f8477c923",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Moments.lean",
+      "prior_sha256": "e08ea7add922f8db023ecf5aa554640a0882bdf2c1891582f13f0383a7cee4df",
+      "current_sha256": "9c4d1395a0263469552bf80e9d25500257eee1d1960a7f89bab5348ce2b7fbb1",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/GroupTheory/Perm/Inversion.lean",
+      "prior_sha256": "9820d5c0cc7e49b39c98374ca69aa01924b920ce4f344bc6647dd88ae4fe4f15",
+      "current_sha256": "0046bf56975235f3d01311c5fb5e262abf6b21d9d6293b519dbd866932579e53",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/LinearAlgebra/Matrix/Congruence.lean",
+      "prior_sha256": "84ebf3628e2fad8cd02ce3b8d937d36da6e596daf06c313ea52bea8e49d8ee91",
+      "current_sha256": "3ada47f990341138d2d56c9bec84703348896045f93953933bf7ce4a5aa0e053",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/LinearAlgebra/Matrix/CornerMinor.lean",
+      "prior_sha256": "cf14df643a39cecef75cb22217806d17d84fedf97b188ad9c135ede60c10584e",
+      "current_sha256": "f401b8387b2ce5ecbd6e42beeea4f3c1d60d0631551f13a357d652f474ccc665",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Rolle.lean",
+      "prior_sha256": "f5429276e8c8f1915e776e98bb7f7286ac6a76075bc215062ac7d5acdafc0c2c",
+      "current_sha256": "6bc30bcce7b3a55c267cae2088491b9f7a5e7eb35de475ec4ed6774d73e9b4ce",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/OfFn.lean",
+      "prior_sha256": "385cb906f36913507d7a18f03dc47d2666b4a289fd5694fa74f612acd569aeb5",
+      "current_sha256": "3596b82285c1345edab6c13d718a0b0fc0d4b33771723e5ca8a833faeec61227",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/LinearFactor.lean",
+      "prior_sha256": "d97ba98c0815e1e12a7b42a3d97e04dd3ede70d0bcdfbe8243256187c6181813",
+      "current_sha256": "d153af49df0110dd8c63ea5bc97809dd73f90116d6041661725eee36f07b4222",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/QuadraticDiscriminant.lean",
+      "prior_sha256": "8fde124aa7bfb210612e0f7c026eaccdfbb723e98092da1ec7c59b57bf1d685c",
+      "current_sha256": "4442c976cf6fd342c7d0ab195481303a1f615233957019659139b44bcf2e1d82",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Thom.lean",
+      "prior_sha256": "87e9d42384c1c87fce9715e60fd6400cfdca55e9baeac80cd1a8f90a05023d7d",
+      "current_sha256": "df893e62bc5ed9c755864827c516adfe24b5c219e7b746e497329807b880cd65",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Order/Ring/Ordering/Semireal.lean",
+      "prior_sha256": "9d6d6ebc61fe2686f99c207866d0229345f11df81013fbf94e6d7af32e48e507",
+      "current_sha256": "ddaf47e8cb2c437e204da261c7e116aca1946108a98ffde494476a62f7ad5b76",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Order/Ring/Ordering/Extension.lean",
+      "prior_sha256": "33af5f4c60561813d58da5c3a1022c521fc087132c65f59645e80466c05e2fbb",
+      "current_sha256": "20ed5ecb43ecd0e10aec51f1e83325a057550fe14237d4b8583b85320f0504fe",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/BigOperators/Finset/Filter.lean",
+      "prior_sha256": "d19f43c1c97362863915309334e138d5c8ff642d02fbda57fcc01828a5e4f589",
+      "current_sha256": "5d5b50b926ecc376665bf08f7d45e90e22785851746255dbbd92d06945837609",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Sum.lean",
+      "prior_sha256": "7c6390063bb9ea6a55a32b245475e52075cdc194418a5fc13ef46c6a75562d6f",
+      "current_sha256": "5e376d8641f989050774995061ec5f3c9cbda2e8b9415aa0ef9c9a9a43aedc98",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Sequence.lean",
+      "prior_sha256": "96c25c7e0f6c84487fb618dc7757d5d763b0c047f3753631f3819102cb60439d",
+      "current_sha256": "ca777e2c2bafffb6dc861c2c9def04565fcaffa8713a58f2fd86dba4bc623b08",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Local.lean",
+      "prior_sha256": "dd09e676e5fce8a810299fd6ad39fb4522ad6e7247697cf572f3d0a60f4032b2",
+      "current_sha256": "b8fb46621c9b9d591f05a468ac64f83adebe0c0e615108a41304866bf17e3083",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Tarski.lean",
+      "prior_sha256": "1ddbd3de6faf81ae42da081cf699c783d0426b331d2b2a8d0a09c2752bbc0396",
+      "current_sha256": "5482a85ea571b2b32da9d8513ec0b7b84b84f275c0e5a66a982745f7b56f9345",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/SignedRemainders.lean",
+      "prior_sha256": "c92ba72ba1a2e53a0b53c0cd9a680ab5289c4e1b14cfa7ea2c76dd2ed44d8ec7",
+      "current_sha256": "29cde0f50d8603218286c31f88ac22a202709b5b92fdc470784016a97fd711bf",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/OneSided.lean",
+      "prior_sha256": "8e17f5332ad53f8c5a8cdff0aeda46723ee8d446f7e03771600fae3cbafdf677",
+      "current_sha256": "f772478527f42e25a924ecacac09972338fc940cdcc1f782628ea062f3987cf6",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Variation.lean",
+      "prior_sha256": "9f68436b58f8fcfc6711357d6fbe7e13b21b3d1f852555da4508a1c56e33bcf9",
+      "current_sha256": "de6f83bd4243d9337400e3a4772d00ea0d6e41a0dad85fbcf4995dd70f5e4c0e",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Infinity.lean",
+      "prior_sha256": "af757e3a31296c1224ce7f069c763f26991921f569206543084ba25b469da261",
+      "current_sha256": "ecfb45db6121727f76221aedbdd13fc82471b2e8a2b5332f4c901c26a3411d36",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Signs.lean",
+      "prior_sha256": "bea611c46b08e49d3fb4407b3dee2fc19a8a0a58fd3288376d5acc61b4c91d55",
+      "current_sha256": "1343705ae3b7a8256c964c3735709fcd12ddfd8436faa2b82fbb4f52594c5ce4",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/OneSided.lean",
+      "prior_sha256": "f1979c0b6a308c614e1cde28366ce127774bc2e7079cebf74ca4058931d67d52",
+      "current_sha256": "30ea3672a75815d5ab8f64802fb707d16162570df240ee8eb7a9aa01e0b29b13",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/Sign.lean",
+      "prior_sha256": "d47509341d6273e3b729269bf8ced19900c545224b824c5a617bb147431c3ac9",
+      "current_sha256": "96fb28cb09457be556acaf0629d8518dee9fd7af4b1cdacc5d996c8ce934d119",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/Infinity.lean",
+      "prior_sha256": "58556d3330c64f2d40ee95db4afbe693a262077e228035a4c090b79de617af4a",
+      "current_sha256": "94e54bdf055856b51ae12878ac6f632cd6292951c06477d14542f77f5568d5cc",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Sampling.lean",
+      "prior_sha256": "a67f2227ac2bc8b971d0bd65f75cefcbbf907ec7ab08ef4c9f789b52cbe032c1",
+      "current_sha256": "aef121dfce5243c881cdd071778db5e01ab1784b54e41bd4f70752401f37f3cf",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Quadratic.lean",
+      "prior_sha256": "675148e7e15971cebe9c703103f6cd048a0ddd073d6df8ec32392086f71d8ce1",
+      "current_sha256": "d9830aadf4d7a4a36575fc4a86bd7bb435cd2eb50a622f6294aa9416420dd7a9",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Sign.lean",
+      "prior_sha256": "9533ff7daac0bad0f118e1c7823d36fe82f4f960fdd8a60b5c2b6ebea327eb76",
+      "current_sha256": "0ef4ef394ecb0312d0115c5d80b098d5dfacbfde05cb80b14763b5386d997187",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Coeff/Basic.lean",
+      "prior_sha256": "068d8e9cd977a708d9f9e2d64e2cc1a6460d812f2d72b956e965f3e2c26fe2aa",
+      "current_sha256": "3ee39fcca867c16579fec004a170194a5f6fb73c71c8a085fd9fb99b27f4886e",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Sequence.lean",
+      "prior_sha256": "3a9c918d829e19660d5aff1c022ac0142fd945da9c294ddeba24d61b9237c223",
+      "current_sha256": "ed2fd423a8a798dc0800dc0a39902b7486afa5401ab99dd4a3a65471405804d4",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Basic.lean",
+      "prior_sha256": "0c12a2f8b0f878df4763c52d9a801bbd27db333c054e5159f55b258c97c9204f",
+      "current_sha256": "d54277d496c7d0795eeec65d13f9ac6c5ca6748df64210207e9ff790490dd715",
+      "changes": [
+        "Redirect missing Sturm.Sequence to attributed newer Mathlib source when present",
+        "Expose public sections for project module interoperability"
+      ]
+    }
+  ],
+  "additional_mathlib_excerpt": {
+    "repository": "https://github.com/leanprover-community/mathlib4",
+    "commit": "6b7abb3c7686292736be2955bd3eb9ebf63b456a",
+    "upstream_file": "Mathlib/Algebra/Polynomial/FieldDivision.lean",
+    "upstream_sha256": "438b1fa85b7f5e42eecd4e3509fb0b73467bcce645bfcb6c973cc4c0fd561b00",
+    "declarations": [
+      "Polynomial.neg_mod",
+      "Polynomial.mul_mod_mul_left"
+    ],
+    "local_file": "TuranUniversality/Algebraicity/Upstream/Mathlib/Algebra/Polynomial/FieldDivision.lean"
+  },
+  "additional_visibility_repair": {
+    "file": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/PermanencesMinusVariations.lean",
+    "change": "gapWeight and pmvAux made public so the exposed permanencesMinusVariations definition can reference them; formulas and proofs unchanged."
+  },
+  "final_local_hashes": [
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/Mathlib/Algebra/Polynomial/FieldDivision.lean",
+      "sha256": "3b4cf274940aaffb378eaebd3a26f840d7be6afb984754b045e02e512ef61b5a"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/Mathlib/Algebra/Polynomial/Sturm/Sequence.lean",
+      "sha256": "c466e3d516974a94d9f824fd0a08f9ca7a2581fdd071ab3f20974c6c2bd3d119"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/BigOperators/Finset/Filter.lean",
+      "sha256": "5d5b50b926ecc376665bf08f7d45e90e22785851746255dbbd92d06945837609"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Order/Ring/Ordering/Extension.lean",
+      "sha256": "20ed5ecb43ecd0e10aec51f1e83325a057550fe14237d4b8583b85320f0504fe"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Order/Ring/Ordering/Semireal.lean",
+      "sha256": "ddaf47e8cb2c437e204da261c7e116aca1946108a98ffde494476a62f7ad5b76"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Coeff/Basic.lean",
+      "sha256": "3ee39fcca867c16579fec004a170194a5f6fb73c71c8a085fd9fb99b27f4886e"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/Infinity.lean",
+      "sha256": "94e54bdf055856b51ae12878ac6f632cd6292951c06477d14542f77f5568d5cc"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/OneSided.lean",
+      "sha256": "30ea3672a75815d5ab8f64802fb707d16162570df240ee8eb7a9aa01e0b29b13"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/Sign.lean",
+      "sha256": "96fb28cb09457be556acaf0629d8518dee9fd7af4b1cdacc5d996c8ce934d119"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/LinearFactor.lean",
+      "sha256": "d153af49df0110dd8c63ea5bc97809dd73f90116d6041661725eee36f07b4222"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/OfFn.lean",
+      "sha256": "3596b82285c1345edab6c13d718a0b0fc0d4b33771723e5ca8a833faeec61227"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/QuadraticDiscriminant.lean",
+      "sha256": "4442c976cf6fd342c7d0ab195481303a1f615233957019659139b44bcf2e1d82"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Quadratic.lean",
+      "sha256": "d9830aadf4d7a4a36575fc4a86bd7bb435cd2eb50a622f6294aa9416420dd7a9"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Sampling.lean",
+      "sha256": "aef121dfce5243c881cdd071778db5e01ab1784b54e41bd4f70752401f37f3cf"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Sign.lean",
+      "sha256": "0ef4ef394ecb0312d0115c5d80b098d5dfacbfde05cb80b14763b5386d997187"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Rolle.lean",
+      "sha256": "6bc30bcce7b3a55c267cae2088491b9f7a5e7eb35de475ec4ed6774d73e9b4ce"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Basic.lean",
+      "sha256": "d54277d496c7d0795eeec65d13f9ac6c5ca6748df64210207e9ff790490dd715"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Sequence.lean",
+      "sha256": "ed2fd423a8a798dc0800dc0a39902b7486afa5401ab99dd4a3a65471405804d4"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Infinity.lean",
+      "sha256": "ecfb45db6121727f76221aedbdd13fc82471b2e8a2b5332f4c901c26a3411d36"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Local.lean",
+      "sha256": "b8fb46621c9b9d591f05a468ac64f83adebe0c0e615108a41304866bf17e3083"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/OneSided.lean",
+      "sha256": "f772478527f42e25a924ecacac09972338fc940cdcc1f782628ea062f3987cf6"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Sequence.lean",
+      "sha256": "ca777e2c2bafffb6dc861c2c9def04565fcaffa8713a58f2fd86dba4bc623b08"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/SignedRemainders.lean",
+      "sha256": "29cde0f50d8603218286c31f88ac22a202709b5b92fdc470784016a97fd711bf"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Signs.lean",
+      "sha256": "1343705ae3b7a8256c964c3735709fcd12ddfd8436faa2b82fbb4f52594c5ce4"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Sum.lean",
+      "sha256": "5e376d8641f989050774995061ec5f3c9cbda2e8b9415aa0ef9c9a9a43aedc98"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Tarski.lean",
+      "sha256": "5482a85ea571b2b32da9d8513ec0b7b84b84f275c0e5a66a982745f7b56f9345"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Variation.lean",
+      "sha256": "de6f83bd4243d9337400e3a4772d00ea0d6e41a0dad85fbcf4995dd70f5e4c0e"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Thom.lean",
+      "sha256": "df893e62bc5ed9c755864827c516adfe24b5c219e7b746e497329807b880cd65"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/QuadraticDiscriminant.lean",
+      "sha256": "7c09ad25763c6c442e8ab479fd1303034f6762b890ad4fbe6fca42e27bf7e5ca"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Finset/Jumps.lean",
+      "sha256": "b122ca15b7979ee299b1148c0892b906417fbdaf19e6c9049aa577779b15eb66"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Fintype/Fiber.lean",
+      "sha256": "ef8ed3b2110d3344736b6327ba5bdd40f42866821e32e3977c6834cc92032b79"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/PermanencesMinusVariations.lean",
+      "sha256": "4579d9eee7e19996020452fc7047b97559adc02f7727bb499f38f4f9644c5996"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/Range.lean",
+      "sha256": "00a75c0300a29b6502f16a2ab192345588020b5ae97f3bff03ededd5aa73ccb1"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/SignVariations.lean",
+      "sha256": "6ec6667b94e349326c82ecd4ac30f04ef54fe1e5961395cd2a5463401a8dfa46"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Matrix/OccCount.lean",
+      "sha256": "108c9f0e35840d0ebd6a630acd5a41d259bf4dc0b02294cab28c0d62fe013d02"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Nat/Choose/Basic.lean",
+      "sha256": "86b193781075626d3c1fdd7919dcdf37f579d135c0f46de2774b4b9135477c5d"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/SignType/Lagrange.lean",
+      "sha256": "57e4b1253b09b261c67472f5e277719c7f851f01621e8827041ef0aad347b8f5"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/SignType/Parity.lean",
+      "sha256": "2c9562ef3e480487638640213cffad40f3a343d4f7b51bad2367a01dc284abfe"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/IsRealClosed/Real.lean",
+      "sha256": "bd82514338c935093e34b2f6ac1a12b46198f9511e6aa66d29795441f17b096f"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/AbstractRolle.lean",
+      "sha256": "5b1fa56ccb406715436df9b43b4c05b83212bcd9eb26f78609d55f733b5c55e8"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/AlgebraicClosed.lean",
+      "sha256": "33640080f1f542200c3eb499787538479b1d216db83c3d65bbe0c43ea74a9ce6"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/Complexification.lean",
+      "sha256": "5f9ab2fd5b29934fc713d010363c8c32d6497f5cb007aa04856041b6e9025ad8"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/FiniteExtension.lean",
+      "sha256": "d7de091cb3b54e30e0ea6b3d20619c6a4f9d71a4d20177474108b8161fe950d5"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/Galois.lean",
+      "sha256": "5e850edc00713e07f2d4e0656684ce9fe64452e004d46c5d0484e006e6fe3927"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/IVT.lean",
+      "sha256": "95cfa5de7db821c47fb1a5cc66a0d9a643d1c26e5fa4e5ad9d0021f9d5c0adf9"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Defs.lean",
+      "sha256": "55517caee745e95bcb083890d529bac8a126107b855abdf9372a8c7171cf6061"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Moments.lean",
+      "sha256": "9c4d1395a0263469552bf80e9d25500257eee1d1960a7f89bab5348ce2b7fbb1"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Polynomial.lean",
+      "sha256": "fae39cb1d863a8e6564137d1871649636907992aa8d204d7ac29ec42308cadb6"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Roots.lean",
+      "sha256": "ed37b7dd769b31e8076e380aa7cf545acdea3a3eeac7e1d154532c4f8477c923"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/WholeLine.lean",
+      "sha256": "8f2e0e202bf17a8a220402e8dabf687a5742c0c2723d4d3d82d80662f4ba2521"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/GroupTheory/Perm/Inversion.lean",
+      "sha256": "0046bf56975235f3d01311c5fb5e262abf6b21d9d6293b519dbd866932579e53"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/LinearAlgebra/Matrix/Congruence.lean",
+      "sha256": "3ada47f990341138d2d56c9bec84703348896045f93953933bf7ce4a5aa0e053"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/LinearAlgebra/Matrix/CornerMinor.lean",
+      "sha256": "f401b8387b2ce5ecbd6e42beeea4f3c1d60d0631551f13a357d652f474ccc665"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Reductum.lean",
+      "sha256": "7f2c3f1c4d73cf5652ef692921617ad5e637b051f51e56ccdf4398b2be931709"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Basic.lean",
+      "sha256": "7c6a7c3a4448f28a39a78025ec77c18afecc93063160932a6cdc1b9fbffc69be"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/CauchyIndex.lean",
+      "sha256": "d0c4b5321605935f34e560ef3ffc3e7262ce0fb6db8ee57a783c7805aa08c9c8"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/DegreeDrop/Basic.lean",
+      "sha256": "55dbbccc6615e1c66bc4d7d9cd837c2ae6cbbb98b854bda6d763dac67982e60d"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Euclidean.lean",
+      "sha256": "60ca8040ff5d95dfaa6039dd296fec5c5759652e4c7cbc8a8b36457520484cdc"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Polynomial.lean",
+      "sha256": "0d5cb75d244dc8a847aae324fe5fc348c63862f4bec76ba26bc20ef4032c383e"
+    },
+    {
+      "path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Signed.lean",
+      "sha256": "f1b270718afff99b7aa4cea0cc7cff645b18c6a139e40345a38469d65a83fba5"
+    }
+  ]
+}

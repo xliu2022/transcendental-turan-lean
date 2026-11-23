@@ -1,0 +1,357 @@
+{
+  "repository": "https://github.com/TauCetiProject/TauCeti",
+  "commit": "1c497c347f615b3087cb605f8cf743e591376105",
+  "license": "Apache-2.0",
+  "purpose": "Abstract Sturm\u2013Tarski, BKR sign moments, and whole-line sampling; no projection-closure or quantifier-elimination assumption imported.",
+  "adaptation": "Only module import paths changed initially; additional compatibility repairs, if any, recorded separately.",
+  "files": [
+    {
+      "upstream_path": "TauCeti/Algebra/BigOperators/Finset/Filter.lean",
+      "upstream_sha256": "d19f43c1c97362863915309334e138d5c8ff642d02fbda57fcc01828a5e4f589",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/BigOperators/Finset/Filter.lean",
+      "initial_local_sha256": "d19f43c1c97362863915309334e138d5c8ff642d02fbda57fcc01828a5e4f589"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Order/Ring/Ordering/Extension.lean",
+      "upstream_sha256": "33af5f4c60561813d58da5c3a1022c521fc087132c65f59645e80466c05e2fbb",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Order/Ring/Ordering/Extension.lean",
+      "initial_local_sha256": "33af5f4c60561813d58da5c3a1022c521fc087132c65f59645e80466c05e2fbb"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Order/Ring/Ordering/Semireal.lean",
+      "upstream_sha256": "246e2429b642d13398f7221fee4746e80c769d658c1f413f4da94737a3b175b6",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Order/Ring/Ordering/Semireal.lean",
+      "initial_local_sha256": "9d6d6ebc61fe2686f99c207866d0229345f11df81013fbf94e6d7af32e48e507"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Coeff/Basic.lean",
+      "upstream_sha256": "068d8e9cd977a708d9f9e2d64e2cc1a6460d812f2d72b956e965f3e2c26fe2aa",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Coeff/Basic.lean",
+      "initial_local_sha256": "068d8e9cd977a708d9f9e2d64e2cc1a6460d812f2d72b956e965f3e2c26fe2aa"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Eval/Infinity.lean",
+      "upstream_sha256": "58556d3330c64f2d40ee95db4afbe693a262077e228035a4c090b79de617af4a",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/Infinity.lean",
+      "initial_local_sha256": "58556d3330c64f2d40ee95db4afbe693a262077e228035a4c090b79de617af4a"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Eval/OneSided.lean",
+      "upstream_sha256": "f0ac03735e51eae71cc7dc6bf076d6bbbad9a822970d5696e654aa22da313d0a",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/OneSided.lean",
+      "initial_local_sha256": "f1979c0b6a308c614e1cde28366ce127774bc2e7079cebf74ca4058931d67d52"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Eval/Sign.lean",
+      "upstream_sha256": "d47509341d6273e3b729269bf8ced19900c545224b824c5a617bb147431c3ac9",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/Sign.lean",
+      "initial_local_sha256": "d47509341d6273e3b729269bf8ced19900c545224b824c5a617bb147431c3ac9"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/LinearFactor.lean",
+      "upstream_sha256": "d97ba98c0815e1e12a7b42a3d97e04dd3ede70d0bcdfbe8243256187c6181813",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/LinearFactor.lean",
+      "initial_local_sha256": "d97ba98c0815e1e12a7b42a3d97e04dd3ede70d0bcdfbe8243256187c6181813"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/OfFn.lean",
+      "upstream_sha256": "385cb906f36913507d7a18f03dc47d2666b4a289fd5694fa74f612acd569aeb5",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/OfFn.lean",
+      "initial_local_sha256": "385cb906f36913507d7a18f03dc47d2666b4a289fd5694fa74f612acd569aeb5"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/QuadraticDiscriminant.lean",
+      "upstream_sha256": "8df515b76023afffe4613d9d507021ba01877bbbeafc96cb0e4812672a8c0cc5",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/QuadraticDiscriminant.lean",
+      "initial_local_sha256": "8fde124aa7bfb210612e0f7c026eaccdfbb723e98092da1ec7c59b57bf1d685c"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/RealClosed/Quadratic.lean",
+      "upstream_sha256": "3ac02f04eb69d36ca4d8918e66f8cc3231d184641f5f80daa37937b2ab985406",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Quadratic.lean",
+      "initial_local_sha256": "675148e7e15971cebe9c703103f6cd048a0ddd073d6df8ec32392086f71d8ce1"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/RealClosed/Sampling.lean",
+      "upstream_sha256": "a1b40d52f6445b8a9918edb06e362e99243da654be008afa87fbdcea4a042b62",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Sampling.lean",
+      "initial_local_sha256": "a67f2227ac2bc8b971d0bd65f75cefcbbf907ec7ab08ef4c9f789b52cbe032c1"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/RealClosed/Sign.lean",
+      "upstream_sha256": "38e0f8069561cddbb6a6a40a53a8da4ab1f656965713ff82d41ab71e7645fc70",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Sign.lean",
+      "initial_local_sha256": "9533ff7daac0bad0f118e1c7823d36fe82f4f960fdd8a60b5c2b6ebea327eb76"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Rolle.lean",
+      "upstream_sha256": "f5429276e8c8f1915e776e98bb7f7286ac6a76075bc215062ac7d5acdafc0c2c",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Rolle.lean",
+      "initial_local_sha256": "f5429276e8c8f1915e776e98bb7f7286ac6a76075bc215062ac7d5acdafc0c2c"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Basic.lean",
+      "upstream_sha256": "ea3ba1879b6d3af559af920a5a7191edfdc078cd850bc45868890925f07f0f09",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Basic.lean",
+      "initial_local_sha256": "0c12a2f8b0f878df4763c52d9a801bbd27db333c054e5159f55b258c97c9204f"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Sequence.lean",
+      "upstream_sha256": "a24a8573b3744533f53aefcdababeef4aac7ac963dc18675d71a85f4fa2c5af7",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Sequence.lean",
+      "initial_local_sha256": "3a9c918d829e19660d5aff1c022ac0142fd945da9c294ddeba24d61b9237c223"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/Infinity.lean",
+      "upstream_sha256": "fb8f5e889227c2c08a7f2e83bec819098b43fe8fcef694bb471d24e4aacd5484",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Infinity.lean",
+      "initial_local_sha256": "af757e3a31296c1224ce7f069c763f26991921f569206543084ba25b469da261"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/Local.lean",
+      "upstream_sha256": "b1a107a1c23cb4374664517b25007e004e11b465a1e611a919c232bc9d8229f6",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Local.lean",
+      "initial_local_sha256": "dd09e676e5fce8a810299fd6ad39fb4522ad6e7247697cf572f3d0a60f4032b2"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/OneSided.lean",
+      "upstream_sha256": "356a1b71d897623aa6fd05efd67b047b144c4ce8d8b9519c740d6bb091cc80c9",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/OneSided.lean",
+      "initial_local_sha256": "8e17f5332ad53f8c5a8cdff0aeda46723ee8d446f7e03771600fae3cbafdf677"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/Sequence.lean",
+      "upstream_sha256": "96c25c7e0f6c84487fb618dc7757d5d763b0c047f3753631f3819102cb60439d",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Sequence.lean",
+      "initial_local_sha256": "96c25c7e0f6c84487fb618dc7757d5d763b0c047f3753631f3819102cb60439d"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/SignedRemainders.lean",
+      "upstream_sha256": "18a926197a6375ee9c7c549e467b87c01cbd080bf528a80742885da67746c45b",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/SignedRemainders.lean",
+      "initial_local_sha256": "c92ba72ba1a2e53a0b53c0cd9a680ab5289c4e1b14cfa7ea2c76dd2ed44d8ec7"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/Signs.lean",
+      "upstream_sha256": "90496d9d816c05375aa8b7e1c7d78a6af536d657e0ed6b996e65f21c399f653e",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Signs.lean",
+      "initial_local_sha256": "bea611c46b08e49d3fb4407b3dee2fc19a8a0a58fd3288376d5acc61b4c91d55"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/Sum.lean",
+      "upstream_sha256": "98c6192af473109f89fa119ef7d42e63d43f3896d99067e5eb1bcabc3fb3622e",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Sum.lean",
+      "initial_local_sha256": "7c6390063bb9ea6a55a32b245475e52075cdc194418a5fc13ef46c6a75562d6f"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/Tarski.lean",
+      "upstream_sha256": "4ed5e16c7989680c8a6d0973df5198fe230e67c70ac3e8d083306bb9c0cfc69f",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Tarski.lean",
+      "initial_local_sha256": "1ddbd3de6faf81ae42da081cf699c783d0426b331d2b2a8d0a09c2752bbc0396"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Sturm/Variation.lean",
+      "upstream_sha256": "26a432925f035017804c25f0a4472db95ff7b0e9964cd3fab16cc118351a0957",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Variation.lean",
+      "initial_local_sha256": "9f68436b58f8fcfc6711357d6fbe7e13b21b3d1f852555da4508a1c56e33bcf9"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/Polynomial/Thom.lean",
+      "upstream_sha256": "1b6e35baa1e3b9ecb84ec820eb5969b12ca5e586b02e86d485085039da17a05a",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Thom.lean",
+      "initial_local_sha256": "87e9d42384c1c87fce9715e60fd6400cfdca55e9baeac80cd1a8f90a05023d7d"
+    },
+    {
+      "upstream_path": "TauCeti/Algebra/QuadraticDiscriminant.lean",
+      "upstream_sha256": "ad428db270b680aeb1888347539ad6b4cebd75378149466657ed4337d50ec8a7",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/QuadraticDiscriminant.lean",
+      "initial_local_sha256": "ad428db270b680aeb1888347539ad6b4cebd75378149466657ed4337d50ec8a7"
+    },
+    {
+      "upstream_path": "TauCeti/Data/Finset/Jumps.lean",
+      "upstream_sha256": "b29db2e143aab6b8dd39098857607fe325e7067421384f9408b607e5a15b7563",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Finset/Jumps.lean",
+      "initial_local_sha256": "b29db2e143aab6b8dd39098857607fe325e7067421384f9408b607e5a15b7563"
+    },
+    {
+      "upstream_path": "TauCeti/Data/Fintype/Fiber.lean",
+      "upstream_sha256": "382fb8a641e8fefbcec424100383e80666850676dcc463fa08661f73b21f30d4",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Fintype/Fiber.lean",
+      "initial_local_sha256": "382fb8a641e8fefbcec424100383e80666850676dcc463fa08661f73b21f30d4"
+    },
+    {
+      "upstream_path": "TauCeti/Data/List/PermanencesMinusVariations.lean",
+      "upstream_sha256": "68b04032a492294c777b7705cb146425195319cf52cea0fea29f099a9fb30c2c",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/PermanencesMinusVariations.lean",
+      "initial_local_sha256": "68b04032a492294c777b7705cb146425195319cf52cea0fea29f099a9fb30c2c"
+    },
+    {
+      "upstream_path": "TauCeti/Data/List/Range.lean",
+      "upstream_sha256": "19eb519a8734296350efb260b49b7787274d6dac9583abc4c4590fd73f4ab236",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/Range.lean",
+      "initial_local_sha256": "19eb519a8734296350efb260b49b7787274d6dac9583abc4c4590fd73f4ab236"
+    },
+    {
+      "upstream_path": "TauCeti/Data/List/SignVariations.lean",
+      "upstream_sha256": "78e6af7bb45a508b7e802023102594f4af2696de1e9afede7876a0d551209a28",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/SignVariations.lean",
+      "initial_local_sha256": "78e6af7bb45a508b7e802023102594f4af2696de1e9afede7876a0d551209a28"
+    },
+    {
+      "upstream_path": "TauCeti/Data/Matrix/OccCount.lean",
+      "upstream_sha256": "8322374a8382e89f677e4cf7e9dfb8a44879c336e446b4480e0d3ece69f9e0d0",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Matrix/OccCount.lean",
+      "initial_local_sha256": "610c5cc93395987e233147a468968f9fd442e8b23045d25dcdbed2fdb27c0ae8"
+    },
+    {
+      "upstream_path": "TauCeti/Data/Nat/Choose/Basic.lean",
+      "upstream_sha256": "3eb6e2299689955a1a83724b4fc49511de4fa410e044c6e60795415db0629f7e",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Nat/Choose/Basic.lean",
+      "initial_local_sha256": "3eb6e2299689955a1a83724b4fc49511de4fa410e044c6e60795415db0629f7e"
+    },
+    {
+      "upstream_path": "TauCeti/Data/SignType/Lagrange.lean",
+      "upstream_sha256": "8c690e2d22194a8d3cd924e921c0180499c8ffeedddd2d2124ad6fc5412a65e4",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/SignType/Lagrange.lean",
+      "initial_local_sha256": "8c690e2d22194a8d3cd924e921c0180499c8ffeedddd2d2124ad6fc5412a65e4"
+    },
+    {
+      "upstream_path": "TauCeti/Data/SignType/Parity.lean",
+      "upstream_sha256": "b6f4b9f0569b774f1650fcd1757d5b49f5eb42576d57e67dbed079f7fa581e21",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Data/SignType/Parity.lean",
+      "initial_local_sha256": "b6f4b9f0569b774f1650fcd1757d5b49f5eb42576d57e67dbed079f7fa581e21"
+    },
+    {
+      "upstream_path": "TauCeti/FieldTheory/IsRealClosed/Real.lean",
+      "upstream_sha256": "2865f850d08c62dcefb33e7ece9994b8832b5173fbe252164ecfe2726976907b",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/IsRealClosed/Real.lean",
+      "initial_local_sha256": "2865f850d08c62dcefb33e7ece9994b8832b5173fbe252164ecfe2726976907b"
+    },
+    {
+      "upstream_path": "TauCeti/FieldTheory/RealClosure/AbstractRolle.lean",
+      "upstream_sha256": "dacf5d17883a4ead951b98d98518397189fe6bc2c64b75327454132f91ad6667",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/AbstractRolle.lean",
+      "initial_local_sha256": "d5c96b2875a07144c0652f1fd5b38075a1192e8cf63a927859edb98c7c895a97"
+    },
+    {
+      "upstream_path": "TauCeti/FieldTheory/RealClosure/AlgebraicClosed.lean",
+      "upstream_sha256": "5fd58de7991cb9146ddd8f6ba06c12cd4917b0b0235efb291b45af9e0056d86e",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/AlgebraicClosed.lean",
+      "initial_local_sha256": "8c84b6aacd8af578e190c28cb9e7aca68ce4476c2d3d4a5222180d378941902c"
+    },
+    {
+      "upstream_path": "TauCeti/FieldTheory/RealClosure/Complexification.lean",
+      "upstream_sha256": "287a9c4b85f4ad1ada2f9df6bbc01aee2cd251041452810695e74b3d4b9023a5",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/Complexification.lean",
+      "initial_local_sha256": "1cfe9b5a4895e49ab2d000c1058aef41fbca8c10be69626a913826a2644cb637"
+    },
+    {
+      "upstream_path": "TauCeti/FieldTheory/RealClosure/FiniteExtension.lean",
+      "upstream_sha256": "91328e13bc8c827d40a882995df1745f1dada2e5c481b46322814b44241727fc",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/FiniteExtension.lean",
+      "initial_local_sha256": "91328e13bc8c827d40a882995df1745f1dada2e5c481b46322814b44241727fc"
+    },
+    {
+      "upstream_path": "TauCeti/FieldTheory/RealClosure/Galois.lean",
+      "upstream_sha256": "9155290db2275f26ea037c906aa6aa79689e98c5f3cc80e4dd9bbfcf7a983252",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/Galois.lean",
+      "initial_local_sha256": "e1008eb78bbd32b5fce02c76fc49663de2b878320c1da6c57d3e9332d9e1457c"
+    },
+    {
+      "upstream_path": "TauCeti/FieldTheory/RealClosure/IVT.lean",
+      "upstream_sha256": "3af6467e4ec7f0992c061d1c8b4e2c48a678998abc40742e649dfbb04d233ffe",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/IVT.lean",
+      "initial_local_sha256": "3eba2282f3296eb551c220cb81cf190685a8ccfa05f91659624c95b777f82b7b"
+    },
+    {
+      "upstream_path": "TauCeti/Geometry/RealAlgebraic/SignDetermination/Defs.lean",
+      "upstream_sha256": "248b4916e68979ce1dd533b44a80c9e8d3cd80e236dd003cb1b535dc0b6fe5a8",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Defs.lean",
+      "initial_local_sha256": "2a127932dadba632b7e4bc4f953db5891f7dd5d7cf5dae5318dc7ae3056d93dd"
+    },
+    {
+      "upstream_path": "TauCeti/Geometry/RealAlgebraic/SignDetermination/Moments.lean",
+      "upstream_sha256": "543a9c445007712a848a85df629d17279e65d89e867ec062cf39c085abd4e187",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Moments.lean",
+      "initial_local_sha256": "e08ea7add922f8db023ecf5aa554640a0882bdf2c1891582f13f0383a7cee4df"
+    },
+    {
+      "upstream_path": "TauCeti/Geometry/RealAlgebraic/SignDetermination/Polynomial.lean",
+      "upstream_sha256": "754b73ba6b2fb6103f654016a056f2377df94b9b9ae0f0b7d0a15bcefdb556ab",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Polynomial.lean",
+      "initial_local_sha256": "656afcd6c49b6cdd52bef1d4a3932e8228b0b87b1cf1e9b76f3fee65334f6bc4"
+    },
+    {
+      "upstream_path": "TauCeti/Geometry/RealAlgebraic/SignDetermination/Roots.lean",
+      "upstream_sha256": "b6438f41f922deaf6bd12f49b931d7abf2c86cd5e0ae6afad99d1523f32d1988",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Roots.lean",
+      "initial_local_sha256": "6745f83905837c1a7bfebf4dcf4c051c6b8536fa2b295e867265f29bd30cba4e"
+    },
+    {
+      "upstream_path": "TauCeti/Geometry/RealAlgebraic/SignDetermination/WholeLine.lean",
+      "upstream_sha256": "00255a530c5bf26f5e920d949774f7b40d1429ac623c7fe39f705bee9d98d607",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/WholeLine.lean",
+      "initial_local_sha256": "e043a84186dc7185e38cbfd5bf3a18c127886f4404f4c5937685182336b66124"
+    },
+    {
+      "upstream_path": "TauCeti/GroupTheory/Perm/Inversion.lean",
+      "upstream_sha256": "9820d5c0cc7e49b39c98374ca69aa01924b920ce4f344bc6647dd88ae4fe4f15",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/GroupTheory/Perm/Inversion.lean",
+      "initial_local_sha256": "9820d5c0cc7e49b39c98374ca69aa01924b920ce4f344bc6647dd88ae4fe4f15"
+    },
+    {
+      "upstream_path": "TauCeti/LinearAlgebra/Matrix/Congruence.lean",
+      "upstream_sha256": "84ebf3628e2fad8cd02ce3b8d937d36da6e596daf06c313ea52bea8e49d8ee91",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/LinearAlgebra/Matrix/Congruence.lean",
+      "initial_local_sha256": "84ebf3628e2fad8cd02ce3b8d937d36da6e596daf06c313ea52bea8e49d8ee91"
+    },
+    {
+      "upstream_path": "TauCeti/LinearAlgebra/Matrix/CornerMinor.lean",
+      "upstream_sha256": "33e8312d1d4666f7dfdf23d21cf285a1d7574d2ea4d027a09640f17f80276dd8",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/LinearAlgebra/Matrix/CornerMinor.lean",
+      "initial_local_sha256": "cf14df643a39cecef75cb22217806d17d84fedf97b188ad9c135ede60c10584e"
+    },
+    {
+      "upstream_path": "TauCeti/RingTheory/Polynomial/Reductum.lean",
+      "upstream_sha256": "99a77babb9b6c6e589ee057df14fc865b2dad40dab7c86dac11a88e867fb19b2",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Reductum.lean",
+      "initial_local_sha256": "99a77babb9b6c6e589ee057df14fc865b2dad40dab7c86dac11a88e867fb19b2"
+    },
+    {
+      "upstream_path": "TauCeti/RingTheory/Polynomial/Subresultant/Basic.lean",
+      "upstream_sha256": "f9ef9c6092d47cf8433af14ccbb29f0b6e666070902c9cd67405e185b66789ad",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Basic.lean",
+      "initial_local_sha256": "6ae33480e3d718e6317c98ca5ae1eb096a5f856e011e2e0a692111e6faee9979"
+    },
+    {
+      "upstream_path": "TauCeti/RingTheory/Polynomial/Subresultant/CauchyIndex.lean",
+      "upstream_sha256": "8ebe4f35d3f442a33541e6f0826f71758fb864870dad5f1b1c79d600acc068b8",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/CauchyIndex.lean",
+      "initial_local_sha256": "26fc2837fb769378932cd9b5b372c9e631663a47ef9df090a6ac81920c89bdf9"
+    },
+    {
+      "upstream_path": "TauCeti/RingTheory/Polynomial/Subresultant/DegreeDrop/Basic.lean",
+      "upstream_sha256": "1ba6f2b2be35a7dbb8f2f52721c86269d8b7313147c23ea9d0fe2a9b49cd5746",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/DegreeDrop/Basic.lean",
+      "initial_local_sha256": "2d9ae9acd519339664fdce57f4a4707fddc41416cb095dbe10426278444a8755"
+    },
+    {
+      "upstream_path": "TauCeti/RingTheory/Polynomial/Subresultant/Euclidean.lean",
+      "upstream_sha256": "11d7edeae75b3bc8bfbb71373beb332cc0551448a555ef5e0267d7f7388a227c",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Euclidean.lean",
+      "initial_local_sha256": "bbd79a85ed1df62dc94f5c854c3cc91eb2e53b01d6eead0590168d407f091cc4"
+    },
+    {
+      "upstream_path": "TauCeti/RingTheory/Polynomial/Subresultant/Polynomial.lean",
+      "upstream_sha256": "5bfefd678617e31e8697b196e23cf801330d3dbf2e68a18927f01f5a8ada1d5f",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Polynomial.lean",
+      "initial_local_sha256": "1da5291002b6e4f99059d316ded0562a9cc66216bd704d86f7a23e5614d42444"
+    },
+    {
+      "upstream_path": "TauCeti/RingTheory/Polynomial/Subresultant/Signed.lean",
+      "upstream_sha256": "3bb3195270f6ea09ab8c00a26d14e70474daf6bb7d3a66570fc39ae461106e70",
+      "local_path": "TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Signed.lean",
+      "initial_local_sha256": "e18a170530f2526611588591f791fd310a1254ec46615063c568f07b84d52071"
+    }
+  ]
+}

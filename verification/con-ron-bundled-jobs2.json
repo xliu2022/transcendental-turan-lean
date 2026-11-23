@@ -1,0 +1,864 @@
+{
+  "command": [
+    "/workspace/scratch/5eaeb3eb52f6/transcendental-turan-lean/verification/isolation/bwrap-private-network.py",
+    "--ro-bind",
+    "/",
+    "/",
+    "--tmpfs",
+    "/home",
+    "--tmpfs",
+    "/root",
+    "--tmpfs",
+    "/run/user",
+    "--tmpfs",
+    "/tmp",
+    "--dir",
+    "/tmp/home",
+    "--dev",
+    "/dev",
+    "--proc",
+    "/proc",
+    "--clearenv",
+    "--tmpfs",
+    "/run",
+    "--tmpfs",
+    "/var",
+    "--ro-bind",
+    "/home/agent/.elan/toolchains/leanprover--lean4---v4.35.0-rc2",
+    "/home/agent/.elan/toolchains/leanprover--lean4---v4.35.0-rc2",
+    "--ro-bind",
+    "/tmp/turan-comparator-exports/solution.export",
+    "/tmp/turan-comparator-exports/solution.export",
+    "--setenv",
+    "LEAN_ABORT_ON_PANIC",
+    "1",
+    "--setenv",
+    "HOME",
+    "/tmp/home",
+    "--unshare-all",
+    "--die-with-parent",
+    "--new-session",
+    "--chdir",
+    "/tmp",
+    "--",
+    "/home/agent/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/con-ron",
+    "--jobs=2",
+    "--verified",
+    "--progress=5000",
+    "/tmp/turan-comparator-exports/solution.export"
+  ],
+  "started_utc": "2026-11-23T14:21:21.983687+00:00",
+  "finished_utc": "2026-11-23T14:22:29.278798+00:00",
+  "elapsed_seconds": 67.297,
+  "exit_code": 3,
+  "checker_binary": "/home/agent/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/con-ron",
+  "checker_sha256": "4e5616d94374cae37324dad2594f6230c2bb2297240249fc78ff508f3bc5acef",
+  "mode": "verified",
+  "jobs": 2,
+  "sandbox_disabled": false,
+  "input_export_sha256": "1cabe9ddbb91e84b7a37bd4c1d729c4fb511c78fd62147834a1968b4448b8a75",
+  "global_oom_before": 53,
+  "global_oom_after": 53,
+  "resource_observation_scope": "Global /proc counters and observed child RSS are local diagnostics, not authenticated Palomar per-phase cgroup telemetry.",
+  "child_maxrss_kib": 10368,
+  "samples": [
+    {
+      "elapsed_seconds": 0.0,
+      "memory_available_kib": 5193808,
+      "global_oom_kill": 53,
+      "checker_processes": []
+    },
+    {
+      "elapsed_seconds": 1.01,
+      "memory_available_kib": 4967636,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 230656,
+          "high_water_kib": 230656
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 2.01,
+      "memory_available_kib": 4675248,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 525604,
+          "high_water_kib": 525604
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 3.02,
+      "memory_available_kib": 4391836,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 808256,
+          "high_water_kib": 808256
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 4.02,
+      "memory_available_kib": 4510088,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 690964,
+          "high_water_kib": 808088
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 5.03,
+      "memory_available_kib": 4479508,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 686872,
+          "high_water_kib": 808088
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 6.03,
+      "memory_available_kib": 4370708,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 687764,
+          "high_water_kib": 808088
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 7.03,
+      "memory_available_kib": 4296008,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 700208,
+          "high_water_kib": 808088
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 8.03,
+      "memory_available_kib": 4200784,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 726668,
+          "high_water_kib": 808088
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 9.05,
+      "memory_available_kib": 4022752,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 759504,
+          "high_water_kib": 808088
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 10.05,
+      "memory_available_kib": 3856624,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 795028,
+          "high_water_kib": 808088
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 11.09,
+      "memory_available_kib": 3684328,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 839384,
+          "high_water_kib": 839384
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 12.1,
+      "memory_available_kib": 3644048,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 869080,
+          "high_water_kib": 869080
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 13.1,
+      "memory_available_kib": 3599068,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 874460,
+          "high_water_kib": 874460
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 14.11,
+      "memory_available_kib": 3542652,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 908640,
+          "high_water_kib": 908640
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 15.11,
+      "memory_available_kib": 3480768,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 937956,
+          "high_water_kib": 937956
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 16.12,
+      "memory_available_kib": 3431424,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 968492,
+          "high_water_kib": 968492
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 17.12,
+      "memory_available_kib": 3388876,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 988948,
+          "high_water_kib": 988948
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 18.13,
+      "memory_available_kib": 3345532,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1022156,
+          "high_water_kib": 1022156
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 19.13,
+      "memory_available_kib": 3243820,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1043436,
+          "high_water_kib": 1043436
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 20.14,
+      "memory_available_kib": 3014032,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1064684,
+          "high_water_kib": 1064684
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 21.14,
+      "memory_available_kib": 2808128,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1096468,
+          "high_water_kib": 1096468
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 22.15,
+      "memory_available_kib": 2616040,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1110340,
+          "high_water_kib": 1110340
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 23.16,
+      "memory_available_kib": 2379232,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1151560,
+          "high_water_kib": 1151560
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 24.16,
+      "memory_available_kib": 2206912,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1177548,
+          "high_water_kib": 1177548
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 25.16,
+      "memory_available_kib": 2180568,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1204584,
+          "high_water_kib": 1204584
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 26.16,
+      "memory_available_kib": 2157208,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1222920,
+          "high_water_kib": 1222920
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 27.17,
+      "memory_available_kib": 3304808,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1272196,
+          "high_water_kib": 1272196
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 28.17,
+      "memory_available_kib": 3288720,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1281368,
+          "high_water_kib": 1281368
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 29.18,
+      "memory_available_kib": 3703596,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1275340,
+          "high_water_kib": 1280940
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 30.18,
+      "memory_available_kib": 3712080,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1279816,
+          "high_water_kib": 1295920
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 31.21,
+      "memory_available_kib": 3657896,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1283532,
+          "high_water_kib": 1295920
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 32.21,
+      "memory_available_kib": 3585836,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1279964,
+          "high_water_kib": 1295920
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 33.21,
+      "memory_available_kib": 3504832,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1318980,
+          "high_water_kib": 1318980
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 34.21,
+      "memory_available_kib": 3457616,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1273988,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 35.21,
+      "memory_available_kib": 3337552,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1281004,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 36.21,
+      "memory_available_kib": 3670464,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1292056,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 37.21,
+      "memory_available_kib": 3592688,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1280344,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 38.21,
+      "memory_available_kib": 3550604,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1266388,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 39.22,
+      "memory_available_kib": 3359524,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1267096,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 40.22,
+      "memory_available_kib": 3235072,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1273536,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 41.22,
+      "memory_available_kib": 3171968,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1301612,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 42.22,
+      "memory_available_kib": 3150176,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1275624,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 43.22,
+      "memory_available_kib": 3113508,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1263796,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 44.22,
+      "memory_available_kib": 3145072,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1292108,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 45.22,
+      "memory_available_kib": 3175876,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1287784,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 46.22,
+      "memory_available_kib": 3180828,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1287964,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 47.22,
+      "memory_available_kib": 3177532,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1263284,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 48.23,
+      "memory_available_kib": 3189740,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1267164,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 49.23,
+      "memory_available_kib": 3218084,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1283268,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 50.24,
+      "memory_available_kib": 3238492,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1266996,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 51.24,
+      "memory_available_kib": 3254108,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1266872,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 52.24,
+      "memory_available_kib": 3229116,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1266896,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 53.24,
+      "memory_available_kib": 3165316,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1289188,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 54.25,
+      "memory_available_kib": 3236880,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1272792,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 55.25,
+      "memory_available_kib": 3651248,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1271564,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 56.25,
+      "memory_available_kib": 3555116,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1276588,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 57.25,
+      "memory_available_kib": 3326356,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1274292,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 58.25,
+      "memory_available_kib": 3109828,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1268704,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 59.25,
+      "memory_available_kib": 2825572,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1271208,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 60.26,
+      "memory_available_kib": 2782888,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1271648,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 61.26,
+      "memory_available_kib": 2757444,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1275204,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 62.26,
+      "memory_available_kib": 3103828,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1279624,
+          "high_water_kib": 1318688
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 63.27,
+      "memory_available_kib": 3016508,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1328700,
+          "high_water_kib": 1328700
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 64.27,
+      "memory_available_kib": 2755412,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1655544,
+          "high_water_kib": 1655544
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 65.27,
+      "memory_available_kib": 2873916,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1706660,
+          "high_water_kib": 1715472
+        }
+      ]
+    },
+    {
+      "elapsed_seconds": 66.27,
+      "memory_available_kib": 2916640,
+      "global_oom_kill": 53,
+      "checker_processes": [
+        {
+          "pid": 8,
+          "rss_kib": 1650444,
+          "high_water_kib": 1715472
+        }
+      ]
+    }
+  ]
+}

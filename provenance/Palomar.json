@@ -1,0 +1,28 @@
+{
+  "template_repository": "https://github.com/PalomarRegistry/PalomarTemplate",
+  "template_commit": "2891de4c48955af824969a263d31b25e7a9a1406",
+  "verifier_repository": "https://github.com/PalomarRegistry/PalomarSubmission",
+  "verifier_commit": "14aa8d6b3c2f14a8540605e37144560b9a00e7e7",
+  "minimum_lean_toolchain_at_verifier_commit": "v4.35.0-rc2",
+  "full_verification_mode": "full",
+  "external_caller_execution_profile": "palomar-standard-v1",
+  "metadata_validator": "scripts/submission_contract.py:load_formalization_metadata",
+  "metadata_validator_git_blob": "c8b7ae49a9914c4585dab3d04e2f372f2b104903",
+  "status": "Full verification has not been run. A pinned workflow is provided for a reviewed public repository commit.",
+  "con_ron_selection": {
+    "manifest_path": "checker-revisions.json",
+    "manifest_git_blob": "ffa97983f87289e48f1e89c99a0c298a730b0829",
+    "source_toolchain": "leanprover/lean4:v4.35.0-rc2",
+    "release_tag": "v4.36.0-rc1",
+    "release_commit": "c9afcddf514a6772bd4d649f7cfc04eff0b9f15e",
+    "archive_sha256": "26b3cea1a006ad419215520b8668dcd3f6a9eeba1a123756563a739f9c6274b2",
+    "binary_sha256": "4e5616d94374cae37324dad2594f6230c2bb2297240249fc78ff508f3bc5acef",
+    "mandatory_checker_names": [
+      "Lean",
+      "NanoDa"
+    ],
+    "con_ron_policy": "Separate advisory replay; only fixed recognized support/fuel/capacity declines are nonblocking. Actual rejection and unknown error block. Positive/ill-typed controls are required.",
+    "download_evidence": "verification/con-ron-selected/download-receipt.json",
+    "installed_bundled_binary_has_same_sha256": true
+  }
+}

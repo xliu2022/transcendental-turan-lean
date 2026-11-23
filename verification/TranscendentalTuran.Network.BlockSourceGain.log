@@ -1,0 +1,506 @@
+⚠ [3097/3169] Replayed TuranUniversality.Hypergraph.PartialRooting
+warning: TuranUniversality/Hypergraph/PartialRooting.lean:72:19: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TuranUniversality/Hypergraph/PartialRooting.lean:72:21: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3104/3169] Replayed TranscendentalTuran.Encoding.PositivePatterns
+warning: TranscendentalTuran/Encoding/PositivePatterns.lean:65:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.RootedPattern.dataImages_card_le`:
+  [Fintype Q]
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Q] [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Encoding/PositivePatterns.lean:69:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.RootedPattern.mem_dataImages`:
+  [Fintype Q]
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Q] [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Encoding/PositivePatterns.lean:84:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.RootedPattern.Matches.extend`:
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Encoding/PositivePatterns.lean:117:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.pullbackRooting_some_iff`:
+  [Fintype Q]
+  [DecidableEq Q]
+  [DecidableEq V]
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Q] [DecidableEq Q] [DecidableEq V] [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Encoding/PositivePatterns.lean:153:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.patternLegalOn_univ_iff`:
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3106/3169] Replayed TranscendentalTuran.Network.ActualStars
+warning: TranscendentalTuran/Network/ActualStars.lean:57:28: Variable name `h` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _h
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3109/3169] Replayed TranscendentalTuran.Network.MatchingSquares
+warning: TranscendentalTuran/Network/MatchingSquares.lean:21:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.StarEnergy.fiberPairs_zero_of_matching`:
+  [Fintype C]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype C] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/MatchingSquares.lean:32:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.StarEnergy.cross_sum_eq`:
+  [DecidableEq B]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq B] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/MatchingSquares.lean:41:20: This simp argument is unused:
+  eq_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3110/3169] Replayed TranscendentalTuran.Network.OwnerPenalty
+warning: TranscendentalTuran/Network/OwnerPenalty.lean:40:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.negative_owner_iff`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/OwnerPenalty.lean:96:25: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3112/3169] Replayed TranscendentalTuran.Network.PartialIso
+warning: TranscendentalTuran/Network/PartialIso.lean:73:47: This simp argument is unused:
+  eq_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [push, ha]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TranscendentalTuran/Network/PartialIso.lean:75:48: This simp argument is unused:
+  eq_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [pull, hb]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3113/3169] Replayed TranscendentalTuran.Network.PartialIsoRelation
+warning: TranscendentalTuran/Network/PartialIsoRelation.lean:36:21: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TranscendentalTuran/Network/PartialIsoRelation.lean:40:21: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+⚠ [3115/3169] Replayed TranscendentalTuran.Network.Conductance
+warning: TranscendentalTuran/Network/Conductance.lean:44:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3117/3169] Replayed TranscendentalTuran.Network.PortRoles
+warning: TranscendentalTuran/Network/PortRoles.lean:43:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.port01E_of_base`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PortRoles.lean:46:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.port01E_of_center`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PortRoles.lean:49:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.port23E_of_base`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PortRoles.lean:52:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.port23E_of_center`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PortRoles.lean:55:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.not_port01E_of_base`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PortRoles.lean:65:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.not_port01E_of_center`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PortRoles.lean:75:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.not_port23E_of_base`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PortRoles.lean:85:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.not_port23E_of_center`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3118/3169] Replayed TranscendentalTuran.Network.StageMaps
+warning: TranscendentalTuran/Network/StageMaps.lean:32:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.matchingIso_forward`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3119/3169] Replayed TranscendentalTuran.Network.RelationEnergy
+warning: TranscendentalTuran/Network/RelationEnergy.lean:71:4: `if_false` has been deprecated: Use `ite_false` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵f̵a̵l̵s̵e̵i̲t̲e̲_̲f̲a̲l̲s̲e̲
+⚠ [3120/3169] Replayed TranscendentalTuran.Network.MatchingPartition
+warning: TranscendentalTuran/Network/MatchingPartition.lean:32:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.positive_matching_iff`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/MatchingPartition.lean:42:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.negative_matching_iff`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3121/3169] Replayed TranscendentalTuran.Network.StageEnergy
+warning: TranscendentalTuran/Network/StageEnergy.lean:33:71: This simp argument is unused:
+  Sum.elim_inl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [stageE0, stageD1, matchingIso, PartialIso.ofRel_defect, Sum.elim_inr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TranscendentalTuran/Network/StageEnergy.lean:33:85: This simp argument is unused:
+  Sum.elim_inr
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [stageE0, stageD1, matchingIso, PartialIso.ofRel_defect, Sum.elim_inl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TranscendentalTuran/Network/StageEnergy.lean:48:71: This simp argument is unused:
+  Sum.elim_inl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [stageD0, stageE1, matchingIso, PartialIso.ofRel_defect, Sum.elim_inr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TranscendentalTuran/Network/StageEnergy.lean:48:85: This simp argument is unused:
+  Sum.elim_inr
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [stageD0, stageE1, matchingIso, PartialIso.ofRel_defect, Sum.elim_inl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TranscendentalTuran/Network/StageEnergy.lean:63:71: This simp argument is unused:
+  Sum.elim_inl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [stageE3, stageD2, matchingIso, PartialIso.ofRel_defect, Sum.elim_inr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TranscendentalTuran/Network/StageEnergy.lean:63:85: This simp argument is unused:
+  Sum.elim_inr
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [stageE3, stageD2, matchingIso, PartialIso.ofRel_defect, Sum.elim_inl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TranscendentalTuran/Network/StageEnergy.lean:78:71: This simp argument is unused:
+  Sum.elim_inl
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [stageD3, stageE2, matchingIso, PartialIso.ofRel_defect, Sum.elim_inr]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TranscendentalTuran/Network/StageEnergy.lean:78:85: This simp argument is unused:
+  Sum.elim_inr
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [stageD3, stageE2, matchingIso, PartialIso.ofRel_defect, Sum.elim_inl]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3123/3169] Replayed TranscendentalTuran.Green.Walks.Kernel
+warning: TranscendentalTuran/Green/Walks/Kernel.lean:73:24: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3124/3169] Replayed TranscendentalTuran.Green.Occupation
+warning: TranscendentalTuran/Green/Occupation.lean:158:21: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TranscendentalTuran/Green/Occupation.lean:158:21: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [3125/3169] Replayed TranscendentalTuran.Green.FiniteNetwork.Basic
+warning: TranscendentalTuran/Green/FiniteNetwork/Basic.lean:64:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Green.FiniteNetwork.DirectionalNetwork.adjacency_nonneg`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Green/FiniteNetwork/Basic.lean:68:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Green.FiniteNetwork.DirectionalNetwork.adjacency_symm`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Green/FiniteNetwork/Basic.lean:88:18: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TranscendentalTuran/Green/FiniteNetwork/Basic.lean:89:20: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [eq_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+warning: TranscendentalTuran/Green/FiniteNetwork/Basic.lean:89:23: This simp argument is unused:
+  eq_comm
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [h]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3128/3169] Replayed TranscendentalTuran.Optimization.MatrixEnergy
+warning: TranscendentalTuran/Optimization/MatrixEnergy.lean:4:0: 'Mathlib.Data.Real.Basic' has been deprecated: please replace this import by
+
+import Mathlib.Basic.Real.Basic
+warning: TranscendentalTuran/Optimization/MatrixEnergy.lean:36:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Optimization.MatrixEnergy.pairing_symm`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Optimization/MatrixEnergy.lean:47:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Optimization.MatrixEnergy.pairing_add_left`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Optimization/MatrixEnergy.lean:51:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Optimization.MatrixEnergy.pairing_add_right`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Optimization/MatrixEnergy.lean:55:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Optimization.MatrixEnergy.pairing_smul_left`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Optimization/MatrixEnergy.lean:62:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Optimization.MatrixEnergy.pairing_smul_right`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Optimization/MatrixEnergy.lean:97:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Optimization.MatrixEnergy.laplacian_symm`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3131/3169] Replayed TranscendentalTuran.Network.ParentDepth
+warning: TranscendentalTuran/Network/ParentDepth.lean:77:13: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3133/3169] Replayed TranscendentalTuran.Network.PortEnergy
+warning: TranscendentalTuran/Network/PortEnergy.lean:28:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Green.FiniteNetwork.DirectionalNetwork.portEnergy_nonneg`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PortEnergy.lean:49:58: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3134/3169] Replayed TranscendentalTuran.Network.PrivateLeaves
+warning: TranscendentalTuran/Network/PrivateLeaves.lean:41:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.PrivateLeaves.Exit.edge`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PrivateLeaves.lean:44:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.PrivateLeaves.Exit.outside`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PrivateLeaves.lean:47:7: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.PrivateLeaves.Exit.ext`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PrivateLeaves.lean:66:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.PrivateLeaves.neighbor_center_none`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PrivateLeaves.lean:87:15: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TranscendentalTuran/Network/PrivateLeaves.lean:76:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.PrivateLeaves.neighbor_center_mem`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PrivateLeaves.lean:100:15: `dif_neg` has been deprecated: Use `dite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵n̵e̵g̵d̲i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TranscendentalTuran/Network/PrivateLeaves.lean:89:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.PrivateLeaves.neighbor_center_exit`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PrivateLeaves.lean:141:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.PrivateLeaves.neighbor_leaf_center_iff`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/PrivateLeaves.lean:147:8: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.PrivateLeaves.neighbor_leaf_leaf`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3135/3169] Replayed TranscendentalTuran.Network.PrivateProjection
+warning: TranscendentalTuran/Network/PrivateProjection.lean:55:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Network.PrivateLeaves.leafCoordinate_spec`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3136/3169] Replayed TranscendentalTuran.Network.MarkedComponent
+warning: TranscendentalTuran/Network/MarkedComponent.lean:76:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.logicalMove_adjacent`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/MarkedComponent.lean:101:27: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TranscendentalTuran/Network/MarkedComponent.lean:97:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.depth_zero_of_reachable`:
+  [Fintype V]
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Network/MarkedComponent.lean:112:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.OwnedBase.coordinates_logicalMove`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3515/3537] Replayed TranscendentalTuran.Green.Walks.Determinant
+warning: TranscendentalTuran/Green/Walks/Determinant.lean:86:14: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+warning: TranscendentalTuran/Green/Walks/Determinant.lean:74:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: TranscendentalTuran/Green/Walks/Determinant.lean:82:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: TranscendentalTuran/Green/Walks/Determinant.lean:90:16: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: TranscendentalTuran/Green/Walks/Determinant.lean:94:12: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3518/3537] Replayed TranscendentalTuran.Green.Walks.HalfLineRecurrence
+warning: TranscendentalTuran/Green/Walks/HalfLineRecurrence.lean:40:33: Unused tactic linter: `omega` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TranscendentalTuran/Green/Walks/HalfLineRecurrence.lean:40:33: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [3529/3537] Replayed TranscendentalTuran.Green.Walks.HalfLineCatalan
+warning: TranscendentalTuran/Green/Walks/HalfLineCatalan.lean:98:23: `if_neg` has been deprecated: Use `ite_eq_right` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵n̵e̵g̵i̲t̲e̲_̲e̲q̲_̲r̲i̲g̲h̲t̲
+warning: TranscendentalTuran/Green/Walks/HalfLineCatalan.lean:150:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3533/3537] Replayed TranscendentalTuran.Green.FiniteNetwork.SourceGain
+warning: TranscendentalTuran/Green/FiniteNetwork/SourceGain.lean:56:13: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3534/3537] Replayed TranscendentalTuran.Network.MarkedSourceGain
+warning: TranscendentalTuran/Network/MarkedSourceGain.lean:38:6: `if_pos` has been deprecated: Use `ite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  i̵f̵_̵p̵o̵s̵i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3536/3537] Replayed TranscendentalTuran.Network.RootedSourceGain
+warning: TranscendentalTuran/Network/RootedSourceGain.lean:55:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+⚠ [3537/3537] Replayed TranscendentalTuran.Network.BlockSourceGain
+warning: TranscendentalTuran/Network/BlockSourceGain.lean:86:21: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+
+Note: This linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+warning: TranscendentalTuran/Network/BlockSourceGain.lean:127:26: This simp argument is unused:
+  one_div
+
+Hint: Omit it from the simp argument list.
+  [apply] simp only [conductance, div_eq_mul_inv, mul_inv_rev, inv_inv]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+Build completed successfully (3537 jobs).

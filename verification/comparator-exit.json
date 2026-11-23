@@ -1,0 +1,10 @@
+{
+  "command": "bash scripts/verify-comparator.sh",
+  "started_utc": "2026-11-23T13:57:49.462442+00:00",
+  "finished_utc": "2026-11-23T13:58:05.741489+00:00",
+  "elapsed_seconds": 16.279,
+  "exit_code": 1,
+  "sandbox_disabled": false,
+  "verification_script_snapshot": "verification/history/verify-comparator-initial.sh",
+  "verification_script_sha256": "4fefa0e6c779448143b3164f56e96c3b6f719de67da335fa445127ab55f9b1e2"
+}

@@ -1,0 +1,28 @@
+con-ron: 1 inductive blocks modelled in-process: Lean.Syntax (30 generated records, checked by the fold as declarations and not counted as records of the file)
+con-ron: 2 declarations hoisted ahead of the pinned Nat operations they ground: Nat.mul._f, Nat.mul
+con-ron: parse done: 63081 fold records — 63073 declarations after the 8 built-in prelude records (8 stream copies of prelude records dropped) t=3.046s (parse 3.046s)
+con-ron: install 0/63081 basis t=3.046s
+con-ron: install 5000/63081 def Subsemiring.copy t=7.053s
+con-ron: install 10000/63081 def List.Lex.below.casesOn t=7.913s
+con-ron: install 15000/63081 inductive ContinuousSMul t=8.942s
+con-ron: install 20000/63081 thm WithBot.bot_lt_coe t=9.843s
+con-ron: install 25000/63081 thm TranscendentalTuran.Encoding.declaringPair_injective t=11.403s
+con-ron: install 30000/63081 thm strictConvexOn_rpow t=12.861s
+con-ron: install 35000/63081 thm Lean.Grind.Ring.OfSemiring.right_distrib t=14.290s
+con-ron: install 40000/63081 thm ContinuousMultilinearMap.continuousMapClass t=16.494s
+con-ron: install 45000/63081 thm TranscendentalTuran.Green.FiniteNetwork.boxRoot._proof_1 t=18.103s
+con-ron: install 50000/63081 thm AlgebraicClosure.instField._proof_1 t=20.486s
+con-ron: install 55000/63081 thm Finsupp.preorder._proof_2 t=22.626s
+con-ron: install 60000/63081 thm ENNReal.prod_lt_top t=25.068s
+con-ron: install done: 63081/63081 declarations installed, 62017 checks pending t=32.994s (install 29.948s)
+con-ron: check 5000/62017 definition DivisionSemiring.toDiv t=34.232s
+con-ron: check 10000/62017 theorem Multiset.mem_dedup t=36.302s
+con-ron: check 15000/62017 theorem ContinuousOn.eq_1 t=38.586s
+con-ron: check 20000/62017 theorem disjoint_sdiff_self_right t=41.438s
+con-ron: check 25000/62017 theorem MeasureTheory.OuterMeasure.instPartialOrder._proof_1 t=46.741s
+con-ron: check 30000/62017 definition AddSubgroup.neg t=49.455s
+con-ron: check 35000/62017 theorem Submodule.map_liftQ t=53.108s
+con-ron: check 40000/62017 theorem FormalMultilinearSeries.changeOriginSeriesTerm._proof_10 t=57.473s
+con-ron: check failed at fold position 44880 t=65.475s (check 32.481s)
+con-ron: done: parse 3.046s, install 29.948s, check 32.481s, 2 workers t=65.475s
+con-ron: error: fuel exhausted: whnf loop [at thm TranscendentalTuran.Optimization.Paper.A_eval_eq, fold position 44880] (--verified) t=66.196s

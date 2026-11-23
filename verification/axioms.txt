@@ -1,0 +1,17 @@
+'TranscendentalTuran.main_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.executable_main_result' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.Construction.buildSingleGraph' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.singleGraph_density_value' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.singleGraph_density_transcendental' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.singleGraph_extremalDensity_tendsto' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.Source.classLambda_eq_Ψ_cornerGreen' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.Source.classLambda_transcendental' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.Source.classLambda_le_Ψ' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.Source.source_gain_block_means' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.Green.Realization.Ψ_cornerGreen_le_classLambda' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'TranscendentalTuran.Construction.singleGraph_turanDensity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'TranscendentalTuran.Optimization.Paper.six_Ψ_green_transcendental' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

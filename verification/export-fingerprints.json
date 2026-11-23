@@ -1,0 +1,18 @@
+{
+  "recorded_utc": "2026-11-23T14:16:24.859781+00:00",
+  "source": "Exports produced by the pinned bundled leanexport in the isolated Comparator run; preserved without modifying bytes.",
+  "statement_comparison_and_permitted_axiom_check": "passed: the original Comparator advanced to runKernels after verifyCompare",
+  "exports": [
+    {
+      "export": "challenge.export",
+      "bytes": 42020457,
+      "sha256": "06aef04b5a754edef8d169fb29af093c0f7b7d4c8df46b6fb42c22a84e32dbac"
+    },
+    {
+      "export": "solution.export",
+      "bytes": 478216624,
+      "sha256": "1cabe9ddbb91e84b7a37bd4c1d729c4fb511c78fd62147834a1968b4448b8a75"
+    }
+  ],
+  "exports_included_in_source_archive": false
+}

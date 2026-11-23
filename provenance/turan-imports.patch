@@ -1,0 +1,65 @@
+--- upstream/TuranUniversality/Weighted/Baseline.lean
++++ adapted/TuranUniversality/Weighted/Baseline.lean
+@@ -1,6 +1,14 @@
+ module
+ 
+-public import Mathlib
++public import Mathlib.Basic.Real.Basic
++public import Mathlib.Data.Rat.Cast.CharZero
++public import Mathlib.Data.Rat.Cast.Lemmas
++public import Mathlib.Tactic.FieldSimp
++public import Mathlib.Tactic.Linarith
++public import Mathlib.Tactic.LinearCombination
++public import Mathlib.Tactic.Positivity
++public import Mathlib.Tactic.Ring
++public import Mathlib.Tactic.NormNum
+ 
+ /-!
+ # The rational baseline polynomial
+--- upstream/TuranUniversality/Weighted/Grounded.lean
++++ adapted/TuranUniversality/Weighted/Grounded.lean
+@@ -1,6 +1,12 @@
+ module
+ 
+-public import Mathlib
++public import Mathlib.Basic.Real.Basic
++public import Mathlib.Data.Nat.SuccPred
++public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
++public import Mathlib.Tactic.Linarith
++public import Mathlib.Tactic.Positivity
++public import Mathlib.Tactic.Ring
++public import Mathlib.Tactic.NormNum
+ 
+ /-!
+ # A finite path estimate for the matching defect
+--- upstream/TuranUniversality/Weighted/Pairing.lean
++++ adapted/TuranUniversality/Weighted/Pairing.lean
+@@ -1,6 +1,7 @@
+ module
+ 
+ public import TuranUniversality.Weighted.Symmetric
++public import Mathlib.Algebra.Order.BigOperators.Ring.Finset
+ 
+ /-! # Perfect missing-code matchings and their weighted complements -/
+ 
+--- upstream/TuranUniversality/Weighted/Symmetric.lean
++++ adapted/TuranUniversality/Weighted/Symmetric.lean
+@@ -1,6 +1,8 @@
+ module
+ 
+ public import TuranUniversality.Weighted.Baseline
++public import Mathlib.RingTheory.MvPolynomial.Symmetric.Defs
++public import Mathlib.Tactic.LinearCombination
+ 
+ /-! # Finite elementary symmetric sums and root variance
+ 
+--- upstream/TuranUniversality/Weighted/TypedLink.lean
++++ adapted/TuranUniversality/Weighted/TypedLink.lean
+@@ -2,6 +2,7 @@
+ 
+ public import TuranUniversality.Weighted.Types
+ public import TuranUniversality.Weighted.Matching
++public import Mathlib.Algebra.Order.BigOperators.GroupWithZero.Finset
+ 
+ /-! # Actual pair sets in a typed one-root link -/
+ 

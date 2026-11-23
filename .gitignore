@@ -1,0 +1,9 @@
+/.cache/
+/.lake/
+/docbuild/.lake/
+
+# Local operating-system and Python cache files.
+.DS_Store
+__pycache__/
+*.py[cod]
+

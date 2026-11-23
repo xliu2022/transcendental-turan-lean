@@ -1,0 +1,25 @@
+{
+  "verification_status": "both_official_hashes_match",
+  "verified_utc": "2026-11-23T14:23:02.968960+00:00",
+  "download_method": "Direct HTTPS GET to official GitHub release URL, following its normal redirect to release-assets.githubusercontent.com; no proxy, tunnel, alternate build, or workflow artifact.",
+  "official_release_url": "https://github.com/leanprover/lean4/releases/download/v4.36.0-rc1/lean-4.36.0-rc1-linux.tar.zst",
+  "release_tag": "v4.36.0-rc1",
+  "release_commit": "c9afcddf514a6772bd4d649f7cfc04eff0b9f15e",
+  "github_release_id": 413050053,
+  "github_release_asset_id": 641270250,
+  "archive": {
+    "path": "/workspace/scratch/5eaeb3eb52f6/palomar-checkers/lean-4.36.0-rc1-linux.tar.zst",
+    "bytes": 605563669,
+    "sha256": "26b3cea1a006ad419215520b8668dcd3f6a9eeba1a123756563a739f9c6274b2"
+  },
+  "binary": {
+    "path": "/workspace/scratch/5eaeb3eb52f6/palomar-checkers/con-ron-v4.36.0-rc1",
+    "archive_member": "lean-4.36.0-rc1-linux/bin/con-ron",
+    "bytes": 3649920,
+    "sha256": "4e5616d94374cae37324dad2594f6230c2bb2297240249fc78ff508f3bc5acef",
+    "mode": "0755"
+  },
+  "installed_lean_toolchain_modified": false,
+  "existing_checker_binary_replaced": false,
+  "checker_executed": false
+}

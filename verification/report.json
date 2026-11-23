@@ -1,0 +1,1342 @@
+{
+  "schema_version": 1,
+  "report_kind": "local_verification_snapshot",
+  "project": "A Three-Graph with Transcendental Turan Density",
+  "formalization_author_and_responsible_maintainer": "Xizhi Liu",
+  "recorded_at_utc": "2026-11-23T14:40:24.013473+00:00",
+  "verification_date_utc": "2026-11-23",
+  "summary": {
+    "lean_mathematical_proof": "complete",
+    "local_builds": "passed",
+    "transitive_axiom_audit": "passed",
+    "independent_comparator": "passed",
+    "public_palomar_full_preflight": "not_run",
+    "independent_human_mathematical_review": "not_performed",
+    "registry_acceptance": "not_claimed",
+    "advisory_con_ron": "recognized_fuel_exhausted_decline_controls_passed",
+    "mandatory_kernel_replay": "Lean and NanoDa accepted",
+    "mandatory_controls": "passed_positive_statement_mismatch_illegal_axiom_ill_typed",
+    "local_mechanical_verification": "mandatory_checks_passed_with_recognized_con_ron_advisory_decline"
+  },
+  "scope": {
+    "main_theorem": "TranscendentalTuran.main_result",
+    "solution_entry_point": "Solution",
+    "main_theorem_has_additional_mathematical_hypotheses": false,
+    "conclusion": "There exists a finite simple 3-uniform hypergraph with a nonempty edge set and transcendental ordinary Turan density over Q.",
+    "containment": "Globally injective vertex maps preserving edges, including all isolated forbidden vertices.",
+    "density": "Ordinary binomial-normalized extremal density; the infimum definition is proved to equal its asymptotic limit.",
+    "density_value_theorem": "TranscendentalTuran.singleGraph_density_value",
+    "density_limit_theorem": "TranscendentalTuran.singleGraph_extremalDensity_tendsto",
+    "source_value_theorem": "TranscendentalTuran.Source.classLambda_eq_Ψ_cornerGreen",
+    "single_forbidden_graph_transfer": "TranscendentalTuran.Construction.singleGraph_turanDensity",
+    "source_upper_and_lower_inequalities": "Both proved and assembled without extra host or realization assumptions."
+  },
+  "pins": {
+    "lean_toolchain": "leanprover/lean4:v4.35.0-rc2",
+    "lean_version_observed": "Lean (version 4.35.0-rc2, x86_64-unknown-linux-gnu, commit 11acb17ec6b07a8f9e9173e6845197929540936b, Release)",
+    "lean_commit": "11acb17ec6b07a8f9e9173e6845197929540936b",
+    "mathlib_revision": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+    "installed_mathlib_head_matches_pin": true,
+    "palomar_verifier_revision": "14aa8d6b3c2f14a8540605e37144560b9a00e7e7",
+    "palomar_template_revision": "2891de4c48955af824969a263d31b25e7a9a1406",
+    "palomar_pin_is_configuration_not_completed_preflight": true,
+    "dependency_manifest": "lake-manifest.json",
+    "dependencies": [
+      {
+        "name": "mathlib",
+        "revision": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+        "url": "https://github.com/leanprover-community/mathlib4.git"
+      },
+      {
+        "name": "plausible",
+        "revision": "e50948299c4dc4a4c21b1c34b6a6a4fddc19f912",
+        "url": "https://github.com/leanprover-community/plausible"
+      },
+      {
+        "name": "LeanSearchClient",
+        "revision": "95e037bfdc31d3916ac615446847fb01960e2719",
+        "url": "https://github.com/leanprover-community/LeanSearchClient"
+      },
+      {
+        "name": "importGraph",
+        "revision": "10930f8138f0462dbd744a91fc03a16fae0e046f",
+        "url": "https://github.com/leanprover-community/import-graph"
+      },
+      {
+        "name": "proofwidgets",
+        "revision": "4c70ac059693669e5756e32a7a94b57ee1e99dc5",
+        "url": "https://github.com/leanprover-community/ProofWidgets4"
+      },
+      {
+        "name": "aesop",
+        "revision": "75d936c7af167cc93fac0d31237682fc2204591d",
+        "url": "https://github.com/leanprover-community/aesop"
+      },
+      {
+        "name": "Qq",
+        "revision": "786b7acdca7eb4e9c76c5d1d5bd810e7e5c56334",
+        "url": "https://github.com/leanprover-community/quote4"
+      },
+      {
+        "name": "batteries",
+        "revision": "ed9b316aabe389fec1ef43c3326ab48c7e59be42",
+        "url": "https://github.com/leanprover-community/batteries"
+      },
+      {
+        "name": "Cli",
+        "revision": "2842b9871b04862f944c032e34052cb9448ccb71",
+        "url": "https://github.com/leanprover/lean4-cli"
+      }
+    ]
+  },
+  "checks": {
+    "all_source_lake_build": {
+      "status": "passed",
+      "local_module_count": 322,
+      "passed": 322,
+      "failed": 0,
+      "blocked": 0,
+      "scheduler_jobs": 2,
+      "all_modules_had_one_attempt_in_this_final_record": true,
+      "source_hashes_match_current_files": true,
+      "hash_mismatches": [],
+      "missing_or_extra_modules": [],
+      "command": "python3 scripts/build-bounded.py --all --jobs 2",
+      "underlying_module_command": "lake --fail-fast build +<module>",
+      "evidence": [
+        "verification/all-source-build.json",
+        "verification/all-source-build.log"
+      ],
+      "scope_note": "Genuine dependency-validated Lake builds/replays, allowing valid cached artifacts; not a claim of a fresh zero-cache rebuild.",
+      "includes_separately_built_challenge_target_with_intentional_hole": true
+    },
+    "default_lake_build": {
+      "status": "passed",
+      "command": "lake build",
+      "reported_lake_jobs": 3941,
+      "evidence": "verification/default-build.log",
+      "job_count_note": "Lake jobs include dependencies and replayed artifacts; this is not a count of local source files freshly elaborated in this pass."
+    },
+    "solution_entry_point_build": {
+      "status": "passed",
+      "command": "lake build +Solution",
+      "evidence": "verification/Solution.log"
+    },
+    "source_integrity": {
+      "status": "passed",
+      "header_and_line_limit_command": "python3 scripts/check-lean-sources.py",
+      "header_and_line_limit_exit_code": 0,
+      "all_local_lean_files_have_valid_module_headers": true,
+      "local_module_count": 322,
+      "module_counts_by_prefix": {
+        "Challenge": 1,
+        "Solution": 1,
+        "TranscendentalTuran": 246,
+        "TuranUniversality": 74
+      },
+      "total_physical_lines": 44158,
+      "largest_module_lines": 494,
+      "source_hash_manifest": "verification/lean-sources.sha256",
+      "source_hash_manifest_sha256": "4ec4f93772e026600c5eef934ca30fb705075952c2cfca22fa3b44ef625be274",
+      "hash_algorithm": "SHA-256",
+      "solution_local_import_closure_module_count": 316,
+      "challenge_in_solution_import_closure": false,
+      "local_modules_outside_solution_import_closure": [
+        "Challenge",
+        "TranscendentalTuran.Audit",
+        "TranscendentalTuran.Green.Realization.FillerPolynomial",
+        "TuranUniversality.Selector.RowPrivacy",
+        "TuranUniversality.Selector.TransversalRigidity",
+        "TuranUniversality.Weighted.TypedLink"
+      ],
+      "comment_stripped_token_scan": {
+        "sorry": [
+          {
+            "module": "Challenge",
+            "count": 1
+          }
+        ],
+        "admit": [],
+        "axiom": [],
+        "native_decide": [],
+        "sorryAx": []
+      },
+      "token_scan_note": "Supplementary textual check using nested-comment stripping and token boundaries; the transitive axiom audit supplies the semantic dependency check for the listed declarations.",
+      "solution_closure_sorry_count": 0,
+      "all_local_files_except_challenge_sorry_count": 0,
+      "challenge_intentional_sorry_count": 1
+    },
+    "transitive_axiom_audit": {
+      "status": "passed",
+      "command": "python3 scripts/audit-axioms.py",
+      "declaration_count": 13,
+      "declaration_list_matches_audit_source": true,
+      "permitted_axioms": [
+        "propext",
+        "Classical.choice",
+        "Quot.sound"
+      ],
+      "every_reported_set_is_exactly_the_standard_three": true,
+      "unexpected_axioms": [],
+      "evidence": [
+        "verification/axioms.txt",
+        "verification/axiom-audit.log",
+        "TranscendentalTuran/Audit.lean"
+      ],
+      "declarations": [
+        {
+          "declaration": "TranscendentalTuran.main_result",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.executable_main_result",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.Construction.buildSingleGraph",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.singleGraph_density_value",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.singleGraph_density_transcendental",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.singleGraph_extremalDensity_tendsto",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.Source.classLambda_eq_Ψ_cornerGreen",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.Source.classLambda_transcendental",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.Source.classLambda_le_Ψ",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.Source.source_gain_block_means",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.Green.Realization.Ψ_cornerGreen_le_classLambda",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.Construction.singleGraph_turanDensity",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        },
+        {
+          "declaration": "TranscendentalTuran.Optimization.Paper.six_Ψ_green_transcendental",
+          "axioms": [
+            "propext",
+            "Classical.choice",
+            "Quot.sound"
+          ]
+        }
+      ]
+    },
+    "executable_constructor": {
+      "status": "compiled_and_disabled_branch_checked",
+      "declaration": "TranscendentalTuran.Construction.buildSingleGraph",
+      "regular_non_macro_computable_definition": true,
+      "enabled_branch_correctness_theorem": "TranscendentalTuran.executable_main_result",
+      "disabled_branch_expression": "(buildSingleGraph false).isNone",
+      "disabled_branch_result": true,
+      "enabled_branch_executed": false,
+      "complete_graph_materialized": false,
+      "evidence": [
+        "verification/TranscendentalTuran.Construction.ExecutableWitness.log",
+        "TranscendentalTuran/Construction/ExecutableWitness.lean"
+      ],
+      "scope_note": "Compilation checks the regular constructor and executable dependency chain. The huge enabled computation was not run. The axiom audit includes proof fields; its standard classical axioms do not constitute a noncomputable runtime data path."
+    },
+    "independent_comparator": {
+      "status": "passed_mandatory_comparison_and_kernels",
+      "phase": "completed",
+      "configuration": "comparator.json",
+      "standard_command": "bash scripts/verify-comparator.sh",
+      "initial_attempt": {
+        "command": "bash scripts/verify-comparator.sh",
+        "started_utc": "2026-11-23T13:57:49.462442+00:00",
+        "finished_utc": "2026-11-23T13:58:05.741489+00:00",
+        "elapsed_seconds": 16.279,
+        "exit_code": 1,
+        "sandbox_disabled": false,
+        "classification": "environment_setup_error",
+        "failure_message": "bwrap: loopback: Failed to create NETLINK_ROUTE socket: Operation not permitted",
+        "failure_stage": "Preparing the sandbox to build Challenge, before independent statement comparison and external-kernel replay.",
+        "mathematical_verdict": null,
+        "evidence": [
+          "verification/comparator.log",
+          "verification/comparator-exit.json"
+        ]
+      },
+      "compatibility_recheck": {
+        "status": "completed_with_nonzero_con_ron_exit",
+        "log": "verification/comparator-isolated.log",
+        "sandbox_disabled": false,
+        "final_exit_code": 1,
+        "statement_comparison_verdict": "passed",
+        "external_kernel_verdicts": {
+          "Lean default": "accepted",
+          "nanoda": "accepted",
+          "bundled con-ron default worker count": "exit 137; cause not established"
+        },
+        "note": "Historical strict combined invocation: comparison and mandatory Lean/NanoDa accepted, but the whole command failed for con-ron exit 137. A later independently recorded mandatory-only replay exited zero, and the authenticated advisory replay received a recognized fuel-exhausted decline with passing controls.",
+        "permitted_axiom_check": "passed"
+      },
+      "mandatory_replay": {
+        "status": "passed",
+        "command": [
+          "/home/agent/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/lake",
+          "comparator",
+          "--config",
+          "/tmp/turan-mandatory-config-x51t9xnc/comparator.json",
+          "--challenge-from-export",
+          "/tmp/turan-comparator-exports/challenge.export",
+          "--solution-from-export",
+          "/tmp/turan-comparator-exports/solution.export"
+        ],
+        "started_utc": "2026-11-23T14:31:52.884045+00:00",
+        "finished_utc": "2026-11-23T14:34:24.626597+00:00",
+        "elapsed_seconds": 151.743,
+        "exit_code": 0,
+        "sandbox_disabled": false,
+        "configuration": {
+          "challenge_module": "Challenge",
+          "solution_module": "Solution",
+          "theorem_names": [
+            "TranscendentalTuran.main_result"
+          ],
+          "definition_names": [],
+          "permitted_axioms": [
+            "propext",
+            "Quot.sound",
+            "Classical.choice"
+          ],
+          "external_kernels": {
+            "nanoda": [
+              "/home/agent/.elan/toolchains/leanprover--lean4---v4.35.0-rc2/bin/nanoda_bin"
+            ]
+          }
+        },
+        "configuration_sha256": "dc2f39f6131f7575a5578107cfea3679c80eaeeb9ed36e84dbe95552266d0f31",
+        "source_hashes_rechecked": 322,
+        "exports": [
+          {
+            "export": "challenge.export",
+            "bytes": 42020457,
+            "sha256": "06aef04b5a754edef8d169fb29af093c0f7b7d4c8df46b6fb42c22a84e32dbac"
+          },
+          {
+            "export": "solution.export",
+            "bytes": 478216624,
+            "sha256": "1cabe9ddbb91e84b7a37bd4c1d729c4fb511c78fd62147834a1968b4448b8a75"
+          }
+        ],
+        "export_provenance": "Generated by the original pinned bundled exporter inside the earlier full source-build Comparator invocation. Same bytes retained and hashed; no proof or export edits. This run replays those exports rather than rebuilding sources.",
+        "entrypoint_sha256": {
+          "lake": "8ba83c98f76562d03b8dbc33f1057151ba6cbb121679dde76b2260ccc90495e1",
+          "lean": "bf8d54e4714cc4b03d3f6bb34c83b7202b87e49c8bfcbff6895c085bb90ceb38",
+          "leanexport": "c5bc1a10a21e22cbb3671d65987cdef2076833b14182d823ccb2153adf2fa954",
+          "leanchecker": "9e36e955a251b1313c8eb5b7fa101282d51df109d34d8bb7c1cfdf51985aba29",
+          "nanoda_bin": "8241c5e6baa29490aa118d382f97961b208ae730fdb96545c2abed74c9ece5a8"
+        },
+        "public_palomar_workflow_run": false
+      },
+      "all_checker_acceptance_claimed": false,
+      "initial_strict_combined_command_passed": false,
+      "mandatory_comparator_exit_zero": true
+    },
+    "public_palomar_full_preflight": {
+      "status": "not_run",
+      "workflow": ".github/workflows/palomar-preflight.yml",
+      "verifier_revision": "14aa8d6b3c2f14a8540605e37144560b9a00e7e7",
+      "mode": "full",
+      "execution_profile": "palomar-standard-v1",
+      "public_run_url": null,
+      "verified_public_commit": null,
+      "registry_acceptance_claimed": false,
+      "note": "The pinned workflow is present. An actual public run on a specified repository commit, registry review, and acceptance are separate outstanding steps."
+    },
+    "independent_human_mathematical_review": {
+      "status": "not_performed",
+      "reviewers": [],
+      "note": "Development used AI assistance. The local kernel checks do not constitute an independent human review of the source-to-formalization correspondence."
+    },
+    "metadata_validator": {
+      "status": "passed",
+      "evidence": "verification/metadata-validator.json",
+      "validated_metadata_sha256": "6299d324cab05da8649494125244853d02435632cd840bc6b69343d7921d143f",
+      "scope": "Pinned official metadata contract, not a full public preflight."
+    },
+    "provenance_local_hashes": {
+      "status": "passed",
+      "evidence": "verification/provenance-hashes.json",
+      "checked_file_count": 152
+    },
+    "advisory_con_ron": {
+      "status": "declined",
+      "reason": "fuel-exhausted",
+      "accepted_full_proof": false,
+      "recognized_by_pinned_official_classifier": true,
+      "positive_and_ill_typed_controls_passed": true,
+      "controls_statuses": [
+        "accepted",
+        "rejected"
+      ],
+      "exact_arguments": [
+        "--jobs=2",
+        "--verified"
+      ],
+      "selected_release": {
+        "release_tag": "v4.36.0-rc1",
+        "release_commit": "c9afcddf514a6772bd4d649f7cfc04eff0b9f15e",
+        "archive_sha256": "26b3cea1a006ad419215520b8668dcd3f6a9eeba1a123756563a739f9c6274b2",
+        "binary_sha256": "4e5616d94374cae37324dad2594f6230c2bb2297240249fc78ff508f3bc5acef"
+      },
+      "binary_digest_matches_manifest": true,
+      "archive_digest_matches_manifest": true,
+      "selected_binary_equals_original_bundled_binary": true,
+      "input_export_sha256": "1cabe9ddbb91e84b7a37bd4c1d729c4fb511c78fd62147834a1968b4448b8a75",
+      "public_workflow_execution_claimed": false,
+      "evidence": [
+        "verification/con-ron-selected/replay.json",
+        "verification/con-ron-selected/controls.json",
+        "verification/con-ron-selected/solution.stderr.log",
+        "verification/con-ron-selected/download-receipt.json"
+      ],
+      "scope": "A genuine fuel-exhausted diagnostic, classified by the exact pinned official function after both controls passed. This is not con-ron acceptance and does not retrospectively classify the earlier exit 137."
+    },
+    "mandatory_controls": {
+      "schema_version": 1,
+      "status": "passed",
+      "scope": "Mandatory Lean default and NanoDa small control portion of the pinned Palomar comparator preflight, run locally with preserved isolation.",
+      "public_palomar_full_workflow_run": false,
+      "main_proof_replayed_by_this_task": false,
+      "project_lean_imported_by_controls": false,
+      "project_lean_sources_unchanged": {
+        "sha256_manifest": "verification/lean-sources.sha256",
+        "verified_files": 322,
+        "mismatches": 0
+      },
+      "verifier_commit": "14aa8d6b3c2f14a8540605e37144560b9a00e7e7",
+      "successful_attempt": "attempt-2/result.json",
+      "successful_attempt_elapsed_seconds": 5.561,
+      "controls": [
+        {
+          "fixture": "PalomarPreflightSolution",
+          "status": "passed",
+          "exit_code": 0,
+          "pinned_verdict_code": null,
+          "checks": {
+            "expected_exit_code": true,
+            "expected_pinned_verdict": true,
+            "success_marker": true,
+            "lean_accepted": true,
+            "nanoda_accepted": true
+          },
+          "stdout_log": "judge-PalomarPreflightSolution.stdout.log",
+          "stderr_log": "judge-PalomarPreflightSolution.stderr.log"
+        },
+        {
+          "fixture": "PalomarPreflightWrong",
+          "status": "passed",
+          "exit_code": 1,
+          "pinned_verdict_code": "comparator.rejected",
+          "checks": {
+            "expected_exit_code": true,
+            "expected_pinned_verdict": true,
+            "statement_mismatch_marker": true
+          },
+          "stdout_log": "judge-PalomarPreflightWrong.stdout.log",
+          "stderr_log": "judge-PalomarPreflightWrong.stderr.log"
+        },
+        {
+          "fixture": "PalomarPreflightIllTyped",
+          "status": "passed",
+          "exit_code": 1,
+          "pinned_verdict_code": "comparator.rejected",
+          "checks": {
+            "expected_exit_code": true,
+            "expected_pinned_verdict": true,
+            "lean_rejected": true,
+            "nanoda_rejected": true
+          },
+          "stdout_log": "judge-PalomarPreflightIllTyped.stdout.log",
+          "stderr_log": "judge-PalomarPreflightIllTyped.stderr.log"
+        },
+        {
+          "fixture": "PalomarPreflightIllegalAxiom",
+          "status": "passed",
+          "exit_code": 1,
+          "pinned_verdict_code": "comparator.illegal_axiom",
+          "checks": {
+            "expected_exit_code": true,
+            "expected_pinned_verdict": true,
+            "illegal_axiom_marker": true
+          },
+          "stdout_log": "judge-PalomarPreflightIllegalAxiom.stdout.log",
+          "stderr_log": "judge-PalomarPreflightIllegalAxiom.stderr.log"
+        }
+      ],
+      "ill_typed_export_structure_verified": {
+        "all_records_parse_as_json": true,
+        "only_one_record_changes": true,
+        "only_changed_field": "palomar_preflight.thm.value := palomar_preflight.thm.type"
+      },
+      "nanoda_negative_control_note": "NanoDa refuses the ill-typed export by a type-equality assertion panic (src/tc.rs:955), exiting 101. Lean default also rejects. The authenticated pinned classifier returns comparator.rejected. Raw stderr is retained without suppression.",
+      "attempts": [
+        {
+          "path": "attempt-1/result.json",
+          "status": "failed_or_incomplete",
+          "classification": "palomar.comparator_sandbox_failed",
+          "reason": "The outer private /run filesystem lacked /run/user, so the nested read-only-root sandbox could not create that mask mount point. All four compilation/export phases had succeeded."
+        },
+        {
+          "path": "attempt-2/result.json",
+          "status": "passed",
+          "infrastructure_change": "Create an empty /run/user directory inside the already-private outer /run tmpfs. No mask, namespace restriction, read-only root, environment clearing, lifecycle option, or capability drop was removed. The frozen adapter was not changed."
+        }
+      ],
+      "sandbox": {
+        "adapter": "/workspace/scratch/5eaeb3eb52f6/transcendental-turan-lean/verification/isolation/bwrap-private-network.py",
+        "adapter_sha256": "be116b0142850cf2d8a6cd4f3f6c881ab0762b39aee2656d13b9f991bf3b54e4",
+        "disabled": false,
+        "read_only_root": true,
+        "masked_home_and_tmp": true,
+        "unshare_all": true,
+        "new_session": true,
+        "die_with_parent": true,
+        "clear_environment": true,
+        "fresh_private_network": true,
+        "all_capabilities_dropped": true,
+        "empty_run_user_mountpoint_created_inside_private_run": true
+      },
+      "evidence_layout": {
+        "logs": "Each attempt preserves real compile/judge stdout and stderr; commands and exit codes are in its result.json.",
+        "exports": "Raw exporter stdout is preserved as five *.export files per attempt. In attempt-1 only, the export *.stdout.log files are explicitly labeled location notes, not raw transcript streams.",
+        "driver": "run-controls.py is the successful reproducible driver; attempt-1/driver-source.py preserves the original driver for the failed infrastructure attempt."
+      },
+      "artifacts": [
+        {
+          "path": "attempt-1/compile-PalomarPreflightChallenge.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/compile-PalomarPreflightChallenge.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/compile-PalomarPreflightIllegalAxiom.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/compile-PalomarPreflightIllegalAxiom.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/compile-PalomarPreflightSolution.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/compile-PalomarPreflightSolution.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/compile-PalomarPreflightWrong.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/compile-PalomarPreflightWrong.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/driver-source.py",
+          "sha256": "b32239c95376db3ad009fa25a41d68d89767e02fd99d56b6bd54292b59e2f9e1",
+          "bytes": 16627
+        },
+        {
+          "path": "attempt-1/driver.log",
+          "sha256": "ce755e5b9955372e8c827002badf3fbab1c858ef0938678157acf1a979d605a4",
+          "bytes": 1684
+        },
+        {
+          "path": "attempt-1/export-PalomarPreflightChallenge.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/export-PalomarPreflightChallenge.stdout.log",
+          "sha256": "69f3ca3b56e9a643a22fde237d57fa835b38a621c70d5c63f870a268436359a4",
+          "bytes": 67
+        },
+        {
+          "path": "attempt-1/export-PalomarPreflightIllegalAxiom.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/export-PalomarPreflightIllegalAxiom.stdout.log",
+          "sha256": "bcafabe70128bba929c9ca30699e8cc9d53cc6fabe921a06539b9e41c3b68b6f",
+          "bytes": 70
+        },
+        {
+          "path": "attempt-1/export-PalomarPreflightSolution.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/export-PalomarPreflightSolution.stdout.log",
+          "sha256": "da95d9cc266c54bf8759949e8026aa2af7330809959b22733da0475b4e28255f",
+          "bytes": 66
+        },
+        {
+          "path": "attempt-1/export-PalomarPreflightWrong.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-1/export-PalomarPreflightWrong.stdout.log",
+          "sha256": "d3adcb5110d25aed5fe3999cfefaff9a2f90c285dff1168f22496bc4b7b66719",
+          "bytes": 63
+        },
+        {
+          "path": "attempt-1/exports/PalomarPreflightChallenge.export",
+          "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+          "bytes": 1014208
+        },
+        {
+          "path": "attempt-1/exports/PalomarPreflightIllTyped.export",
+          "sha256": "ba2aa93b3a344a8babf690e97c62b92385d51669ebb47c84e60a2904a43c292e",
+          "bytes": 1014253
+        },
+        {
+          "path": "attempt-1/exports/PalomarPreflightIllegalAxiom.export",
+          "sha256": "654e9c8151864fa7ca508a67914209300cdf804e1b80df19431f11185c0fd605",
+          "bytes": 1014384
+        },
+        {
+          "path": "attempt-1/exports/PalomarPreflightSolution.export",
+          "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+          "bytes": 1014208
+        },
+        {
+          "path": "attempt-1/exports/PalomarPreflightWrong.export",
+          "sha256": "350b23212a8fddf95e2d5bcbf091a65ccdf520bde16237edb351962921be42bd",
+          "bytes": 1014379
+        },
+        {
+          "path": "attempt-1/judge-PalomarPreflightSolution.stderr.log",
+          "sha256": "4b03acd275d5f95316f72deaed20f37ce67df78df9f918e683b0812204906953",
+          "bytes": 144
+        },
+        {
+          "path": "attempt-1/judge-PalomarPreflightSolution.stdout.log",
+          "sha256": "727056f9cd97e0f4931bb0dd1c85fd5f2a9af9b3dadc9d9dbc80e1db453beddc",
+          "bytes": 152
+        },
+        {
+          "path": "attempt-1/result.json",
+          "sha256": "9e1e3c5a6249c3207ff0bc0d81cf3e6e5745ae155539275c4827c0c120dbe86d",
+          "bytes": 27535
+        },
+        {
+          "path": "attempt-2/compile-PalomarPreflightChallenge.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/compile-PalomarPreflightChallenge.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/compile-PalomarPreflightIllegalAxiom.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/compile-PalomarPreflightIllegalAxiom.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/compile-PalomarPreflightSolution.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/compile-PalomarPreflightSolution.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/compile-PalomarPreflightWrong.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/compile-PalomarPreflightWrong.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/driver.log",
+          "sha256": "e255e5595c95f756100394ef0f5e6eb57a160bc3c0d8ad3d19caf348a45de38b",
+          "bytes": 1590
+        },
+        {
+          "path": "attempt-2/export-PalomarPreflightChallenge.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/export-PalomarPreflightIllegalAxiom.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/export-PalomarPreflightSolution.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/export-PalomarPreflightWrong.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/exports/PalomarPreflightChallenge.export",
+          "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+          "bytes": 1014208
+        },
+        {
+          "path": "attempt-2/exports/PalomarPreflightIllTyped.export",
+          "sha256": "ba2aa93b3a344a8babf690e97c62b92385d51669ebb47c84e60a2904a43c292e",
+          "bytes": 1014253
+        },
+        {
+          "path": "attempt-2/exports/PalomarPreflightIllegalAxiom.export",
+          "sha256": "654e9c8151864fa7ca508a67914209300cdf804e1b80df19431f11185c0fd605",
+          "bytes": 1014384
+        },
+        {
+          "path": "attempt-2/exports/PalomarPreflightSolution.export",
+          "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+          "bytes": 1014208
+        },
+        {
+          "path": "attempt-2/exports/PalomarPreflightWrong.export",
+          "sha256": "350b23212a8fddf95e2d5bcbf091a65ccdf520bde16237edb351962921be42bd",
+          "bytes": 1014379
+        },
+        {
+          "path": "attempt-2/judge-PalomarPreflightIllTyped.stderr.log",
+          "sha256": "329ee2cba6a0323cd77c74441bc9ac2faccea424a6cb3160804b444afbd23b6b",
+          "bytes": 318
+        },
+        {
+          "path": "attempt-2/judge-PalomarPreflightIllTyped.stdout.log",
+          "sha256": "727056f9cd97e0f4931bb0dd1c85fd5f2a9af9b3dadc9d9dbc80e1db453beddc",
+          "bytes": 152
+        },
+        {
+          "path": "attempt-2/judge-PalomarPreflightIllegalAxiom.stderr.log",
+          "sha256": "37daba6aec3dc184ffbbcc200a9e7b4fc9cc7626e85999a65262f107252086cf",
+          "bytes": 51
+        },
+        {
+          "path": "attempt-2/judge-PalomarPreflightIllegalAxiom.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/judge-PalomarPreflightSolution.stderr.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/judge-PalomarPreflightSolution.stdout.log",
+          "sha256": "5b304adfe00c8107856812ee5184f11fcb2582fe7931ce1f2038375a4cce8171",
+          "bytes": 173
+        },
+        {
+          "path": "attempt-2/judge-PalomarPreflightWrong.stderr.log",
+          "sha256": "9332afe16de68f0b2c8f1c793ee4c3f6c61a96819095e44337b94e2a0e1346f0",
+          "bytes": 82
+        },
+        {
+          "path": "attempt-2/judge-PalomarPreflightWrong.stdout.log",
+          "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+          "bytes": 0
+        },
+        {
+          "path": "attempt-2/result.json",
+          "sha256": "6d2685d383f72928df3677b2ce22d61a7b1048d24fd58ec1fc384a3a1539b1b8",
+          "bytes": 37487
+        },
+        {
+          "path": "run-controls.py",
+          "sha256": "29f0e217f4ca2b17b766ed825e27845942a9b9918b118d60ea9ecdb4972d5b05",
+          "bytes": 17153
+        }
+      ]
+    }
+  },
+  "stable_evidence_files": [
+    {
+      "path": "verification/Challenge.log",
+      "sha256": "6826d56ecc08ad0e77acde275839cd17a5c53f9491d01b5b374e47939fd273e1",
+      "bytes": 132
+    },
+    {
+      "path": "verification/README.md",
+      "sha256": "9edf1eb101241f4f35527a9b152d81c3b9ea7e3195a11333149fd40942bb657d",
+      "bytes": 14864
+    },
+    {
+      "path": "verification/Solution.log",
+      "sha256": "b827486f3e38369f1270d663f9a1c6acb240b2282a1ab09fc1183aeacfd2061d",
+      "bytes": 118710
+    },
+    {
+      "path": "verification/TranscendentalTuran.Audit.log",
+      "sha256": "d74006ac4ea0d9493ada002d74b738e617cb62bb41b57568760334907fe8aed9",
+      "bytes": 120766
+    },
+    {
+      "path": "verification/TranscendentalTuran.Construction.ExecutableWitness.log",
+      "sha256": "affd095a9ee627911c15307f5b6b23a3561e8fb79bb33e6dbf7d81d619ce70a1",
+      "bytes": 16485
+    },
+    {
+      "path": "verification/TranscendentalTuran.Main.log",
+      "sha256": "c6bb9ca1e31ea130616d1e75669f4fff910139f60a290913fc5d26d57e3eb7de",
+      "bytes": 118673
+    },
+    {
+      "path": "verification/TranscendentalTuran.Network.BlockSourceGain.log",
+      "sha256": "1372ed65b06441e4ca8ffb7b8f117debb7a66a6091580187b89d04713e13602e",
+      "bytes": 30921
+    },
+    {
+      "path": "verification/all-source-build.json",
+      "sha256": "d56e6bad08ffba53fd1327fa8dcd448e08abaf1396598b5cbb1de3225161f422",
+      "bytes": 104180
+    },
+    {
+      "path": "verification/all-source-build.log",
+      "sha256": "91defea88e7ddb51cc7001cbd1b34da166303af6e33492b00f22e36528270c60",
+      "bytes": 40007
+    },
+    {
+      "path": "verification/axiom-audit.log",
+      "sha256": "a43bae880e16e0e1ea7e9a5f52564c70db816c9b12356beef98246a3017db243",
+      "bytes": 1569
+    },
+    {
+      "path": "verification/axioms.txt",
+      "sha256": "ab618a96c6bf54a35ff8d84b56dfc86e8fb63f131bd21452a11576b0e723c5b5",
+      "bytes": 1479
+    },
+    {
+      "path": "verification/comparator-exit.json",
+      "sha256": "29b5f7651d56a1f148987edce5d0b941663c519774702862844ee0134ea8b043",
+      "bytes": 423
+    },
+    {
+      "path": "verification/comparator-isolated-exit.json",
+      "sha256": "28eb7294e436413dca8cbd03b08951251e95774a3920674e7f91cc4609be72e3",
+      "bytes": 673
+    },
+    {
+      "path": "verification/comparator-isolated.log",
+      "sha256": "0f7f0c2e5b4b78b26846a45c92d0dd108c98b08832a54712a95214a8f04585c0",
+      "bytes": 120307
+    },
+    {
+      "path": "verification/comparator.log",
+      "sha256": "b8e02a4222a7ccf137044735f4db52aeb1603c6872dab8749d9b76dca406086e",
+      "bytes": 287
+    },
+    {
+      "path": "verification/con-ron-bundled-jobs2.json",
+      "sha256": "e88366e897d2c6296e0b23204ef58e044e67d8ded0ae79dc329a6bd749837703",
+      "bytes": 18851
+    },
+    {
+      "path": "verification/con-ron-bundled-jobs2.log",
+      "sha256": "f3b411f1f40da3bdb2152ae7b27c8998304a4a78595a3d548de0f24f740bd9be",
+      "bytes": 2358
+    },
+    {
+      "path": "verification/con-ron-selected/control-compile.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/con-ron-selected/control-export.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/con-ron-selected/control-ill-typed.stderr.log",
+      "sha256": "5b2bca82b24384f438b6b7c5bc0aacc68bfd08251ee06cdc74095e8994ae0dde",
+      "bytes": 275
+    },
+    {
+      "path": "verification/con-ron-selected/control-ill-typed.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/con-ron-selected/control-positive.stderr.log",
+      "sha256": "b765c67dc18be0dc15dcc90598f61f229ab4784e48fadf939807cea16858ae8c",
+      "bytes": 160
+    },
+    {
+      "path": "verification/con-ron-selected/control-positive.stdout.log",
+      "sha256": "642d5c9c6bb74d79a3fc9b8dbd70765c7d4f4e8443859829fee63ce12d2b8cc5",
+      "bytes": 48
+    },
+    {
+      "path": "verification/con-ron-selected/controls.json",
+      "sha256": "35b63e14916069c35a83f4d35c100b8c20ca5963c13fc2c8c90d08248dff117e",
+      "bytes": 4726
+    },
+    {
+      "path": "verification/con-ron-selected/download-receipt.json",
+      "sha256": "002a056268b6de96e935dad0decf93979ba3add328324471d413d06406010f12",
+      "bytes": 1232
+    },
+    {
+      "path": "verification/con-ron-selected/replay.json",
+      "sha256": "8fe56628a68f0cc8aa3641b207ff584c8c4a4928f51181ada1eb3f47cfaf262e",
+      "bytes": 2722
+    },
+    {
+      "path": "verification/con-ron-selected/solution.stderr.log",
+      "sha256": "c51483b632ed23bac8cbb1b72c58036e97bd8080059214d4cf26ca1e8041ce2b",
+      "bytes": 404
+    },
+    {
+      "path": "verification/con-ron-selected/solution.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/default-build.log",
+      "sha256": "a6636c262c0de460fde1361d85da34ce1403efa9d9c5d660215a8eb1449ecd59",
+      "bytes": 118673
+    },
+    {
+      "path": "verification/export-fingerprints.json",
+      "sha256": "c6a9087ea9a3722ef4b82062ad3a58973901e76f4d8cc59a5b350db80a023a6e",
+      "bytes": 699
+    },
+    {
+      "path": "verification/history/verify-comparator-initial.sh",
+      "sha256": "4fefa0e6c779448143b3164f56e96c3b6f719de67da335fa445127ab55f9b1e2",
+      "bytes": 2363
+    },
+    {
+      "path": "verification/isolation/README.md",
+      "sha256": "57dcce87da058093c946e6bd08ae6b899ac506c35204d1cd027ec7e35c27bc05",
+      "bytes": 7668
+    },
+    {
+      "path": "verification/isolation/bwrap-private-network.py",
+      "sha256": "be116b0142850cf2d8a6cd4f3f6c881ab0762b39aee2656d13b9f991bf3b54e4",
+      "bytes": 2315
+    },
+    {
+      "path": "verification/isolation/probe-results.json",
+      "sha256": "cdbfbf2295ecec9e06d7d572fc454b2342ab9f1575a7c2f261129853c6d82810",
+      "bytes": 5751
+    },
+    {
+      "path": "verification/isolation/wrapper-probe.log",
+      "sha256": "4584033d9041720d18f36f9975f9f96498d81c669a5a9c75aa7973dbbcf0de3b",
+      "bytes": 664
+    },
+    {
+      "path": "verification/lean-sources.sha256",
+      "sha256": "4ec4f93772e026600c5eef934ca30fb705075952c2cfca22fa3b44ef625be274",
+      "bytes": 39609
+    },
+    {
+      "path": "verification/mandatory-comparator.json",
+      "sha256": "3cd6c34ac1b11d268e5b78426363683ca3784ddd5a7195c2bc2b3015419b10ce",
+      "bytes": 2208
+    },
+    {
+      "path": "verification/mandatory-comparator.log",
+      "sha256": "5b304adfe00c8107856812ee5184f11fcb2582fe7931ce1f2038375a4cce8171",
+      "bytes": 173
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/compile-PalomarPreflightChallenge.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/compile-PalomarPreflightChallenge.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/compile-PalomarPreflightIllegalAxiom.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/compile-PalomarPreflightIllegalAxiom.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/compile-PalomarPreflightSolution.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/compile-PalomarPreflightSolution.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/compile-PalomarPreflightWrong.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/compile-PalomarPreflightWrong.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/driver-source.py",
+      "sha256": "b32239c95376db3ad009fa25a41d68d89767e02fd99d56b6bd54292b59e2f9e1",
+      "bytes": 16627
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/driver.log",
+      "sha256": "ce755e5b9955372e8c827002badf3fbab1c858ef0938678157acf1a979d605a4",
+      "bytes": 1684
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/export-PalomarPreflightChallenge.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/export-PalomarPreflightChallenge.stdout.log",
+      "sha256": "69f3ca3b56e9a643a22fde237d57fa835b38a621c70d5c63f870a268436359a4",
+      "bytes": 67
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/export-PalomarPreflightIllegalAxiom.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/export-PalomarPreflightIllegalAxiom.stdout.log",
+      "sha256": "bcafabe70128bba929c9ca30699e8cc9d53cc6fabe921a06539b9e41c3b68b6f",
+      "bytes": 70
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/export-PalomarPreflightSolution.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/export-PalomarPreflightSolution.stdout.log",
+      "sha256": "da95d9cc266c54bf8759949e8026aa2af7330809959b22733da0475b4e28255f",
+      "bytes": 66
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/export-PalomarPreflightWrong.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/export-PalomarPreflightWrong.stdout.log",
+      "sha256": "d3adcb5110d25aed5fe3999cfefaff9a2f90c285dff1168f22496bc4b7b66719",
+      "bytes": 63
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/exports/PalomarPreflightChallenge.export",
+      "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+      "bytes": 1014208
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/exports/PalomarPreflightIllTyped.export",
+      "sha256": "ba2aa93b3a344a8babf690e97c62b92385d51669ebb47c84e60a2904a43c292e",
+      "bytes": 1014253
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/exports/PalomarPreflightIllegalAxiom.export",
+      "sha256": "654e9c8151864fa7ca508a67914209300cdf804e1b80df19431f11185c0fd605",
+      "bytes": 1014384
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/exports/PalomarPreflightSolution.export",
+      "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+      "bytes": 1014208
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/exports/PalomarPreflightWrong.export",
+      "sha256": "350b23212a8fddf95e2d5bcbf091a65ccdf520bde16237edb351962921be42bd",
+      "bytes": 1014379
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/judge-PalomarPreflightSolution.stderr.log",
+      "sha256": "4b03acd275d5f95316f72deaed20f37ce67df78df9f918e683b0812204906953",
+      "bytes": 144
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/judge-PalomarPreflightSolution.stdout.log",
+      "sha256": "727056f9cd97e0f4931bb0dd1c85fd5f2a9af9b3dadc9d9dbc80e1db453beddc",
+      "bytes": 152
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-1/result.json",
+      "sha256": "9e1e3c5a6249c3207ff0bc0d81cf3e6e5745ae155539275c4827c0c120dbe86d",
+      "bytes": 27535
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/compile-PalomarPreflightChallenge.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/compile-PalomarPreflightChallenge.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/compile-PalomarPreflightIllegalAxiom.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/compile-PalomarPreflightIllegalAxiom.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/compile-PalomarPreflightSolution.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/compile-PalomarPreflightSolution.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/compile-PalomarPreflightWrong.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/compile-PalomarPreflightWrong.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/driver.log",
+      "sha256": "e255e5595c95f756100394ef0f5e6eb57a160bc3c0d8ad3d19caf348a45de38b",
+      "bytes": 1590
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/export-PalomarPreflightChallenge.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/export-PalomarPreflightIllegalAxiom.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/export-PalomarPreflightSolution.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/export-PalomarPreflightWrong.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/exports/PalomarPreflightChallenge.export",
+      "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+      "bytes": 1014208
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/exports/PalomarPreflightIllTyped.export",
+      "sha256": "ba2aa93b3a344a8babf690e97c62b92385d51669ebb47c84e60a2904a43c292e",
+      "bytes": 1014253
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/exports/PalomarPreflightIllegalAxiom.export",
+      "sha256": "654e9c8151864fa7ca508a67914209300cdf804e1b80df19431f11185c0fd605",
+      "bytes": 1014384
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/exports/PalomarPreflightSolution.export",
+      "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+      "bytes": 1014208
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/exports/PalomarPreflightWrong.export",
+      "sha256": "350b23212a8fddf95e2d5bcbf091a65ccdf520bde16237edb351962921be42bd",
+      "bytes": 1014379
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/judge-PalomarPreflightIllTyped.stderr.log",
+      "sha256": "329ee2cba6a0323cd77c74441bc9ac2faccea424a6cb3160804b444afbd23b6b",
+      "bytes": 318
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/judge-PalomarPreflightIllTyped.stdout.log",
+      "sha256": "727056f9cd97e0f4931bb0dd1c85fd5f2a9af9b3dadc9d9dbc80e1db453beddc",
+      "bytes": 152
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/judge-PalomarPreflightIllegalAxiom.stderr.log",
+      "sha256": "37daba6aec3dc184ffbbcc200a9e7b4fc9cc7626e85999a65262f107252086cf",
+      "bytes": 51
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/judge-PalomarPreflightIllegalAxiom.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/judge-PalomarPreflightSolution.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/judge-PalomarPreflightSolution.stdout.log",
+      "sha256": "5b304adfe00c8107856812ee5184f11fcb2582fe7931ce1f2038375a4cce8171",
+      "bytes": 173
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/judge-PalomarPreflightWrong.stderr.log",
+      "sha256": "9332afe16de68f0b2c8f1c793ee4c3f6c61a96819095e44337b94e2a0e1346f0",
+      "bytes": 82
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/judge-PalomarPreflightWrong.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "verification/mandatory-controls/attempt-2/result.json",
+      "sha256": "6d2685d383f72928df3677b2ce22d61a7b1048d24fd58ec1fc384a3a1539b1b8",
+      "bytes": 37487
+    },
+    {
+      "path": "verification/mandatory-controls/run-controls.py",
+      "sha256": "29f0e217f4ca2b17b766ed825e27845942a9b9918b118d60ea9ecdb4972d5b05",
+      "bytes": 17153
+    },
+    {
+      "path": "verification/mandatory-controls/summary.json",
+      "sha256": "97f0c8cec5db87efa4257ef9af531917eb84013e24f2922ac8cbcc97e4c79ca0",
+      "bytes": 14610
+    },
+    {
+      "path": "verification/metadata-validator.json",
+      "sha256": "05b7b60ad78632accf19e8582599dc11cab55a0b70811ff3cbeacd6f809851c0",
+      "bytes": 1016
+    },
+    {
+      "path": "verification/provenance-hashes.json",
+      "sha256": "c13a6ad770bdeed583567026702cc6b57ef1d95ff696a8e0fa6d6e22f3dfcdb3",
+      "bytes": 697
+    }
+  ],
+  "reproduction": {
+    "working_directory": "project repository root",
+    "local_proof_checks": [
+      "lake exe cache get",
+      "python3 scripts/check-lean-sources.py",
+      "sha256sum --check verification/lean-sources.sha256",
+      "python3 scripts/build-bounded.py --all --jobs 2 --log-dir /tmp/transcendental-turan-recheck",
+      "lake build",
+      "lake build +Solution",
+      "python3 scripts/audit-axioms.py --log /tmp/transcendental-turan-recheck-axioms.txt"
+    ],
+    "independent_check": "bash scripts/verify-comparator.sh",
+    "preserve_original_evidence": "Write rerun output to new files or directories. Do not overwrite the original failed Comparator log or the retained release logs.",
+    "lower_memory_scheduler_option": "--jobs 1"
+  }
+}

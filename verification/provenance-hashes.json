@@ -1,0 +1,22 @@
+{
+  "checked_utc": "2026-11-23T14:15:20.326580+00:00",
+  "status": "passed",
+  "scope": "Current source bytes match the local hashes recorded in the three provenance manifests; this check does not independently reauthenticate upstream downloads.",
+  "groups": [
+    {
+      "provenance": "provenance/TuranUniversality.json",
+      "checked_files": 74,
+      "all_local_hashes_match": true
+    },
+    {
+      "provenance": "TranscendentalTuran/External/Pi/UPSTREAM.json",
+      "checked_files": 6,
+      "all_local_hashes_match": true
+    },
+    {
+      "provenance": "TranscendentalTuran/Algebra/Legacy/PROVENANCE.json",
+      "checked_files": 72,
+      "all_local_hashes_match": true
+    }
+  ]
+}

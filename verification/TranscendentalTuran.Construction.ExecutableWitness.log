@@ -1,0 +1,278 @@
+⚠ [3096/3208] Replayed TuranUniversality.Hypergraph.Lagrangian
+warning: TuranUniversality/Hypergraph/Lagrangian.lean:23:0: automatically included section variable(s) unused in theorem `TuranUniversality.ProbabilityWeights.apply_le_one`:
+  [DecidableEq V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3104/3208] Replayed TuranUniversality.Density.WeightedSampling
+warning: TuranUniversality/Density/WeightedSampling.lean:102:0: automatically included section variable(s) unused in theorem `TuranUniversality.RGraph.orderingFunction_weight`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3105/3208] Replayed TuranUniversality.Density.WeightedHom
+warning: TuranUniversality/Density/WeightedHom.lean:69:27: This simp argument is unused:
+  Fintype.card_fun
+
+Hint: Omit it from the simp argument list.
+  [apply] simp [Finset.prod_const, ← Finset.mul_sum, div_eq_mul_inv, mul_comm]
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3106/3208] Replayed TuranUniversality.Density.WeightedHomPushforward
+warning: TuranUniversality/Density/WeightedHomPushforward.lean:87:10: Variable name `e` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _e
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3129/3208] Replayed TuranUniversality.Hypergraph.Clique
+warning: TuranUniversality/Hypergraph/Clique.lean:16:10: Variable name `e` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _e
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3130/3208] Replayed TuranUniversality.Density.CliqueBound
+warning: TuranUniversality/Density/CliqueBound.lean:105:0: automatically included section variable(s) unused in theorem `TuranUniversality.RGraph.edgePolynomial_div`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3132/3208] Replayed TuranUniversality.Hypergraph.Guard
+warning: TuranUniversality/Hypergraph/Guard.lean:98:18: `simp` already closes the goal
+
+Hint: Use `simp` instead of `simpa`:
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unnecessarySimpa false`
+⚠ [3141/3208] Replayed TuranUniversality.Density.GuardSplit
+warning: TuranUniversality/Density/GuardSplit.lean:23:0: automatically included section variable(s) unused in theorem `TuranUniversality.Weighted.RootedModel.dataGraph_isHom`:
+  [Fintype Roots]
+  [Fintype Data]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Roots] [Fintype Data] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3148/3208] Replayed TuranUniversality.Hypergraph.PartialRooting
+warning: TuranUniversality/Hypergraph/PartialRooting.lean:72:19: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TuranUniversality/Hypergraph/PartialRooting.lean:72:21: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3149/3208] Replayed TranscendentalTuran.Encoding.PositivePatterns
+warning: TranscendentalTuran/Encoding/PositivePatterns.lean:65:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.RootedPattern.dataImages_card_le`:
+  [Fintype Q]
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Q] [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Encoding/PositivePatterns.lean:69:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.RootedPattern.mem_dataImages`:
+  [Fintype Q]
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Q] [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Encoding/PositivePatterns.lean:84:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.RootedPattern.Matches.extend`:
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Encoding/PositivePatterns.lean:117:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.pullbackRooting_some_iff`:
+  [Fintype Q]
+  [DecidableEq Q]
+  [DecidableEq V]
+  [DecidableEq W]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype Q] [DecidableEq Q] [DecidableEq V] [DecidableEq W] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Encoding/PositivePatterns.lean:153:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.patternLegalOn_univ_iff`:
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3152/3208] Replayed TranscendentalTuran.Encoding.Certificates.Canonical
+warning: TranscendentalTuran/Encoding/Certificates/Canonical.lean:16:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.Certificates.unique_label_preimage`:
+  [DecidableEq R]
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq R] [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3160/3208] Replayed TranscendentalTuran.Encoding.Certificates.DecidableRules
+warning: TranscendentalTuran/Encoding/Certificates/DecidableRules.lean:79:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Source.rootedLegal_iff_conditions`:
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3161/3208] Replayed TranscendentalTuran.Encoding.PatternBasis
+warning: TranscendentalTuran/Encoding/PatternBasis.lean:25:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.patternLegalOn_of_induced`:
+  [DecidableEq Q]
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Q] [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Encoding/PatternBasis.lean:108:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Encoding.patternClass_edgeless`:
+  [DecidableEq Q]
+  [Fintype V]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Q] [Fintype V] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3189/3208] Replayed TranscendentalTuran.Transfer.ProductProfiles
+warning: TranscendentalTuran/Transfer/ProductProfiles.lean:47:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: TranscendentalTuran/Transfer/ProductProfiles.lean:94:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: TranscendentalTuran/Transfer/ProductProfiles.lean:121:12: Unused tactic linter: `ring` does nothing
+
+Note: This linter can be disabled with `set_option linter.unusedTactic false`
+warning: TranscendentalTuran/Transfer/ProductProfiles.lean:121:12: this tactic is never executed
+
+Note: This linter can be disabled with `set_option linter.unreachableTactic false`
+⚠ [3194/3208] Replayed TranscendentalTuran.Transfer.RootPlan
+warning: TranscendentalTuran/Transfer/RootPlan.lean:74:23: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TranscendentalTuran/Transfer/RootPlan.lean:75:23: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+warning: TranscendentalTuran/Transfer/RootPlan.lean:86:8: `dif_pos` has been deprecated: Use `dite_eq_left` instead
+
+Hint: Replace the deprecated name:
+  d̵i̵f̵_̵p̵o̵s̵d̲i̲t̲e̲_̲e̲q̲_̲l̲e̲f̲t̲
+⚠ [3195/3208] Replayed TranscendentalTuran.Transfer.FactorRecovery
+warning: TranscendentalTuran/Transfer/FactorRecovery.lean:27:0: automatically included section variable(s) unused in theorem `TranscendentalTuran.Transfer.rooting_range_card_le`:
+  [DecidableEq Q]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq Q] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TranscendentalTuran/Transfer/FactorRecovery.lean:34:34: This simp argument is unused:
+  h
+
+Hint: Omit it from the simp argument list.
+  [apply] simp
+
+Note: This linter can be disabled with `set_option linter.unusedSimpArgs false`
+⚠ [3198/3208] Replayed TuranUniversality.Hypergraph.Labeled
+warning: TuranUniversality/Hypergraph/Labeled.lean:49:0: automatically included section variable(s) unused in theorem `TuranUniversality.RGraph.product_edges_nonempty`:
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+warning: TuranUniversality/Hypergraph/Labeled.lean:73:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3199/3208] Replayed TranscendentalTuran.Construction.EffectiveFiniteGraph
+warning: TranscendentalTuran/Construction/EffectiveFiniteGraph.lean:70:17: Variable name `e` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _e
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TranscendentalTuran/Construction/EffectiveFiniteGraph.lean:133:17: Variable name `e` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _e
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3202/3208] Replayed TranscendentalTuran.Encoding.RootGraphs
+warning: TranscendentalTuran/Encoding/RootGraphs.lean:19:13: Variable name `a` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _a
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TranscendentalTuran/Encoding/RootGraphs.lean:19:15: Variable name `b` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _b
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+warning: TranscendentalTuran/Encoding/RootGraphs.lean:19:17: Variable name `v` is not explicitly referenced.
+
+Hint: The binding can be removed (if unused) or named `_` (if used implicitly). Alternatively, prefix the name with `_` to silence this warning:
+  [apply] _v
+
+Note: This linter can be disabled with `set_option linter.unusedVariables false`
+⚠ [3205/3208] Replayed TuranUniversality.Density.ProductUpper
+warning: TuranUniversality/Density/ProductUpper.lean:19:0: automatically included section variable(s) unused in theorem `TuranUniversality.product_homFree_weighted_bound`:
+  [DecidableEq I]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq I] in theorem ...
+
+Note: This linter can be disabled with `set_option linter.unusedSectionVars false`
+⚠ [3206/3208] Replayed TranscendentalTuran.Transfer.OrdinaryDensity
+warning: TranscendentalTuran/Transfer/OrdinaryDensity.lean:59:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+⚠ [3207/3208] Replayed TranscendentalTuran.Construction.SingleGraph
+warning: TranscendentalTuran/Construction/SingleGraph.lean:85:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: TranscendentalTuran/Construction/SingleGraph.lean:146:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+warning: TranscendentalTuran/Construction/SingleGraph.lean:155:2: Try this: 
+  letI̵
+
+The goal is a proposition, so `let` is preferred over `letI`.
+The difference between `let` and `letI` is that `letI` inlines the value.
+But this is not relevant for proofs because of proof irrelevance.
+
+Note: This linter can be disabled with `set_option linter.style.haveILetI false`
+ℹ [3208/3208] Replayed TranscendentalTuran.Construction.ExecutableWitness
+info: TranscendentalTuran/Construction/ExecutableWitness.lean:45:0: true
+Build completed successfully (3208 jobs).

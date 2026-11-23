@@ -1,0 +1,18 @@
+{
+  "status": "passed",
+  "checked_utc": "2026-11-23T14:34:05.003390+00:00",
+  "validator_repository": "https://github.com/PalomarRegistry/PalomarSubmission",
+  "validator_revision": "14aa8d6b3c2f14a8540605e37144560b9a00e7e7",
+  "validator_function": "scripts.submission_contract.load_formalization_metadata",
+  "validator_git_blob": "c8b7ae49a9914c4585dab3d04e2f372f2b104903",
+  "validated_source_blobs": {
+    "scripts/orcid_validation.py": "3f5ad0c7ae4bec5beea3450bc3d6b3c4a7ca00fe",
+    "scripts/submission_contract.py": "c8b7ae49a9914c4585dab3d04e2f372f2b104903",
+    "scripts/verification_errors.py": "b4665f25e2492d5ce86a3955e208211043e84c92",
+    "scripts/workflow_inputs.py": "1ed7e73243dce93699449d3c2c08877671265257",
+    "taxonomies/arxiv-categories.json": "74bc3f473bd4d113eb4446af5b42835341db1c52",
+    "taxonomies/msc2020-codes.json": "2de936d6722c0799d4e746792c6f1eefc7c2b965"
+  },
+  "formalization_yaml_sha256": "6299d324cab05da8649494125244853d02435632cd840bc6b69343d7921d143f",
+  "exit_code": 0
+}

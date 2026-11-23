@@ -1,0 +1,11 @@
+{
+  "command": "COMPARATOR_BWRAP=\"$PWD/verification/isolation/bwrap-private-network.py\" bash scripts/verify-comparator.sh",
+  "started_utc": "2026-11-23T14:07:43.783472+00:00",
+  "finished_utc": "2026-11-23T14:18:53.413497+00:00",
+  "elapsed_seconds": 669.63,
+  "exit_code": 1,
+  "sandbox_disabled": false,
+  "local_compatibility": "Fresh empty outer network namespace; non-root UID preserved; all capabilities dropped; original sandbox restrictions retained; every phase offline.",
+  "verification_script_snapshot": "verification/history/verify-comparator-initial.sh",
+  "verification_script_sha256": "4fefa0e6c779448143b3164f56e96c3b6f719de67da335fa445127ab55f9b1e2"
+}

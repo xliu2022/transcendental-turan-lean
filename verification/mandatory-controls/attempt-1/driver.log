@@ -1,0 +1,25 @@
+{"phase": "compile-PalomarPreflightChallenge", "status": "running"}
+{"phase": "compile-PalomarPreflightChallenge", "exit_code": 0}
+{"phase": "export-PalomarPreflightChallenge", "status": "running"}
+{"phase": "export-PalomarPreflightChallenge", "exit_code": 0}
+{"phase": "compile-PalomarPreflightSolution", "status": "running"}
+{"phase": "compile-PalomarPreflightSolution", "exit_code": 0}
+{"phase": "export-PalomarPreflightSolution", "status": "running"}
+{"phase": "export-PalomarPreflightSolution", "exit_code": 0}
+{"phase": "compile-PalomarPreflightWrong", "status": "running"}
+{"phase": "compile-PalomarPreflightWrong", "exit_code": 0}
+{"phase": "export-PalomarPreflightWrong", "status": "running"}
+{"phase": "export-PalomarPreflightWrong", "exit_code": 0}
+{"phase": "compile-PalomarPreflightIllegalAxiom", "status": "running"}
+{"phase": "compile-PalomarPreflightIllegalAxiom", "exit_code": 0}
+{"phase": "export-PalomarPreflightIllegalAxiom", "status": "running"}
+{"phase": "export-PalomarPreflightIllegalAxiom", "exit_code": 0}
+{"phase": "judge-PalomarPreflightSolution", "status": "running"}
+{"phase": "judge-PalomarPreflightSolution", "exit_code": 1}
+Traceback (most recent call last):
+  File "/workspace/scratch/5eaeb3eb52f6/transcendental-turan-lean/verification/mandatory-controls/run-controls.py", line 304, in <module>
+    raise SystemExit(main())
+                     ^^^^^^
+  File "/workspace/scratch/5eaeb3eb52f6/transcendental-turan-lean/verification/mandatory-controls/run-controls.py", line 288, in main
+    raise RuntimeError("Control did not obtain the required verdict: " + name)
+RuntimeError: Control did not obtain the required verdict: PalomarPreflightSolution

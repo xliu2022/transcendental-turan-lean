@@ -1,0 +1,31 @@
+name: Palomar full mechanical preflight
+
+# A maintainer may run this after publishing the reviewed source commit.
+# This invokes the official verifier; it does not register a submission.
+on:
+  workflow_dispatch:
+    inputs:
+      authorization_relationship:
+        description: Your relationship to this formalization
+        required: true
+        type: choice
+        default: I am a responsible author or maintainer
+        options:
+          - I am a responsible author or maintainer
+          - I have approval from a responsible author or maintainer
+
+permissions:
+  contents: read
+
+jobs:
+  palomar-preflight:
+    uses: PalomarRegistry/PalomarSubmission/.github/workflows/submission.yml@14aa8d6b3c2f14a8540605e37144560b9a00e7e7
+    with:
+      repository: ${{ github.repository }}
+      commit: ${{ github.sha }}
+      pipeline_commit: 14aa8d6b3c2f14a8540605e37144560b9a00e7e7
+      request_id: turanproof01
+      mode: full
+      execution_profile: palomar-standard-v1
+      options: >-
+        {"comparator_config_path":"comparator.json","authorization_relationship":"${{ inputs.authorization_relationship }}"}

@@ -1,0 +1,47 @@
+--- before-import-narrowing/TranscendentalTuran/External/Pi/MonicRootSums.lean
++++ TranscendentalTuran/External/Pi/MonicRootSums.lean
+@@ -26,12 +26,18 @@
+ `#print axioms sum_aeval_roots_int = [propext, Classical.choice, Quot.sound]` (no `sorry`, no
+ added axiom). Ported verbatim into the project namespace.
+ -/
+--- This file is an Aristotle-ported proof verified under `import Mathlib`; we keep that
+--- broad import (rather than the project's usual targeted imports) to match the exact
+--- environment in which it was kernel-verified axiom-clean.
++-- The Aristotle-ported proof was originally verified under `import Mathlib`.
++-- This repository uses explicit imports and rechecks the unchanged proof bodies
++-- against the pinned toolchain; the source provenance is retained above.
+ module
+ 
+-public import Mathlib
++public import Mathlib.RingTheory.MvPolynomial.Symmetric.NewtonIdentities
++public import Mathlib.Tactic.Cases
++public import Mathlib.Tactic.Choose
++public import Mathlib.Tactic.Convert
++public import Mathlib.Tactic.Ring
++public import Mathlib.Tactic.Linarith
++public import Mathlib.Tactic.NormNum
+ public import TranscendentalTuran.External.Pi.PiLindemann
+ public import TranscendentalTuran.External.Pi.HermiteLindemann
+ 
+--- before-import-narrowing/TranscendentalTuran/External/Pi/SubsetSumEsymm.lean
++++ TranscendentalTuran/External/Pi/SubsetSumEsymm.lean
+@@ -23,7 +23,18 @@
+ -/
+ module
+ 
+-public import Mathlib
++public import Mathlib.RingTheory.MvPolynomial.Symmetric.FundamentalTheorem
++public import Mathlib.RingTheory.Polynomial.Vieta
++public import Mathlib.Analysis.Complex.Polynomial.Basic
++public import Mathlib.Data.Fintype.Powerset
++public import Mathlib.Tactic.Cases
++public import Mathlib.Tactic.Choose
++public import Mathlib.Tactic.Convert
++public import Mathlib.Tactic.Ring
++public import Mathlib.Tactic.Linarith
++public import Mathlib.Tactic.NormNum
++public import Batteries.Tactic.GeneralizeProofs
++public import Lean.Elab.Tactic.Omega
+ 
+ @[expose] public section
+ 

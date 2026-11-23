@@ -1,0 +1,383 @@
+{
+  "schema_version": 1,
+  "status": "passed",
+  "scope": "Mandatory Lean default and NanoDa small control portion of the pinned Palomar comparator preflight, run locally with preserved isolation.",
+  "public_palomar_full_workflow_run": false,
+  "main_proof_replayed_by_this_task": false,
+  "project_lean_imported_by_controls": false,
+  "project_lean_sources_unchanged": {
+    "sha256_manifest": "verification/lean-sources.sha256",
+    "verified_files": 322,
+    "mismatches": 0
+  },
+  "verifier_commit": "14aa8d6b3c2f14a8540605e37144560b9a00e7e7",
+  "successful_attempt": "attempt-2/result.json",
+  "successful_attempt_elapsed_seconds": 5.561,
+  "controls": [
+    {
+      "fixture": "PalomarPreflightSolution",
+      "status": "passed",
+      "exit_code": 0,
+      "pinned_verdict_code": null,
+      "checks": {
+        "expected_exit_code": true,
+        "expected_pinned_verdict": true,
+        "success_marker": true,
+        "lean_accepted": true,
+        "nanoda_accepted": true
+      },
+      "stdout_log": "judge-PalomarPreflightSolution.stdout.log",
+      "stderr_log": "judge-PalomarPreflightSolution.stderr.log"
+    },
+    {
+      "fixture": "PalomarPreflightWrong",
+      "status": "passed",
+      "exit_code": 1,
+      "pinned_verdict_code": "comparator.rejected",
+      "checks": {
+        "expected_exit_code": true,
+        "expected_pinned_verdict": true,
+        "statement_mismatch_marker": true
+      },
+      "stdout_log": "judge-PalomarPreflightWrong.stdout.log",
+      "stderr_log": "judge-PalomarPreflightWrong.stderr.log"
+    },
+    {
+      "fixture": "PalomarPreflightIllTyped",
+      "status": "passed",
+      "exit_code": 1,
+      "pinned_verdict_code": "comparator.rejected",
+      "checks": {
+        "expected_exit_code": true,
+        "expected_pinned_verdict": true,
+        "lean_rejected": true,
+        "nanoda_rejected": true
+      },
+      "stdout_log": "judge-PalomarPreflightIllTyped.stdout.log",
+      "stderr_log": "judge-PalomarPreflightIllTyped.stderr.log"
+    },
+    {
+      "fixture": "PalomarPreflightIllegalAxiom",
+      "status": "passed",
+      "exit_code": 1,
+      "pinned_verdict_code": "comparator.illegal_axiom",
+      "checks": {
+        "expected_exit_code": true,
+        "expected_pinned_verdict": true,
+        "illegal_axiom_marker": true
+      },
+      "stdout_log": "judge-PalomarPreflightIllegalAxiom.stdout.log",
+      "stderr_log": "judge-PalomarPreflightIllegalAxiom.stderr.log"
+    }
+  ],
+  "ill_typed_export_structure_verified": {
+    "all_records_parse_as_json": true,
+    "only_one_record_changes": true,
+    "only_changed_field": "palomar_preflight.thm.value := palomar_preflight.thm.type"
+  },
+  "nanoda_negative_control_note": "NanoDa refuses the ill-typed export by a type-equality assertion panic (src/tc.rs:955), exiting 101. Lean default also rejects. The authenticated pinned classifier returns comparator.rejected. Raw stderr is retained without suppression.",
+  "attempts": [
+    {
+      "path": "attempt-1/result.json",
+      "status": "failed_or_incomplete",
+      "classification": "palomar.comparator_sandbox_failed",
+      "reason": "The outer private /run filesystem lacked /run/user, so the nested read-only-root sandbox could not create that mask mount point. All four compilation/export phases had succeeded."
+    },
+    {
+      "path": "attempt-2/result.json",
+      "status": "passed",
+      "infrastructure_change": "Create an empty /run/user directory inside the already-private outer /run tmpfs. No mask, namespace restriction, read-only root, environment clearing, lifecycle option, or capability drop was removed. The frozen adapter was not changed."
+    }
+  ],
+  "sandbox": {
+    "adapter": "/workspace/scratch/5eaeb3eb52f6/transcendental-turan-lean/verification/isolation/bwrap-private-network.py",
+    "adapter_sha256": "be116b0142850cf2d8a6cd4f3f6c881ab0762b39aee2656d13b9f991bf3b54e4",
+    "disabled": false,
+    "read_only_root": true,
+    "masked_home_and_tmp": true,
+    "unshare_all": true,
+    "new_session": true,
+    "die_with_parent": true,
+    "clear_environment": true,
+    "fresh_private_network": true,
+    "all_capabilities_dropped": true,
+    "empty_run_user_mountpoint_created_inside_private_run": true
+  },
+  "evidence_layout": {
+    "logs": "Each attempt preserves real compile/judge stdout and stderr; commands and exit codes are in its result.json.",
+    "exports": "Raw exporter stdout is preserved as five *.export files per attempt. In attempt-1 only, the export *.stdout.log files are explicitly labeled location notes, not raw transcript streams.",
+    "driver": "run-controls.py is the successful reproducible driver; attempt-1/driver-source.py preserves the original driver for the failed infrastructure attempt."
+  },
+  "artifacts": [
+    {
+      "path": "attempt-1/compile-PalomarPreflightChallenge.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/compile-PalomarPreflightChallenge.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/compile-PalomarPreflightIllegalAxiom.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/compile-PalomarPreflightIllegalAxiom.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/compile-PalomarPreflightSolution.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/compile-PalomarPreflightSolution.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/compile-PalomarPreflightWrong.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/compile-PalomarPreflightWrong.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/driver-source.py",
+      "sha256": "b32239c95376db3ad009fa25a41d68d89767e02fd99d56b6bd54292b59e2f9e1",
+      "bytes": 16627
+    },
+    {
+      "path": "attempt-1/driver.log",
+      "sha256": "ce755e5b9955372e8c827002badf3fbab1c858ef0938678157acf1a979d605a4",
+      "bytes": 1684
+    },
+    {
+      "path": "attempt-1/export-PalomarPreflightChallenge.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/export-PalomarPreflightChallenge.stdout.log",
+      "sha256": "69f3ca3b56e9a643a22fde237d57fa835b38a621c70d5c63f870a268436359a4",
+      "bytes": 67
+    },
+    {
+      "path": "attempt-1/export-PalomarPreflightIllegalAxiom.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/export-PalomarPreflightIllegalAxiom.stdout.log",
+      "sha256": "bcafabe70128bba929c9ca30699e8cc9d53cc6fabe921a06539b9e41c3b68b6f",
+      "bytes": 70
+    },
+    {
+      "path": "attempt-1/export-PalomarPreflightSolution.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/export-PalomarPreflightSolution.stdout.log",
+      "sha256": "da95d9cc266c54bf8759949e8026aa2af7330809959b22733da0475b4e28255f",
+      "bytes": 66
+    },
+    {
+      "path": "attempt-1/export-PalomarPreflightWrong.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-1/export-PalomarPreflightWrong.stdout.log",
+      "sha256": "d3adcb5110d25aed5fe3999cfefaff9a2f90c285dff1168f22496bc4b7b66719",
+      "bytes": 63
+    },
+    {
+      "path": "attempt-1/exports/PalomarPreflightChallenge.export",
+      "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+      "bytes": 1014208
+    },
+    {
+      "path": "attempt-1/exports/PalomarPreflightIllTyped.export",
+      "sha256": "ba2aa93b3a344a8babf690e97c62b92385d51669ebb47c84e60a2904a43c292e",
+      "bytes": 1014253
+    },
+    {
+      "path": "attempt-1/exports/PalomarPreflightIllegalAxiom.export",
+      "sha256": "654e9c8151864fa7ca508a67914209300cdf804e1b80df19431f11185c0fd605",
+      "bytes": 1014384
+    },
+    {
+      "path": "attempt-1/exports/PalomarPreflightSolution.export",
+      "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+      "bytes": 1014208
+    },
+    {
+      "path": "attempt-1/exports/PalomarPreflightWrong.export",
+      "sha256": "350b23212a8fddf95e2d5bcbf091a65ccdf520bde16237edb351962921be42bd",
+      "bytes": 1014379
+    },
+    {
+      "path": "attempt-1/judge-PalomarPreflightSolution.stderr.log",
+      "sha256": "4b03acd275d5f95316f72deaed20f37ce67df78df9f918e683b0812204906953",
+      "bytes": 144
+    },
+    {
+      "path": "attempt-1/judge-PalomarPreflightSolution.stdout.log",
+      "sha256": "727056f9cd97e0f4931bb0dd1c85fd5f2a9af9b3dadc9d9dbc80e1db453beddc",
+      "bytes": 152
+    },
+    {
+      "path": "attempt-1/result.json",
+      "sha256": "9e1e3c5a6249c3207ff0bc0d81cf3e6e5745ae155539275c4827c0c120dbe86d",
+      "bytes": 27535
+    },
+    {
+      "path": "attempt-2/compile-PalomarPreflightChallenge.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/compile-PalomarPreflightChallenge.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/compile-PalomarPreflightIllegalAxiom.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/compile-PalomarPreflightIllegalAxiom.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/compile-PalomarPreflightSolution.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/compile-PalomarPreflightSolution.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/compile-PalomarPreflightWrong.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/compile-PalomarPreflightWrong.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/driver.log",
+      "sha256": "e255e5595c95f756100394ef0f5e6eb57a160bc3c0d8ad3d19caf348a45de38b",
+      "bytes": 1590
+    },
+    {
+      "path": "attempt-2/export-PalomarPreflightChallenge.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/export-PalomarPreflightIllegalAxiom.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/export-PalomarPreflightSolution.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/export-PalomarPreflightWrong.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/exports/PalomarPreflightChallenge.export",
+      "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+      "bytes": 1014208
+    },
+    {
+      "path": "attempt-2/exports/PalomarPreflightIllTyped.export",
+      "sha256": "ba2aa93b3a344a8babf690e97c62b92385d51669ebb47c84e60a2904a43c292e",
+      "bytes": 1014253
+    },
+    {
+      "path": "attempt-2/exports/PalomarPreflightIllegalAxiom.export",
+      "sha256": "654e9c8151864fa7ca508a67914209300cdf804e1b80df19431f11185c0fd605",
+      "bytes": 1014384
+    },
+    {
+      "path": "attempt-2/exports/PalomarPreflightSolution.export",
+      "sha256": "52873e4378a50d065fd4e434fdc2594367b12e35d171bca7ce21257f0cd251da",
+      "bytes": 1014208
+    },
+    {
+      "path": "attempt-2/exports/PalomarPreflightWrong.export",
+      "sha256": "350b23212a8fddf95e2d5bcbf091a65ccdf520bde16237edb351962921be42bd",
+      "bytes": 1014379
+    },
+    {
+      "path": "attempt-2/judge-PalomarPreflightIllTyped.stderr.log",
+      "sha256": "329ee2cba6a0323cd77c74441bc9ac2faccea424a6cb3160804b444afbd23b6b",
+      "bytes": 318
+    },
+    {
+      "path": "attempt-2/judge-PalomarPreflightIllTyped.stdout.log",
+      "sha256": "727056f9cd97e0f4931bb0dd1c85fd5f2a9af9b3dadc9d9dbc80e1db453beddc",
+      "bytes": 152
+    },
+    {
+      "path": "attempt-2/judge-PalomarPreflightIllegalAxiom.stderr.log",
+      "sha256": "37daba6aec3dc184ffbbcc200a9e7b4fc9cc7626e85999a65262f107252086cf",
+      "bytes": 51
+    },
+    {
+      "path": "attempt-2/judge-PalomarPreflightIllegalAxiom.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/judge-PalomarPreflightSolution.stderr.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/judge-PalomarPreflightSolution.stdout.log",
+      "sha256": "5b304adfe00c8107856812ee5184f11fcb2582fe7931ce1f2038375a4cce8171",
+      "bytes": 173
+    },
+    {
+      "path": "attempt-2/judge-PalomarPreflightWrong.stderr.log",
+      "sha256": "9332afe16de68f0b2c8f1c793ee4c3f6c61a96819095e44337b94e2a0e1346f0",
+      "bytes": 82
+    },
+    {
+      "path": "attempt-2/judge-PalomarPreflightWrong.stdout.log",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0
+    },
+    {
+      "path": "attempt-2/result.json",
+      "sha256": "6d2685d383f72928df3677b2ce22d61a7b1048d24fd58ec1fc384a3a1539b1b8",
+      "bytes": 37487
+    },
+    {
+      "path": "run-controls.py",
+      "sha256": "29f0e217f4ca2b17b766ed825e27845942a9b9918b118d60ea9ecdb4972d5b05",
+      "bytes": 17153
+    }
+  ]
+}

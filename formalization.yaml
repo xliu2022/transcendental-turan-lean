@@ -1,0 +1,133 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/mathlib-initiative/formalization.yaml/main/schema/formalization.schema.json
+version: "v0.4"
+project:
+  name: "A Three-Graph with Transcendental Turán Density"
+  description: >-
+    A Lean development of the construction of an ordinary finite 3-uniform
+    hypergraph with transcendental Turán density, via a quadrant Green kernel,
+    finite positive rooted obstructions, rational optimization with free root
+    weights, and an ordinary single-graph product transfer. The complete
+    unconditional Lean proof includes an executable finite witness and the
+    ordinary extremal-density limit. The full source build and final
+    transitive axiom audit have passed. Independent statement comparison and
+    the permitted-axiom check passed, and Lean and NanoDa accepted the solution.
+    The selected con-ron replay produced a recognized advisory fuel decline.
+  authors: ["Xizhi Liu"]
+  license: "Apache-2.0"
+  responsible_maintainers: ["Xizhi Liu"]
+classification:
+  arxiv: ["math.CO", "math.LO"]
+  msc2020: ["05C65", "05D05", "03B35"]
+sources:
+  - title: "A Three-Graph with Transcendental Turán Density"
+    type: "manuscript"
+    relationship: "formalizes"
+    note: >-
+      User-supplied LaTeX manuscript dated 18 November 2026. Its author field
+      is blank. See provenance/manuscript.json for the source fingerprint.
+  - title: "TuranUniversality formalization archive"
+    authors: ["Xizhi Liu"]
+    type: "formalization"
+    relationship: "adapts"
+    note: >-
+      Dependency closure reused from the supplied 1.1-1.2-6.2-10.1-10.2 archive;
+      provenance and original licenses are preserved.
+  - title: "Lean formalizations: transcendence of pi"
+    authors: ["Trevor Morris"]
+    type: "formalization"
+    relationship: "adapts"
+    location: "https://github.com/gotrevor/lean-formalizations/tree/bad0e21a37874f09f45072dad6225de55742e6c5"
+    license: "Apache-2.0"
+    note: "Six dependency modules ported to the pinned Lean public module system; see UPSTREAM.json."
+related_formalizations: []
+status:
+  scope: >-
+    Complete Lean proof of the main theorem with an explicit computable finite
+    nonempty ordinary three-graph. Main, the exact source variational identity,
+    ordinary single-graph density transfer, density-limit statement, and regular
+    executable constructor have passed genuine Lake builds. Both source-class
+    inequalities are proved without additional host hypotheses. The six-block-mean
+    source-gain wrapper is also proved. The independent Challenge contains one
+    deliberate target hole and is excluded from proof-development counts.
+    The final all-source replay passed 322 of 322 local Lean modules, including
+    the separately checked Challenge, and the default Lake build completed
+    3941 jobs. The final transitive audit of 13 declarations found only propext,
+    Classical.choice and Quot.sound. An isolated Comparator invocation passed
+    the independent statement and definition comparison and the permitted-axiom
+    check; Lean's default kernel and NanoDa both accepted. Its original strict
+    combined command nevertheless exited 1 because con-ron exited 137 without
+    a diagnostic; that failed invocation is retained. A separately authenticated
+    manifest-selected con-ron replay, using exactly --jobs=2 --verified on the
+    same protected export, exited 3 and was classified by the pinned official
+    classifier as declined/fuel-exhausted at
+    TranscendentalTuran.Optimization.Paper.A_eval_eq. Its positive and ill-typed
+    controls passed. This is not con-ron acceptance. The public Palomar
+    full-preflight workflow has not been run; it requires a public repository
+    and its full 40-character commit SHA. No registry acceptance is claimed.
+  sorry_count: 0
+  sorry_in_definitions: 0
+  axioms: []
+automation:
+  methods:
+    - method: "agent"
+      models: ["GPT-6 Astra Pro"]
+      framework: "ChatGPT"
+      tool_setup: "Parallel proof development, Lean compiler feedback, Mathlib tactics, source and axiom audits."
+      cost:
+        wall_time: "not tracked"
+        spend_usd: "not tracked"
+        hardware: "Linux workspace with pinned Lean and Mathlib"
+      prompting_notes: "Formalize the supplied manuscript completely under Palomar requirements, with Xizhi Liu as author and maintainer."
+  spend_usd: "not tracked"
+  notes: "AI-assisted development under the user's mathematical specification; no independent human review is claimed."
+fidelity:
+  divergences: >-
+    The exact manuscript guard bound uses a coarser previously formalized
+    cubic inequality. Pair extension is implemented for every core pair.
+    The finite lower approximation uses the full finite-box Green vector
+    instead of a finite-walk truncation, with the same limiting corner value.
+    Its rectangular diagonal indexing includes two zero-weight private chains;
+    its exact reservoir error is sent to zero for each fixed box before the
+    box limit. The walk determinant is proved by recurrence, and the Catalan
+    limit uses Mathlib's Wallis theorem. See docs/PROOF_MAP.md for the complete
+    account of these proof adaptations.
+    The same ordinary-graph main statement is proved. The four-resistor proof
+    uses partial-bijection composition inequalities with grounding defects.
+review:
+  status: "Lean proof complete; mandatory kernels accepted; con-ron advisory fuel decline"
+  reviewers: []
+  notes: >-
+    The final main theorem and all project Lean modules were checked by Lean.
+    The final audit covers 13 declarations, including the main theorem,
+    executable constructor, source-class equality and ordinary density limit;
+    each dependency list is exactly propext, Classical.choice and Quot.sound.
+    The build and axiom evidence is in verification/. Metadata is validated
+    with the official Palomar metadata validator pinned in provenance/Palomar.json.
+    The independent comparison, permitted-axiom check, Lean kernel and NanoDa
+    subsequently passed in an isolated invocation. The initial sandbox-setup
+    failure and the strict combined run's con-ron exit 137 remain recorded.
+    The selected con-ron archive and executable matched the official manifest's
+    two hashes. Its separate exact-parameter replay was classified as a
+    recognized fuel-exhausted decline, with the 466-declaration positive control
+    accepted and the ill-typed negative control rejected. Evidence is in
+    verification/con-ron-selected/controls.json, replay.json and
+    download-receipt.json. No con-ron acceptance is claimed. The public Palomar
+    full-preflight workflow and registry review have not been run.
+    No independent human mathematical review.
+alignment:
+  namespace: "TranscendentalTuran"
+  statements:
+    - source: "Main theorem"
+      lean: "TranscendentalTuran.main_result"
+      module: "TranscendentalTuran.Main"
+      status: "proved"
+      note: "Exported through Solution; independent Challenge comparison and permitted-axiom check passed under isolation, and Lean and NanoDa accepted. The separately classified con-ron result is an advisory fuel decline."
+    - source: "Rational optimization and arithmetic reduction"
+      lean: "TranscendentalTuran.Optimization.Paper.six_Ψ_green_transcendental"
+      module: "TranscendentalTuran.Optimization.PaperValue"
+      status: "proved"
+      note: "The exact free-root objective and declaration path were checked in the completed source-fidelity audit."
+acknowledgements: >-
+  Mathlib contributors, the source authors of the TuranUniversality
+  dependency closure and its real-algebraic components, Trevor Morris,
+  and the Palomar template and verification tools.

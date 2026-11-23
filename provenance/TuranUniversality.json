@@ -1,0 +1,363 @@
+{
+  "source_archive": "turan-universality-1.1-1.2-6.2-10.1-10.2-lean.zip",
+  "source_library_id": "libfile_a143ddfc7cb0819180b36477fb1af31d",
+  "authors": [
+    "Xizhi Liu"
+  ],
+  "modifications": "Import-only patches are enumerated in import_patches and turan-imports.patch. All declaration and proof bodies in this dependency closure are byte-identical to the supplied archive.",
+  "seeds": [
+    "TuranUniversality.Hypergraph.LagrangianHom",
+    "TuranUniversality.Density.Extremal",
+    "TuranUniversality.Density.FamilyExtremal",
+    "TuranUniversality.Density.ProductUpper",
+    "TuranUniversality.Density.FamilyLower",
+    "TuranUniversality.Hypergraph.GuardedBasis",
+    "TuranUniversality.Selector.RowPrivacy",
+    "TuranUniversality.Hypergraph.PartialRooting",
+    "TuranUniversality.Density.GuardSplit",
+    "TuranUniversality.Weighted.Model",
+    "TuranUniversality.Weighted.LinkModel",
+    "TuranUniversality.Weighted.Matching",
+    "TuranUniversality.Weighted.TypedLink"
+  ],
+  "files": [
+    {
+      "path": "TuranUniversality/Density/Averages.lean",
+      "sha256": "cd15719fa02245262b0ce5fd8cadbc07bf26978d2202fece19d78cc8d662dc93"
+    },
+    {
+      "path": "TuranUniversality/Density/Box.lean",
+      "sha256": "78272dd5564b3c40a9f371820fcca698862e6040902188bbc5f897c4d3d964e4"
+    },
+    {
+      "path": "TuranUniversality/Density/CliqueBound.lean",
+      "sha256": "2f37c9162f90b4c5d0709ee97131427b25776a0971c0e25fc118ca99cc11c993"
+    },
+    {
+      "path": "TuranUniversality/Density/Cloning.lean",
+      "sha256": "bb189dd607b62ab8d50bf2f0b7ed3faf1464af0fb483440ff4a335a114127afe"
+    },
+    {
+      "path": "TuranUniversality/Density/CompleteWeighted.lean",
+      "sha256": "d184d2a88525776ee3060833d76a185da0e298f9d8076203f0285d446337d662"
+    },
+    {
+      "path": "TuranUniversality/Density/EdgeDensity.lean",
+      "sha256": "08a9fd0cb12cbedf8e66e2022f85ecdfae90329ec8af90030eecc9b288e2aa04"
+    },
+    {
+      "path": "TuranUniversality/Density/Extremal.lean",
+      "sha256": "cde05e657541b66e6cad7b9475f473a2f3921a15dce1fa8e8b696f21b451cf12"
+    },
+    {
+      "path": "TuranUniversality/Density/FamilyBasic.lean",
+      "sha256": "b474d652713e4e0f052bf2b320530a1c122dfd8d4efa80dc1fdd4e9ea5af29c5"
+    },
+    {
+      "path": "TuranUniversality/Density/FamilyExtremal.lean",
+      "sha256": "3d5c19d44b31af5dd64e9a4bbe030df3b41518c7bff1f4560b9b2ab62e4f7834"
+    },
+    {
+      "path": "TuranUniversality/Density/FamilyLower.lean",
+      "sha256": "a32e84406fbf31f02e03a5466755b47bd6a482ab0426d9666164fc3cb262b13f"
+    },
+    {
+      "path": "TuranUniversality/Density/GuardSplit.lean",
+      "sha256": "742c5c85341d9842f830ec9cabebf08f2a171cd5183d58560c80011d6f745c18"
+    },
+    {
+      "path": "TuranUniversality/Density/HomDensity.lean",
+      "sha256": "8afb4d8349915668bc56d4a8df6c8c1e1d6f907705f886e420e5c7d7cf111ace"
+    },
+    {
+      "path": "TuranUniversality/Density/ProductUpper.lean",
+      "sha256": "09033ea7bfd8f9370baf7d7a1860d23c521517f125c4f8637104d9af86f7e60a"
+    },
+    {
+      "path": "TuranUniversality/Density/SampleMoments.lean",
+      "sha256": "dc29982b5386d9b0eb11baaa0e86e5c2d153dada20aaf5501d806094f9c9586b"
+    },
+    {
+      "path": "TuranUniversality/Density/Sampling.lean",
+      "sha256": "134698b5d558fc8cade1bce86de76ea1fb44dd61cc2c03de9c4f0b71efe04050"
+    },
+    {
+      "path": "TuranUniversality/Density/UpperBridge.lean",
+      "sha256": "07b480ec993a4980264848c65b14d9a17348dbcb5fc53f45320f17d5fe8d6027"
+    },
+    {
+      "path": "TuranUniversality/Density/WeightedHom.lean",
+      "sha256": "99003daa5ba755fc688f56ac31785c1462b4e3f39aa56f6d90633f5283bd10b4"
+    },
+    {
+      "path": "TuranUniversality/Density/WeightedHomPushforward.lean",
+      "sha256": "56399304b46bd229ac6d9a2dedee427346978f9b5a99c8b9f02c59c43c6f3668"
+    },
+    {
+      "path": "TuranUniversality/Density/WeightedSampling.lean",
+      "sha256": "45018bcfddcd0d32e6f0f07c74c29d22c4c16970c31884ae199a1e307dd37a6d"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Basic.lean",
+      "sha256": "8d1018086ca2ec6f1815ed6b8c3bc2889da8d73bf709de4a321605b6e81b218f"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Blowup.lean",
+      "sha256": "099935f1f4dea2ef57d84236982464e4e0a17c54492e476b8d92237120ab65b2"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/BoundedSearch.lean",
+      "sha256": "b28d76155202697fa7b91f7a99323e4c92ca574c32f0aba805a76abd66a6ab66"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Clique.lean",
+      "sha256": "9285162f840fd7a51b3593a8de9768148919282f7f1969e1c550cfd1b96edb2a"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Compression.lean",
+      "sha256": "4c5ab54eb3108210641727ca2a897e6f86afc92cba16677dce64f42ced96b88c"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Extension.lean",
+      "sha256": "bed89ea2eabe2f4054916fc295c86ff3a26c8c0eef4fdc03b20eb48506c39324"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/FiniteBasis.lean",
+      "sha256": "8994bcd9ac9b9ea28cd9cf8625d06906fa20f2462cd678da2986dfae62486b49"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Guard.lean",
+      "sha256": "70d514f60758b052a6dfa7df8d4aa491189f3efc437753eb14ebbc0ebc35052e"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/GuardedBasis.lean",
+      "sha256": "872b35f4ad693419df55b4f812dc494dc5f62810b0f8b29a6d5aa3eeeb565639"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Hom.lean",
+      "sha256": "370097d3bac35a4b22d582892dc1c9e3826ffd1345136d83b9b5ad10831d51a2"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Labeled.lean",
+      "sha256": "cb7930a11012719535670427db09056d07919cd6e9bbd5491c99e5ba0cdd1f58"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Lagrangian.lean",
+      "sha256": "4a750ef07b1bfcb3a6ab0fdd526552a55f8940ed0410210eedcb43361e45fe10"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/LagrangianHom.lean",
+      "sha256": "7430d1cdd14674aa2e05f544bbf953a642d7c5c0b70d2b387151bf31d91e8217"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/PartialRooting.lean",
+      "sha256": "f08b0cfb0538eba68bd26b3403604852b3cbd52b5585fff19a861f9835b07b7c"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Polynomial.lean",
+      "sha256": "8869ba4b4b9ab45c333304dbc24f95898888ee23b96c1573b06c06f2580d47ac"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Product.lean",
+      "sha256": "66135c8d5f14e45cc536df5d5869ed04f11e02a8283c2f05bb78ea408c0f3074"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/ProductTransfer.lean",
+      "sha256": "0c06b7c7e5a04eeccf9550b2c1bcf1e399712b97f86aaaf2589311ad42b3b085"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Relabel.lean",
+      "sha256": "bbf53aa842e8271cb0775cfff1af6a2fe669da3ee3d4324479d1ca2ef8451434"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Restriction.lean",
+      "sha256": "badd46aae4f6cd2109003559af759b5f5486be505049753ee6d9e187d8760167"
+    },
+    {
+      "path": "TuranUniversality/Hypergraph/Rooting.lean",
+      "sha256": "246e379d4221341ecfc0b8c73af47cfcce90b1245d6d0df291bb907a6cd3e8ba"
+    },
+    {
+      "path": "TuranUniversality/Selector/BadLines.lean",
+      "sha256": "d5587b5732fa61596146e97489a5fd341e7bb7fa6dd5e487862df77bf1df894f"
+    },
+    {
+      "path": "TuranUniversality/Selector/BlockSampling.lean",
+      "sha256": "e57b3837f92eb0152dbbbabdfaa27089f7e8d8a0c6e0c37c2c00fe67a08a1eee"
+    },
+    {
+      "path": "TuranUniversality/Selector/CompatibleProfiles.lean",
+      "sha256": "b4004b9965e2a43042a5d3b1f944b61f0e39014a2929bcb2872a1e8dc272ed56"
+    },
+    {
+      "path": "TuranUniversality/Selector/CoordinateSections.lean",
+      "sha256": "d5c858b766d9cb7d2bac802412ec265b5fbc0c3c470977e8a3ef038a314df02c"
+    },
+    {
+      "path": "TuranUniversality/Selector/CrossIntersecting.lean",
+      "sha256": "9d45bd47fd19ec05a0bd20275ab423bed46bbc8c011a1f47cfd019bf2b10344a"
+    },
+    {
+      "path": "TuranUniversality/Selector/CylinderSelector.lean",
+      "sha256": "0296a08cde4ef94ed904002ccb4611ae1cc3dfb9773fc3da63b79d4af8bb0559"
+    },
+    {
+      "path": "TuranUniversality/Selector/DirectionSwitch.lean",
+      "sha256": "b15e58b917376b370dbe40a104545e332a4f81df9b8167644c9b590a24ca78f8"
+    },
+    {
+      "path": "TuranUniversality/Selector/FiniteAverages.lean",
+      "sha256": "06c3118c38cd37ba801394f6df25164cdd7a31ca8c05abc4976964bbe2484ba6"
+    },
+    {
+      "path": "TuranUniversality/Selector/FirstProjection.lean",
+      "sha256": "0211bb5f12563575e4b95306816721b0fb6973d92352358a717ffceb6f612102"
+    },
+    {
+      "path": "TuranUniversality/Selector/FunctionSlice.lean",
+      "sha256": "f1dd29218604f7a68fc7581d63e8552c2bb8f2eb83ca53420ed3befddcd83b6f"
+    },
+    {
+      "path": "TuranUniversality/Selector/GuardBlocks.lean",
+      "sha256": "3038dca33a476355cd0bc6235776ce787151c61f5defff7a9d543bf24d3800c7"
+    },
+    {
+      "path": "TuranUniversality/Selector/GuardDensity.lean",
+      "sha256": "00cfb7e27e64e4b6d80b0e435e382e4cb83a57a8f18efd8d3bdad03cef43351e"
+    },
+    {
+      "path": "TuranUniversality/Selector/GuardSelection.lean",
+      "sha256": "8e65a986ac0581c8e937e67173da46c818387086422423a763cdf256e87635f2"
+    },
+    {
+      "path": "TuranUniversality/Selector/LargeSection.lean",
+      "sha256": "f9ce114d10ab679d8544073c8a5edc3d2da8aa75323c8b982d08a1a5b3638bc1"
+    },
+    {
+      "path": "TuranUniversality/Selector/ProductMixing.lean",
+      "sha256": "1f3585446237efa78bff44e772b1522e1c2c54be17d246e3fc5a893c8109ceb0"
+    },
+    {
+      "path": "TuranUniversality/Selector/ProjectionMoments.lean",
+      "sha256": "da35f8801fba1fb56377851301da13564a7aced892981b7943960461945553f6"
+    },
+    {
+      "path": "TuranUniversality/Selector/RowPrivacy.lean",
+      "sha256": "7ce30cfa416e2d4ab0262bf4fa3878c7d4fa6fd24a7462f4afce84d774f2824e"
+    },
+    {
+      "path": "TuranUniversality/Selector/SliceNumerics.lean",
+      "sha256": "2735318b52c3e8c1779ba98ecd7a51bf00d2a39b4353bf5093aac33cab223426"
+    },
+    {
+      "path": "TuranUniversality/Selector/SpectralSlice.lean",
+      "sha256": "039dc11abbce516e47c2a83b5516aa94cfc41b60ac45314785262bd4223e60c2"
+    },
+    {
+      "path": "TuranUniversality/Selector/TransversalRigidity.lean",
+      "sha256": "924576309b60701d8dafe9bec12171ecc503373523a4f6ae6e67f5b16f4725c6"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Ambiguity.lean",
+      "sha256": "1073320da84051f162129ce646ffe4ad7503b33b99e8350dcdc76716f1b31d39"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Baseline.lean",
+      "sha256": "a08e9cf7f16d8386585bccf78b0fb6841ffb4d39775c878587f11f22ee9af40f",
+      "upstream_sha256": "dedcec50173159feed57ef14dc9c15b3b153dd56b65bebf5e798b5f4107e722a",
+      "change": "Targeted imports only"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Coarse.lean",
+      "sha256": "c5124d4c94d914d756946999b1c9b44ecae9cb5c14548e1426cceee1d64644ae"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Codes.lean",
+      "sha256": "1cbbe264d9fc93e9e98706bc27ebebd2ca99d7aac3de9a270511ce585d9aee5d"
+    },
+    {
+      "path": "TuranUniversality/Weighted/DeclaredTypes.lean",
+      "sha256": "8f6b1466a68497501f568dd38204b94fd29aea1a0963917f801709f438e69f52"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Grounded.lean",
+      "sha256": "e911f93743b42665faf9da85404a9bfe21a4899e518579c7f54f0347d63618ea",
+      "upstream_sha256": "e17c7faf89bd3117d6084113e6487b4fcf1206a5ba61bc2395ac10bcf8c0fc51",
+      "change": "Targeted imports only"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Incidence.lean",
+      "sha256": "966285c2c63b9e45d0dd7722190cbf3351769156dd2c6af71581b0388d336932"
+    },
+    {
+      "path": "TuranUniversality/Weighted/LinkModel.lean",
+      "sha256": "9d87dd72b4ec99b4ed943b8d4bb62aa9484d0f33a4972eaa573e575a8c456045"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Marker.lean",
+      "sha256": "76f9e6d06b769fc8d5d2ca705634f40038b6963dd09b4361a147e3fe24a2bb35"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Matching.lean",
+      "sha256": "31fde64dffb8d3074f453e92520fd380f2f65c3907b010f6f20a9d8ce6403757"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Model.lean",
+      "sha256": "d5ba16b4fe3ac7d19aace56efa1bc2b0f1dcac53e3d4bcd615d43256e07a9b4f"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Pairing.lean",
+      "sha256": "0fb8ace1d691db2a6e3b8d2cc4f53fbfd674db3cd1e7fef6f4e5d4499ca11632",
+      "upstream_sha256": "6bbab4340d09e5e8bdb49b6d9dfde4eb0a937479291a6b1d358c59b4d2c99f4c",
+      "change": "Targeted imports only"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Symmetric.lean",
+      "sha256": "00c3ae1779bd237ae197e45fc5bfe90ddbd329aeb213291bed846a77e77cad89",
+      "upstream_sha256": "9a98477c9c28e18f53ae61fd1a7bbd8412b281e35e5799c1f1671db8d48fdee3",
+      "change": "Targeted imports only"
+    },
+    {
+      "path": "TuranUniversality/Weighted/TypedLink.lean",
+      "sha256": "202d5d983dcac50f779a463601ed83c9faec53540cff30dd63556c3236cd2973",
+      "upstream_sha256": "1c4249f5360426fc9eea9bfe7b0895a14a5b6d5368eabe1f2e8660a71515a345",
+      "change": "Targeted imports only"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Types.lean",
+      "sha256": "ab59fcfca5847c4ea3d508f1ba2adf6fff6cd528c9873739ecd532146c041787"
+    }
+  ],
+  "import_patches": [
+    {
+      "path": "TuranUniversality/Weighted/Baseline.lean",
+      "upstream_sha256": "dedcec50173159feed57ef14dc9c15b3b153dd56b65bebf5e798b5f4107e722a",
+      "sha256": "a08e9cf7f16d8386585bccf78b0fb6841ffb4d39775c878587f11f22ee9af40f",
+      "change": "Targeted imports only"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Grounded.lean",
+      "upstream_sha256": "e17c7faf89bd3117d6084113e6487b4fcf1206a5ba61bc2395ac10bcf8c0fc51",
+      "sha256": "e911f93743b42665faf9da85404a9bfe21a4899e518579c7f54f0347d63618ea",
+      "change": "Targeted imports only"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Pairing.lean",
+      "upstream_sha256": "6bbab4340d09e5e8bdb49b6d9dfde4eb0a937479291a6b1d358c59b4d2c99f4c",
+      "sha256": "0fb8ace1d691db2a6e3b8d2cc4f53fbfd674db3cd1e7fef6f4e5d4499ca11632",
+      "change": "Targeted imports only"
+    },
+    {
+      "path": "TuranUniversality/Weighted/Symmetric.lean",
+      "upstream_sha256": "9a98477c9c28e18f53ae61fd1a7bbd8412b281e35e5799c1f1671db8d48fdee3",
+      "sha256": "00c3ae1779bd237ae197e45fc5bfe90ddbd329aeb213291bed846a77e77cad89",
+      "change": "Targeted imports only"
+    },
+    {
+      "path": "TuranUniversality/Weighted/TypedLink.lean",
+      "upstream_sha256": "1c4249f5360426fc9eea9bfe7b0895a14a5b6d5368eabe1f2e8660a71515a345",
+      "sha256": "202d5d983dcac50f779a463601ed83c9faec53540cff30dd63556c3236cd2973",
+      "change": "Targeted imports only"
+    }
+  ]
+}

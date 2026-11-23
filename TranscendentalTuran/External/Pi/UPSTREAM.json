@@ -1,0 +1,80 @@
+{
+  "repository": "https://github.com/gotrevor/lean-formalizations",
+  "commit": "bad0e21a37874f09f45072dad6225de55742e6c5",
+  "license": "Apache-2.0",
+  "authors": [
+    "Trevor Morris"
+  ],
+  "files": [
+    {
+      "name": "PiTranscendental",
+      "source": "https://raw.githubusercontent.com/gotrevor/lean-formalizations/bad0e21a37874f09f45072dad6225de55742e6c5/src/LeanFormalizations/NumberTheory/Transcendence/PiTranscendental.lean",
+      "upstream_sha256": "0c88c5db882ba4a3d8a864e6289016d67276f393a1d294a1ad3796f43aad27ce",
+      "local_sha256": "69d692f9a8cbd8760f9fa0611d38b9b21415e8554fd66a0fbf1f51045fa78775",
+      "changes": [
+        "Relocated local imports to TranscendentalTuran.External.Pi.",
+        "Added module/public import/@[expose] public section for the pinned Lean 4.35 module system."
+      ]
+    },
+    {
+      "name": "MonicRootSums",
+      "source": "https://raw.githubusercontent.com/gotrevor/lean-formalizations/bad0e21a37874f09f45072dad6225de55742e6c5/src/LeanFormalizations/NumberTheory/Transcendence/MonicRootSums.lean",
+      "upstream_sha256": "cc7690bebce51652ed0b85d03bd092c21cf6c63a468c3513f4edf3f4a8d5a7c3",
+      "local_sha256": "156348b372551d236112fb5b85636cc668408a24e586bb3c1cfe66b88459cd46",
+      "changes": [
+        "Relocated local imports to TranscendentalTuran.External.Pi.",
+        "Added module/public import/@[expose] public section for the pinned Lean 4.35 module system.",
+        "Replaced deprecated Complex.isIntegral_rat_I with the generalized API Complex.isIntegral_I \u211a.",
+        "Replaced broad Mathlib import by targeted imports; all declaration and proof bodies unchanged from the preceding port."
+      ],
+      "before_import_narrowing_sha256": "ad0cfc8844faaa6912a904219031b5faa6af4990e260983ae7dc6c2adc61a50b"
+    },
+    {
+      "name": "SubsetSumEsymm",
+      "source": "https://raw.githubusercontent.com/gotrevor/lean-formalizations/bad0e21a37874f09f45072dad6225de55742e6c5/src/LeanFormalizations/NumberTheory/Transcendence/SubsetSumEsymm.lean",
+      "upstream_sha256": "b5d561b0c355dd596750c35598c3987cdc8932bcdd91e9134e558522520d4896",
+      "local_sha256": "fe561fab7ea4df6d76cf26757194fa0bc3a6fad8c0ab624eed001807de0b728e",
+      "changes": [
+        "Relocated local imports to TranscendentalTuran.External.Pi.",
+        "Added module/public import/@[expose] public section for the pinned Lean 4.35 module system.",
+        "Added explicit Multiset.powersetCard_zero_right to one simp proof.",
+        "Replaced broad Mathlib import by targeted imports; all declaration and proof bodies unchanged from the preceding port."
+      ],
+      "before_import_narrowing_sha256": "f955a41e26b3d78622937b9c57f8747b3b713009dbadb77a3d171b7db144084c"
+    },
+    {
+      "name": "PiLindemann",
+      "source": "https://raw.githubusercontent.com/gotrevor/lean-formalizations/bad0e21a37874f09f45072dad6225de55742e6c5/src/LeanFormalizations/NumberTheory/Transcendence/PiLindemann.lean",
+      "upstream_sha256": "c0066d60152885c1c98ee974ca0475ee3b5d84a16a5531a7834ecee53c9fbd7b",
+      "local_sha256": "6c7cfbf9e0775b237c72a73ec6d8d7f2144e1e7333c623698d48025708febfd8",
+      "changes": [
+        "Relocated local imports to TranscendentalTuran.External.Pi.",
+        "Added module/public import/@[expose] public section for the pinned Lean 4.35 module system."
+      ]
+    },
+    {
+      "name": "HermiteLindemann",
+      "source": "https://raw.githubusercontent.com/gotrevor/lean-formalizations/bad0e21a37874f09f45072dad6225de55742e6c5/src/LeanFormalizations/NumberTheory/Transcendence/HermiteLindemann.lean",
+      "upstream_sha256": "c51766c2f4ec73c8f64c4167865f917c9de7c5142cdb0e22a03a42978914946a",
+      "local_sha256": "8bed07a5f389fc4fec75e321a108ca6b0f7ea09f4971d3ab61e372d17a4bf728",
+      "changes": [
+        "Relocated local imports to TranscendentalTuran.External.Pi.",
+        "Added module/public import/@[expose] public section for the pinned Lean 4.35 module system."
+      ]
+    },
+    {
+      "name": "ETranscendental",
+      "source": "https://raw.githubusercontent.com/gotrevor/lean-formalizations/bad0e21a37874f09f45072dad6225de55742e6c5/src/LeanFormalizations/NumberTheory/Transcendence/ETranscendental.lean",
+      "upstream_sha256": "e785bfde97d2a7c4f3cf856ddd1086247d59bdae257f957fbc0fbf08a11d6958",
+      "local_sha256": "e1cb01a0577191e29a41edbee742606728d18003cc1e798726619bd99e5f922d",
+      "changes": [
+        "Relocated local imports to TranscendentalTuran.External.Pi.",
+        "Added module/public import/@[expose] public section for the pinned Lean 4.35 module system.",
+        "Added explicit Mathlib.Data.Nat.Prime.Int import for Nat.prime_iff_prime_int."
+      ]
+    }
+  ],
+  "checked_lean": "leanprover/lean4:v4.35.0-rc2",
+  "checked_mathlib_commit": "065356127b1dc0016f66b7283ce0ce2c4055aa55",
+  "module_elaboration": "All six modules passed genuine Lake builds under the pinned project environment; the narrowed two modules and PiTranscendental were rebuilt successfully."
+}

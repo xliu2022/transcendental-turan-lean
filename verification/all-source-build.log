@@ -1,0 +1,646 @@
+Checking 322 local modules with at most 2 Lake builds
+START Challenge
+START TranscendentalTuran.Algebra.Legacy.Univariate
+PASSED Challenge (2.4s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.Mathlib.Algebra.Polynomial.FieldDivision
+PASSED TranscendentalTuran.Algebra.Legacy.Univariate (2.5s)
+START TranscendentalTuran.Algebra.Legacy.RationalSemialgebraic
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.Mathlib.Algebra.Polynomial.FieldDivision (1.7s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.Mathlib.Algebra.Polynomial.Sturm.Sequence
+PASSED TranscendentalTuran.Algebra.Legacy.RationalSemialgebraic (1.7s)
+START TranscendentalTuran.Algebra.Legacy.PiecewiseRational
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.Mathlib.Algebra.Polynomial.Sturm.Sequence (1.2s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.BigOperators.Finset.Filter
+PASSED TranscendentalTuran.Algebra.Legacy.PiecewiseRational (1.5s)
+START TranscendentalTuran.Algebra.Legacy.RationalPolynomialFamilies
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.BigOperators.Finset.Filter (0.8s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Order.Ring.Ordering.Extension
+PASSED TranscendentalTuran.Algebra.Legacy.RationalPolynomialFamilies (1.5s)
+START TranscendentalTuran.Algebra.Legacy.RationalRemainder
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Order.Ring.Ordering.Extension (1.2s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Order.Ring.Ordering.Semireal
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Order.Ring.Ordering.Semireal (1.2s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Coeff.Basic
+PASSED TranscendentalTuran.Algebra.Legacy.RationalRemainder (1.6s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Eval.Infinity
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Coeff.Basic (1.4s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Eval.Sign
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Eval.Infinity (1.5s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.LinearFactor
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Eval.Sign (1.1s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.OfFn
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.LinearFactor (1.3s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Rolle
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.OfFn (1.5s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Sequence
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Rolle (1.3s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Thom
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Sequence (1.0s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.QuadraticDiscriminant
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Thom (1.3s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Eval.OneSided
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.QuadraticDiscriminant (1.2s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.QuadraticDiscriminant
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Eval.OneSided (1.1s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.Finset.Jumps
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.Finset.Jumps (1.1s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.Fintype.Fiber
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.QuadraticDiscriminant (2.0s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.RealClosed.Quadratic
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.Fintype.Fiber (1.0s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.List.PermanencesMinusVariations
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.RealClosed.Quadratic (1.7s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.List.Range
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.List.PermanencesMinusVariations (1.2s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.List.SignVariations
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.List.Range (0.8s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.Matrix.OccCount
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.List.SignVariations (0.9s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.Nat.Choose.Basic
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.Matrix.OccCount (1.1s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.SignType.Lagrange
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.Nat.Choose.Basic (1.2s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.SignType.Parity
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.SignType.Lagrange (1.0s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.IsRealClosed.Real
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Data.SignType.Parity (1.0s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.Complexification
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.IsRealClosed.Real (1.3s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.FiniteExtension
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.Complexification (1.4s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Geometry.RealAlgebraic.SignDetermination.Defs
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.FiniteExtension (1.3s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.Galois
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Geometry.RealAlgebraic.SignDetermination.Defs (1.1s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Geometry.RealAlgebraic.SignDetermination.Moments
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Geometry.RealAlgebraic.SignDetermination.Moments (1.5s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Geometry.RealAlgebraic.SignDetermination.Polynomial
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.Galois (1.7s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.AlgebraicClosed
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Geometry.RealAlgebraic.SignDetermination.Polynomial (1.2s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Geometry.RealAlgebraic.SignDetermination.Roots
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.AlgebraicClosed (1.4s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.IVT
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Geometry.RealAlgebraic.SignDetermination.Roots (1.5s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.GroupTheory.Perm.Inversion
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.IVT (1.7s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.RealClosed.Sign
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.GroupTheory.Perm.Inversion (1.3s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.AbstractRolle
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.RealClosed.Sign (2.0s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.CauchyIndex.Basic
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.FieldTheory.RealClosure.AbstractRolle (1.5s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.RealClosed.Sampling
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.CauchyIndex.Basic (1.9s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Signs
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.RealClosed.Sampling (2.1s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Geometry.RealAlgebraic.SignDetermination.WholeLine
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Signs (1.7s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Local
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Geometry.RealAlgebraic.SignDetermination.WholeLine (1.8s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Variation
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Local (1.8s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.SignedRemainders
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Variation (2.1s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Sum
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.SignedRemainders (1.9s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.LinearAlgebra.Matrix.Congruence
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Sum (2.0s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Tarski
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.LinearAlgebra.Matrix.Congruence (1.5s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.LinearAlgebra.Matrix.CornerMinor
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Tarski (1.7s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.OneSided
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.LinearAlgebra.Matrix.CornerMinor (2.1s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Reductum
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Reductum (1.5s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.Basic
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.OneSided (2.7s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Infinity
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.Basic (2.2s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.Polynomial
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.Infinity (2.7s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.CauchyIndex.Sequence
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.Polynomial (1.9s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.DegreeDrop.Basic
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.Algebra.Polynomial.Sturm.CauchyIndex.Sequence (2.4s)
+START TranscendentalTuran.Algebra.Legacy.WholeLineSigns
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.DegreeDrop.Basic (1.7s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.Signed
+PASSED TranscendentalTuran.Algebra.Legacy.WholeLineSigns (2.0s)
+START TranscendentalTuran.Construction.IncidentPairs
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.Signed (1.6s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.Euclidean
+PASSED TranscendentalTuran.Construction.IncidentPairs (1.6s)
+START TranscendentalTuran.Construction.Parameters
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.Euclidean (2.1s)
+START TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.CauchyIndex
+PASSED TranscendentalTuran.Construction.Parameters (1.0s)
+START TranscendentalTuran.Encoding.RootPairs
+PASSED TranscendentalTuran.Encoding.RootPairs (1.5s)
+START TranscendentalTuran.External.Pi.ETranscendental
+PASSED TranscendentalTuran.Algebra.Legacy.Upstream.TauCeti.RingTheory.Polynomial.Subresultant.CauchyIndex (2.2s)
+START TranscendentalTuran.Algebra.Legacy.ParameterizedTarski
+PASSED TranscendentalTuran.External.Pi.ETranscendental (2.2s)
+START TranscendentalTuran.External.Pi.HermiteLindemann
+PASSED TranscendentalTuran.Algebra.Legacy.ParameterizedTarski (2.3s)
+START TranscendentalTuran.Algebra.Legacy.ParameterizedRoots
+PASSED TranscendentalTuran.External.Pi.HermiteLindemann (1.6s)
+START TranscendentalTuran.External.Pi.PiLindemann
+PASSED TranscendentalTuran.Algebra.Legacy.ParameterizedRoots (1.8s)
+START TranscendentalTuran.Algebra.Legacy.RationalProjection
+PASSED TranscendentalTuran.External.Pi.PiLindemann (1.9s)
+START TranscendentalTuran.External.Pi.MonicRootSums
+PASSED TranscendentalTuran.Algebra.Legacy.RationalProjection (2.0s)
+START TranscendentalTuran.Algebra.Legacy.RationalQuantifiers
+PASSED TranscendentalTuran.External.Pi.MonicRootSums (3.2s)
+START TranscendentalTuran.External.Pi.SubsetSumEsymm
+PASSED TranscendentalTuran.Algebra.Legacy.RationalQuantifiers (3.0s)
+START TranscendentalTuran.Algebra.Legacy.RationalConsequences
+PASSED TranscendentalTuran.External.Pi.SubsetSumEsymm (2.9s)
+START TranscendentalTuran.External.Pi.PiTranscendental
+PASSED TranscendentalTuran.Algebra.Legacy.RationalConsequences (2.7s)
+START TranscendentalTuran.Algebra.Legacy.RationalOptimization
+PASSED TranscendentalTuran.External.Pi.PiTranscendental (2.4s)
+START TranscendentalTuran.Green.CatalanSeries
+PASSED TranscendentalTuran.Algebra.Legacy.RationalOptimization (2.3s)
+START TranscendentalTuran.Algebra.AlgebraicParameter
+PASSED TranscendentalTuran.Green.CatalanSeries (3.1s)
+START TranscendentalTuran.Green.Constants
+PASSED TranscendentalTuran.Algebra.AlgebraicParameter (3.2s)
+START TranscendentalTuran.Algebra.RationalMinimum
+PASSED TranscendentalTuran.Green.Constants (3.1s)
+START TranscendentalTuran.Green.Realization.PartialInverse
+PASSED TranscendentalTuran.Algebra.RationalMinimum (3.0s)
+START TranscendentalTuran.Green.ScalarGain
+PASSED TranscendentalTuran.Green.Realization.PartialInverse (1.2s)
+START TranscendentalTuran.Green.Realization.PushWeight
+PASSED TranscendentalTuran.Green.ScalarGain (1.2s)
+START TranscendentalTuran.Green.Walks.Kernel
+PASSED TranscendentalTuran.Green.Realization.PushWeight (1.9s)
+START TranscendentalTuran.Network.ParentDepth
+PASSED TranscendentalTuran.Green.Walks.Kernel (1.8s)
+START TranscendentalTuran.Green.FiniteNetwork.BoxGeometry
+PASSED TranscendentalTuran.Network.ParentDepth (0.8s)
+START TranscendentalTuran.Green.Occupation
+PASSED TranscendentalTuran.Green.FiniteNetwork.BoxGeometry (1.0s)
+START TranscendentalTuran.Green.Walks.Determinant
+PASSED TranscendentalTuran.Green.Occupation (1.6s)
+START TranscendentalTuran.Green.FiniteNetwork.Basic
+PASSED TranscendentalTuran.Green.Walks.Determinant (1.5s)
+START TranscendentalTuran.Green.Walks.GraphBridge
+PASSED TranscendentalTuran.Green.FiniteNetwork.Basic (1.4s)
+START TranscendentalTuran.Green.FiniteNetwork.Kernel
+PASSED TranscendentalTuran.Green.Walks.GraphBridge (1.2s)
+START TranscendentalTuran.Green.Walks.HalfLineCatalan
+PASSED TranscendentalTuran.Green.Walks.HalfLineCatalan (1.4s)
+START TranscendentalTuran.Green.Walks.HalfLineRecurrence
+PASSED TranscendentalTuran.Green.FiniteNetwork.Kernel (1.5s)
+START TranscendentalTuran.Green.Walks.KernelBounds
+PASSED TranscendentalTuran.Green.Walks.HalfLineRecurrence (1.2s)
+START TranscendentalTuran.Green.Walks.CornerCounts
+PASSED TranscendentalTuran.Green.Walks.KernelBounds (1.0s)
+START TranscendentalTuran.Green.FiniteNetwork.Box
+PASSED TranscendentalTuran.Green.Walks.CornerCounts (1.3s)
+START TranscendentalTuran.Green.CornerEvaluation
+PASSED TranscendentalTuran.Green.FiniteNetwork.Box (1.5s)
+START TranscendentalTuran.Network.PartialIso
+PASSED TranscendentalTuran.Network.PartialIso (1.9s)
+START TranscendentalTuran.Network.PartialIsoRelation
+PASSED TranscendentalTuran.Green.CornerEvaluation (2.7s)
+START TranscendentalTuran.Green.CornerTranscendence
+PASSED TranscendentalTuran.Network.PartialIsoRelation (1.7s)
+START TranscendentalTuran.Green.FiniteNetwork.Green
+PASSED TranscendentalTuran.Green.CornerTranscendence (2.8s)
+START TranscendentalTuran.Network.RelationEnergy
+PASSED TranscendentalTuran.Green.FiniteNetwork.Green (3.3s)
+START TranscendentalTuran.Green.FiniteNetwork.BoxApproximation
+PASSED TranscendentalTuran.Network.RelationEnergy (1.7s)
+START TranscendentalTuran.Network.Series
+PASSED TranscendentalTuran.Network.Series (1.2s)
+START TranscendentalTuran.Network.Conductance
+PASSED TranscendentalTuran.Green.FiniteNetwork.BoxApproximation (1.8s)
+START TranscendentalTuran.Network.StarEnergy
+PASSED TranscendentalTuran.Network.Conductance (1.8s)
+START TranscendentalTuran.Network.PartialIsoSeries
+PASSED TranscendentalTuran.Network.StarEnergy (1.7s)
+START TranscendentalTuran.Network.MatchingSquares
+PASSED TranscendentalTuran.Network.PartialIsoSeries (1.3s)
+START TranscendentalTuran.Network.StarPairs
+PASSED TranscendentalTuran.Network.MatchingSquares (1.2s)
+START TranscendentalTuran.Network.Types
+PASSED TranscendentalTuran.Network.StarPairs (1.6s)
+START TranscendentalTuran.Optimization.Domain
+PASSED TranscendentalTuran.Network.Types (1.2s)
+START TranscendentalTuran.Encoding.Layout
+PASSED TranscendentalTuran.Encoding.Layout (1.8s)
+START TranscendentalTuran.Construction.RootPartition
+PASSED TranscendentalTuran.Optimization.Domain (2.7s)
+START TranscendentalTuran.Green.Realization.BoxData
+PASSED TranscendentalTuran.Construction.RootPartition (1.3s)
+START TranscendentalTuran.Green.Realization.TemplateCore
+PASSED TranscendentalTuran.Green.Realization.BoxData (1.7s)
+START TranscendentalTuran.Green.Realization.BoxWeights
+PASSED TranscendentalTuran.Green.Realization.TemplateCore (1.7s)
+START TranscendentalTuran.Green.Realization.BoxStructure
+PASSED TranscendentalTuran.Green.Realization.BoxWeights (1.4s)
+START TranscendentalTuran.Green.Realization.Fillers
+PASSED TranscendentalTuran.Green.Realization.BoxStructure (1.6s)
+START TranscendentalTuran.Green.Realization.BoxMoves
+PASSED TranscendentalTuran.Green.Realization.Fillers (1.7s)
+START TranscendentalTuran.Green.Realization.ResistanceWeights
+PASSED TranscendentalTuran.Green.Realization.BoxMoves (1.2s)
+START TranscendentalTuran.Green.Realization.BoxSums
+PASSED TranscendentalTuran.Green.Realization.ResistanceWeights (1.8s)
+START TranscendentalTuran.Optimization.ElementaryIdentities
+PASSED TranscendentalTuran.Green.Realization.BoxSums (1.7s)
+START TranscendentalTuran.Optimization.Envelope
+PASSED TranscendentalTuran.Optimization.Envelope (1.8s)
+START TranscendentalTuran.Optimization.MatrixEnergy
+PASSED TranscendentalTuran.Optimization.ElementaryIdentities (2.3s)
+START TranscendentalTuran.Optimization.QuadraticDirections
+PASSED TranscendentalTuran.Optimization.MatrixEnergy (1.2s)
+START TranscendentalTuran.Green.FiniteNetwork.Energy
+PASSED TranscendentalTuran.Optimization.QuadraticDirections (2.4s)
+START TranscendentalTuran.Optimization.RationalEnvelope
+PASSED TranscendentalTuran.Green.FiniteNetwork.Energy (2.0s)
+START TranscendentalTuran.Green.FiniteNetwork.SourceGain
+PASSED TranscendentalTuran.Optimization.RationalEnvelope (2.2s)
+START TranscendentalTuran.Green.Realization.BoxChainEnergy
+PASSED TranscendentalTuran.Green.FiniteNetwork.SourceGain (2.4s)
+START TranscendentalTuran.Green.FiniteNetwork.BoxSourceGain
+PASSED TranscendentalTuran.Green.Realization.BoxChainEnergy (1.7s)
+START TranscendentalTuran.Network.PortEnergy
+PASSED TranscendentalTuran.Green.FiniteNetwork.BoxSourceGain (2.1s)
+START TranscendentalTuran.Optimization.PaperObjective
+PASSED TranscendentalTuran.Network.PortEnergy (1.8s)
+START TranscendentalTuran.Network.PrivateLeaves
+PASSED TranscendentalTuran.Optimization.PaperObjective (1.9s)
+START TranscendentalTuran.Optimization.PaperRootBounds
+PASSED TranscendentalTuran.Network.PrivateLeaves (1.4s)
+START TranscendentalTuran.Network.PrivateProjection
+PASSED TranscendentalTuran.Network.PrivateProjection (1.9s)
+START TranscendentalTuran.Optimization.PaperValue
+PASSED TranscendentalTuran.Optimization.PaperRootBounds (2.4s)
+START TranscendentalTuran.Optimization.RootLocalization
+PASSED TranscendentalTuran.Optimization.PaperValue (2.3s)
+START TranscendentalTuran.Optimization.SevenTypeBudget
+PASSED TranscendentalTuran.Optimization.RootLocalization (2.2s)
+START TranscendentalTuran.Optimization.ElementaryBounds
+PASSED TranscendentalTuran.Optimization.SevenTypeBudget (1.6s)
+START TranscendentalTuran.Optimization.Normalization
+PASSED TranscendentalTuran.Optimization.ElementaryBounds (2.2s)
+START TranscendentalTuran.Optimization.QuadraticMatrix
+PASSED TranscendentalTuran.Optimization.Normalization (2.4s)
+START TranscendentalTuran.Optimization.RootTransfer
+PASSED TranscendentalTuran.Optimization.QuadraticMatrix (2.0s)
+START TranscendentalTuran.Optimization.QuadraticLayers
+PASSED TranscendentalTuran.Optimization.RootTransfer (3.1s)
+START TranscendentalTuran.Transfer.Choices
+PASSED TranscendentalTuran.Optimization.QuadraticLayers (2.7s)
+START TranscendentalTuran.Optimization.PaperQuadratic
+PASSED TranscendentalTuran.Transfer.Choices (1.2s)
+START TranscendentalTuran.Transfer.RootOptions
+PASSED TranscendentalTuran.Optimization.PaperQuadratic (2.4s)
+START TranscendentalTuran.Optimization.PaperBudget
+PASSED TranscendentalTuran.Transfer.RootOptions (1.5s)
+START TranscendentalTuran.Transfer.Tables
+PASSED TranscendentalTuran.Transfer.Tables (0.8s)
+START TranscendentalTuran.Transfer.TableCounting
+PASSED TranscendentalTuran.Optimization.PaperBudget (2.8s)
+START TranscendentalTuran.Transfer.ThresholdTables
+PASSED TranscendentalTuran.Transfer.TableCounting (2.3s)
+START TranscendentalTuran.Transfer.GuardTables
+PASSED TranscendentalTuran.Transfer.ThresholdTables (1.5s)
+START TranscendentalTuran.Transfer.Profiles
+PASSED TranscendentalTuran.Transfer.GuardTables (1.8s)
+START TranscendentalTuran.Transfer.TableDominance
+PASSED TranscendentalTuran.Transfer.Profiles (1.7s)
+START TuranUniversality.Hypergraph.Basic
+PASSED TranscendentalTuran.Transfer.TableDominance (1.3s)
+START TranscendentalTuran.Transfer.ThresholdSelector
+PASSED TranscendentalTuran.Transfer.ThresholdSelector (2.0s)
+START TuranUniversality.Hypergraph.BoundedSearch
+PASSED TuranUniversality.Hypergraph.Basic (2.5s)
+START TuranUniversality.Density.Extremal
+PASSED TuranUniversality.Hypergraph.BoundedSearch (2.3s)
+START TuranUniversality.Hypergraph.Hom
+PASSED TuranUniversality.Density.Extremal (2.4s)
+START TuranUniversality.Hypergraph.Rooting
+PASSED TuranUniversality.Hypergraph.Hom (2.3s)
+START TuranUniversality.Hypergraph.Blowup
+PASSED TuranUniversality.Hypergraph.Rooting (2.5s)
+START TuranUniversality.Hypergraph.Clique
+PASSED TuranUniversality.Hypergraph.Blowup (2.4s)
+START TuranUniversality.Hypergraph.Extension
+PASSED TuranUniversality.Hypergraph.Clique (2.2s)
+START TuranUniversality.Hypergraph.FiniteBasis
+PASSED TuranUniversality.Hypergraph.Extension (2.5s)
+START TuranUniversality.Hypergraph.PartialRooting
+PASSED TuranUniversality.Hypergraph.FiniteBasis (2.3s)
+START TuranUniversality.Hypergraph.Polynomial
+PASSED TuranUniversality.Hypergraph.PartialRooting (1.7s)
+START TuranUniversality.Hypergraph.Product
+PASSED TuranUniversality.Hypergraph.Polynomial (1.8s)
+START TuranUniversality.Hypergraph.Compression
+PASSED TuranUniversality.Hypergraph.Compression (2.2s)
+PASSED TuranUniversality.Hypergraph.Product (2.4s)
+START TuranUniversality.Hypergraph.Lagrangian
+START TuranUniversality.Hypergraph.Restriction
+PASSED TuranUniversality.Hypergraph.Lagrangian (1.8s)
+START TranscendentalTuran.Optimization.GraphDerivatives
+PASSED TuranUniversality.Hypergraph.Restriction (1.8s)
+START TranscendentalTuran.Encoding.PositivePatterns
+PASSED TranscendentalTuran.Encoding.PositivePatterns (2.4s)
+START TranscendentalTuran.Encoding.LocalRules
+PASSED TranscendentalTuran.Optimization.GraphDerivatives (2.5s)
+START TranscendentalTuran.Transfer.PatternTransfer
+PASSED TranscendentalTuran.Transfer.PatternTransfer (2.0s)
+START TranscendentalTuran.Transfer.RootPlan
+PASSED TranscendentalTuran.Encoding.LocalRules (2.1s)
+START TranscendentalTuran.Construction.TotalRooting
+PASSED TranscendentalTuran.Construction.TotalRooting (2.0s)
+START TranscendentalTuran.Encoding.Certificates.DecidableRules
+PASSED TranscendentalTuran.Transfer.RootPlan (2.0s)
+START TranscendentalTuran.Encoding.Certificates.Support
+PASSED TranscendentalTuran.Encoding.Certificates.DecidableRules (1.8s)
+START TranscendentalTuran.Encoding.LocalMonotonicity
+PASSED TranscendentalTuran.Encoding.Certificates.Support (1.7s)
+START TranscendentalTuran.Encoding.Certificates.LocalWitnesses
+PASSED TranscendentalTuran.Encoding.Certificates.LocalWitnesses (1.7s)
+START TranscendentalTuran.Encoding.Certificates.ChainWitnesses
+PASSED TranscendentalTuran.Encoding.LocalMonotonicity (1.7s)
+START TranscendentalTuran.Encoding.Certificates.Canonical
+PASSED TranscendentalTuran.Encoding.Certificates.Canonical (1.7s)
+START TranscendentalTuran.Encoding.RootGraphs
+PASSED TranscendentalTuran.Encoding.Certificates.ChainWitnesses (1.7s)
+START TranscendentalTuran.Encoding.Certificates.ParentWitnesses
+PASSED TranscendentalTuran.Encoding.RootGraphs (2.2s)
+START TranscendentalTuran.Network.ActualStars
+PASSED TranscendentalTuran.Encoding.Certificates.ParentWitnesses (2.3s)
+START TranscendentalTuran.Encoding.Certificates.FiniteSlice
+PASSED TranscendentalTuran.Network.ActualStars (1.8s)
+START TranscendentalTuran.Network.LayerEnergy
+PASSED TranscendentalTuran.Encoding.Certificates.FiniteSlice (1.9s)
+START TranscendentalTuran.Encoding.Certificates.Declarations
+PASSED TranscendentalTuran.Network.LayerEnergy (1.7s)
+START TranscendentalTuran.Network.Moves
+PASSED TranscendentalTuran.Encoding.Certificates.Declarations (1.7s)
+START TranscendentalTuran.Encoding.Certificates.Bounded
+PASSED TranscendentalTuran.Network.Moves (1.9s)
+START TranscendentalTuran.Network.OwnerCoordinates
+PASSED TranscendentalTuran.Encoding.Certificates.Bounded (1.9s)
+START TranscendentalTuran.Network.OwnerPenalty
+PASSED TranscendentalTuran.Network.OwnerCoordinates (2.1s)
+START TuranUniversality.Density.FamilyBasic
+PASSED TranscendentalTuran.Network.OwnerPenalty (2.0s)
+START TranscendentalTuran.Network.BaseNetwork
+PASSED TuranUniversality.Density.FamilyBasic (2.0s)
+START TranscendentalTuran.Network.MatchingEnergy
+PASSED TranscendentalTuran.Network.BaseNetwork (2.0s)
+START TranscendentalTuran.Network.MarkedComponent
+PASSED TranscendentalTuran.Network.MatchingEnergy (1.8s)
+PASSED TranscendentalTuran.Network.MarkedComponent (1.7s)
+START TranscendentalTuran.Network.MarkedSourceGain
+START TranscendentalTuran.Network.PortRoles
+PASSED TranscendentalTuran.Network.PortRoles (2.2s)
+START TranscendentalTuran.Network.StageMaps
+PASSED TranscendentalTuran.Network.MarkedSourceGain (2.4s)
+START TuranUniversality.Density.FamilyExtremal
+PASSED TranscendentalTuran.Network.StageMaps (2.1s)
+START TranscendentalTuran.Network.BaseEnergy
+PASSED TuranUniversality.Density.FamilyExtremal (2.0s)
+START TranscendentalTuran.Network.MatchingPartition
+PASSED TranscendentalTuran.Network.BaseEnergy (1.8s)
+START TuranUniversality.Hypergraph.ProductTransfer
+PASSED TranscendentalTuran.Network.MatchingPartition (1.8s)
+START TranscendentalTuran.Network.StageEnergy
+PASSED TranscendentalTuran.Network.StageEnergy (1.9s)
+START TranscendentalTuran.Network.ActualReduction
+PASSED TuranUniversality.Hypergraph.ProductTransfer (2.1s)
+START TuranUniversality.Hypergraph.Relabel
+PASSED TuranUniversality.Hypergraph.Relabel (2.0s)
+START TranscendentalTuran.Encoding.PatternBasis
+PASSED TranscendentalTuran.Network.ActualReduction (2.1s)
+START TranscendentalTuran.Network.RootedSourceGain
+PASSED TranscendentalTuran.Encoding.PatternBasis (2.2s)
+START TranscendentalTuran.Encoding.Certificates.Enumeration
+PASSED TranscendentalTuran.Network.RootedSourceGain (2.4s)
+START TranscendentalTuran.Network.BlockSourceGain
+PASSED TranscendentalTuran.Encoding.Certificates.Enumeration (2.8s)
+START TuranUniversality.Hypergraph.Guard
+PASSED TranscendentalTuran.Network.BlockSourceGain (2.9s)
+START TuranUniversality.Hypergraph.GuardedBasis
+PASSED TuranUniversality.Hypergraph.Guard (2.0s)
+START TuranUniversality.Selector.FiniteAverages
+PASSED TuranUniversality.Hypergraph.GuardedBasis (2.0s)
+START TuranUniversality.Selector.GuardDensity
+PASSED TuranUniversality.Selector.FiniteAverages (2.0s)
+START TuranUniversality.Density.Averages
+PASSED TuranUniversality.Selector.GuardDensity (1.9s)
+START TuranUniversality.Selector.ProductMixing
+PASSED TuranUniversality.Density.Averages (2.0s)
+START TuranUniversality.Density.HomDensity
+PASSED TuranUniversality.Selector.ProductMixing (1.9s)
+START TuranUniversality.Selector.CrossIntersecting
+PASSED TuranUniversality.Density.HomDensity (2.0s)
+START TuranUniversality.Density.EdgeDensity
+PASSED TuranUniversality.Selector.CrossIntersecting (2.0s)
+START TuranUniversality.Density.Box
+PASSED TuranUniversality.Density.EdgeDensity (2.0s)
+START TuranUniversality.Density.WeightedSampling
+PASSED TuranUniversality.Density.Box (2.2s)
+START TuranUniversality.Density.Cloning
+PASSED TuranUniversality.Density.WeightedSampling (1.7s)
+START TuranUniversality.Density.WeightedHom
+PASSED TuranUniversality.Density.Cloning (1.6s)
+START TuranUniversality.Density.Sampling
+PASSED TuranUniversality.Density.WeightedHom (2.1s)
+START TranscendentalTuran.Network.PairPolynomial
+PASSED TuranUniversality.Density.Sampling (2.0s)
+START TuranUniversality.Density.CliqueBound
+PASSED TranscendentalTuran.Network.PairPolynomial (2.1s)
+START TranscendentalTuran.Network.LayerLinks
+PASSED TuranUniversality.Density.CliqueBound (2.1s)
+START TuranUniversality.Density.SampleMoments
+PASSED TuranUniversality.Density.SampleMoments (2.0s)
+START TuranUniversality.Density.FamilyLower
+PASSED TranscendentalTuran.Network.LayerLinks (2.0s)
+START TranscendentalTuran.Network.FullLayerLinks
+PASSED TuranUniversality.Density.FamilyLower (2.0s)
+START TuranUniversality.Density.UpperBridge
+PASSED TranscendentalTuran.Network.FullLayerLinks (2.1s)
+START TuranUniversality.Density.WeightedHomPushforward
+PASSED TuranUniversality.Density.WeightedHomPushforward (2.0s)
+START TuranUniversality.Hypergraph.LagrangianHom
+PASSED TuranUniversality.Density.UpperBridge (2.1s)
+START TuranUniversality.Selector.BlockSampling
+PASSED TuranUniversality.Hypergraph.LagrangianHom (1.9s)
+START TranscendentalTuran.Core.Basic
+PASSED TuranUniversality.Selector.BlockSampling (2.0s)
+START TuranUniversality.Selector.FirstProjection
+PASSED TuranUniversality.Selector.FirstProjection (2.3s)
+START TuranUniversality.Selector.GuardBlocks
+PASSED TranscendentalTuran.Core.Basic (2.3s)
+START TuranUniversality.Selector.ProjectionMoments
+PASSED TuranUniversality.Selector.GuardBlocks (2.3s)
+START TuranUniversality.Selector.GuardSelection
+PASSED TuranUniversality.Selector.ProjectionMoments (2.5s)
+START TuranUniversality.Selector.SliceNumerics
+PASSED TuranUniversality.Selector.SliceNumerics (2.1s)
+START TuranUniversality.Selector.LargeSection
+PASSED TuranUniversality.Selector.GuardSelection (2.3s)
+START TuranUniversality.Selector.TransversalRigidity
+PASSED TuranUniversality.Selector.TransversalRigidity (1.0s)
+START TuranUniversality.Weighted.Baseline
+PASSED TuranUniversality.Selector.LargeSection (1.6s)
+START TuranUniversality.Selector.CoordinateSections
+PASSED TuranUniversality.Weighted.Baseline (1.0s)
+START TuranUniversality.Weighted.Ambiguity
+PASSED TuranUniversality.Weighted.Ambiguity (1.1s)
+START TuranUniversality.Weighted.Grounded
+PASSED TuranUniversality.Selector.CoordinateSections (2.0s)
+START TuranUniversality.Selector.SpectralSlice
+PASSED TuranUniversality.Weighted.Grounded (1.2s)
+START TuranUniversality.Weighted.Marker
+PASSED TuranUniversality.Selector.SpectralSlice (1.6s)
+START TuranUniversality.Selector.FunctionSlice
+PASSED TuranUniversality.Weighted.Marker (1.0s)
+START TuranUniversality.Weighted.Symmetric
+PASSED TuranUniversality.Weighted.Symmetric (1.6s)
+START TranscendentalTuran.Construction.RootPairWeights
+PASSED TuranUniversality.Selector.FunctionSlice (2.1s)
+START TuranUniversality.Density.CompleteWeighted
+PASSED TranscendentalTuran.Construction.RootPairWeights (1.3s)
+START TranscendentalTuran.Optimization.SourceCoefficients
+PASSED TuranUniversality.Density.CompleteWeighted (1.5s)
+START TuranUniversality.Selector.DirectionSwitch
+PASSED TranscendentalTuran.Optimization.SourceCoefficients (2.4s)
+START TuranUniversality.Weighted.Matching
+PASSED TuranUniversality.Selector.DirectionSwitch (1.8s)
+START TuranUniversality.Selector.CylinderSelector
+PASSED TuranUniversality.Weighted.Matching (1.5s)
+START TuranUniversality.Weighted.Model
+PASSED TuranUniversality.Selector.CylinderSelector (1.9s)
+START TuranUniversality.Selector.BadLines
+PASSED TuranUniversality.Weighted.Model (1.7s)
+START TranscendentalTuran.Construction.RootCompletion
+PASSED TuranUniversality.Selector.BadLines (2.2s)
+START TranscendentalTuran.Construction.RootDataPolynomial
+PASSED TranscendentalTuran.Construction.RootCompletion (1.7s)
+START TuranUniversality.Selector.CompatibleProfiles
+PASSED TranscendentalTuran.Construction.RootDataPolynomial (2.0s)
+START TranscendentalTuran.Construction.CompletedPolynomial
+PASSED TuranUniversality.Selector.CompatibleProfiles (2.1s)
+START TranscendentalTuran.Transfer.ProductProfiles
+PASSED TranscendentalTuran.Construction.CompletedPolynomial (1.9s)
+START TranscendentalTuran.Construction.DataEuler
+PASSED TranscendentalTuran.Transfer.ProductProfiles (1.9s)
+START TranscendentalTuran.Transfer.FactorRecovery
+PASSED TranscendentalTuran.Construction.DataEuler (2.2s)
+START TranscendentalTuran.Construction.DataBounds
+PASSED TranscendentalTuran.Transfer.FactorRecovery (2.0s)
+START TranscendentalTuran.Construction.SourceBasis
+PASSED TranscendentalTuran.Construction.DataBounds (2.1s)
+START TranscendentalTuran.Construction.MaximizerLocalization
+PASSED TranscendentalTuran.Construction.SourceBasis (1.9s)
+START TranscendentalTuran.Construction.RootLower
+PASSED TranscendentalTuran.Construction.MaximizerLocalization (2.4s)
+START TranscendentalTuran.Construction.LocalizedCoordinates
+PASSED TranscendentalTuran.Construction.RootLower (2.1s)
+START TuranUniversality.Hypergraph.Labeled
+PASSED TuranUniversality.Hypergraph.Labeled (2.5s)
+START TranscendentalTuran.Construction.EffectiveFiniteGraph
+PASSED TranscendentalTuran.Construction.LocalizedCoordinates (2.8s)
+START TranscendentalTuran.Green.Realization.ClassLowerTools
+PASSED TranscendentalTuran.Construction.EffectiveFiniteGraph (2.5s)
+PASSED TranscendentalTuran.Green.Realization.ClassLowerTools (2.4s)
+START TuranUniversality.Density.ProductUpper
+START TuranUniversality.Selector.RowPrivacy
+PASSED TuranUniversality.Selector.RowPrivacy (1.9s)
+START TuranUniversality.Weighted.LinkModel
+PASSED TuranUniversality.Density.ProductUpper (1.9s)
+START TranscendentalTuran.Transfer.OrdinaryDensity
+PASSED TranscendentalTuran.Transfer.OrdinaryDensity (2.9s)
+START TuranUniversality.Weighted.Pairing
+PASSED TuranUniversality.Weighted.LinkModel (2.9s)
+START TranscendentalTuran.Construction.TypeSurgeryCore
+PASSED TuranUniversality.Weighted.Pairing (1.9s)
+START TranscendentalTuran.Green.Realization.TemplateGraph
+PASSED TranscendentalTuran.Construction.TypeSurgeryCore (3.8s)
+START TranscendentalTuran.Construction.TypeSurgeryLegality
+PASSED TranscendentalTuran.Green.Realization.TemplateGraph (3.7s)
+START TranscendentalTuran.Green.Realization.ActualEnergy
+PASSED TranscendentalTuran.Construction.TypeSurgeryLegality (4.0s)
+START TranscendentalTuran.Construction.TypeSurgeryWeights
+PASSED TranscendentalTuran.Green.Realization.ActualEnergy (2.3s)
+START TranscendentalTuran.Green.Realization.ActualLayerPolynomial
+PASSED TranscendentalTuran.Construction.TypeSurgeryWeights (2.3s)
+START TranscendentalTuran.Construction.TypeCompletion
+PASSED TranscendentalTuran.Green.Realization.ActualLayerPolynomial (2.3s)
+START TranscendentalTuran.Green.Realization.ActualMatchingEnergy
+PASSED TranscendentalTuran.Green.Realization.ActualMatchingEnergy (3.9s)
+START TranscendentalTuran.Green.Realization.BoxBlockEnergy
+PASSED TranscendentalTuran.Construction.TypeCompletion (4.2s)
+START TranscendentalTuran.Green.Realization.TemplateRelations
+PASSED TranscendentalTuran.Green.Realization.TemplateRelations (3.2s)
+START TranscendentalTuran.Green.Realization.TemplateLegal
+PASSED TranscendentalTuran.Green.Realization.BoxBlockEnergy (3.5s)
+START TuranUniversality.Weighted.Codes
+PASSED TuranUniversality.Weighted.Codes (2.4s)
+START TuranUniversality.Weighted.Types
+PASSED TranscendentalTuran.Green.Realization.TemplateLegal (2.5s)
+START TranscendentalTuran.Green.Realization.BoxLegal
+PASSED TuranUniversality.Weighted.Types (1.3s)
+START TranscendentalTuran.Construction.TypedPolynomial
+PASSED TranscendentalTuran.Green.Realization.BoxLegal (1.9s)
+START TranscendentalTuran.Green.Realization.BoxEnergy
+PASSED TranscendentalTuran.Construction.TypedPolynomial (1.9s)
+START TranscendentalTuran.Green.Realization.FillerWeights
+PASSED TranscendentalTuran.Green.Realization.BoxEnergy (2.0s)
+START TranscendentalTuran.Green.Realization.BoxSource
+PASSED TranscendentalTuran.Green.Realization.FillerWeights (2.1s)
+START TranscendentalTuran.Green.Realization.TemplatePolynomial
+PASSED TranscendentalTuran.Green.Realization.BoxSource (2.4s)
+START TranscendentalTuran.Optimization.SourceObjective
+PASSED TranscendentalTuran.Green.Realization.TemplatePolynomial (2.2s)
+START TranscendentalTuran.Green.Realization.FillerPolynomial
+PASSED TranscendentalTuran.Optimization.SourceObjective (2.1s)
+START TranscendentalTuran.Construction.TypedUpper
+PASSED TranscendentalTuran.Green.Realization.FillerPolynomial (1.9s)
+START TranscendentalTuran.Green.Realization.TemplateClassBound
+PASSED TranscendentalTuran.Construction.TypedUpper (2.7s)
+START TranscendentalTuran.Construction.SourceUpper
+PASSED TranscendentalTuran.Green.Realization.TemplateClassBound (2.4s)
+START TranscendentalTuran.Green.Realization.ClassLower
+PASSED TranscendentalTuran.Construction.SourceUpper (2.9s)
+START TuranUniversality.Weighted.DeclaredTypes
+PASSED TranscendentalTuran.Green.Realization.ClassLower (2.8s)
+START TranscendentalTuran.Construction.SourceValue
+PASSED TuranUniversality.Weighted.DeclaredTypes (2.6s)
+START TuranUniversality.Weighted.Incidence
+PASSED TranscendentalTuran.Construction.SourceValue (3.0s)
+START TuranUniversality.Weighted.TypedLink
+PASSED TuranUniversality.Weighted.Incidence (2.2s)
+START TuranUniversality.Weighted.Coarse
+PASSED TuranUniversality.Weighted.TypedLink (1.3s)
+PASSED TuranUniversality.Weighted.Coarse (2.2s)
+START TuranUniversality.Density.GuardSplit
+PASSED TuranUniversality.Density.GuardSplit (2.0s)
+START TranscendentalTuran.Construction.Guard
+PASSED TranscendentalTuran.Construction.Guard (3.0s)
+START TranscendentalTuran.Construction.GuardedBasis
+PASSED TranscendentalTuran.Construction.GuardedBasis (1.8s)
+START TranscendentalTuran.Construction.SingleGraph
+PASSED TranscendentalTuran.Construction.SingleGraph (1.5s)
+START TranscendentalTuran.Construction.ExecutableWitness
+PASSED TranscendentalTuran.Construction.ExecutableWitness (1.8s)
+START TranscendentalTuran.Main
+PASSED TranscendentalTuran.Main (1.9s)
+START TranscendentalTuran
+START TranscendentalTuran.Audit
+PASSED TranscendentalTuran (10.6s)
+START Solution
+PASSED TranscendentalTuran.Audit (10.7s)
+PASSED Solution (19.8s)
+{"passed": 322}

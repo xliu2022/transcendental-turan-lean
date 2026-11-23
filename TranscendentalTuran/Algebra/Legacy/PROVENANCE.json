@@ -1,0 +1,440 @@
+{
+  "source_archive": "turan-universality-1.1-1.2-6.2-10.1-10.2-lean.zip",
+  "archive_sha256": "8adcf38eced52e71b62f1b84e35aab9274d6e079c1d955257259064df3aa71c1",
+  "source_toolchain": "leanprover/lean4:v4.35.0-rc2",
+  "adaptation": "Only local import module paths were changed. Original declaration namespaces and upstream copyright notices are retained. This is the dependency closure of RationalOptimization.",
+  "files": [
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/ParameterizedRoots.lean",
+      "archive_sha256": "7f5e9f502e093c65b767f74b6fa946ed6a4f6421203f29179cbb9ebed1274360",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/ParameterizedRoots.lean",
+      "adapted_sha256": "341bae75fbddfef661f850c8c9e5fe8ad7465caef9ddb622ab4f52c5750424ea"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/ParameterizedTarski.lean",
+      "archive_sha256": "bc335fd962ca2e32a412a482f643fe211b2255f882f3ae954b7ea5f1e7c105cb",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/ParameterizedTarski.lean",
+      "adapted_sha256": "f0329d40d869711a49f682b78e0205a29304fedab0e28b9721f50a00e6d94f5b"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/PiecewiseRational.lean",
+      "archive_sha256": "424406ae0ce028b1a46d8e3e717d5dd902149f927c1e998d2979801b63c233e7",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/PiecewiseRational.lean",
+      "adapted_sha256": "e31fdefaac22b0e8a57fd921c67f271cee843baf55bfd0a461408e4cb3742b0a"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/RationalConsequences.lean",
+      "archive_sha256": "20d0cf8b68972b0f7fadd108a4e29bab6a5119c2b2678011eddbce74ffe1df2c",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/RationalConsequences.lean",
+      "adapted_sha256": "bf797c78640c405a72eaf9f43c6759ea983c9d3ce58b67b11bc8738f08841b65"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/RationalOptimization.lean",
+      "archive_sha256": "2e9276b9025311508dc4c58e01ec6222b2e9c008189b8a3f2fd9e7caac7c507b",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/RationalOptimization.lean",
+      "adapted_sha256": "d51f76b8725ec90de9b3a4f315163d4121d5b12c17a5441f63f2bdefbabbae9a"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/RationalPolynomialFamilies.lean",
+      "archive_sha256": "5b76514f60f425ff1df7b44db0d2a5a01633e206f20e38e82e3b62c1035e013d",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/RationalPolynomialFamilies.lean",
+      "adapted_sha256": "f1a7c168b5a6178ec1a3c3ded6e1ed4de64bf7d4b51576d10687683236352b3f"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/RationalProjection.lean",
+      "archive_sha256": "27ba33d139c2049df826385b25fe60a2a5d3f01adae815368a537067a4ae7fdb",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/RationalProjection.lean",
+      "adapted_sha256": "0159b78e9d9a4b76e36a246486df8026e0aaa878c974c410a5f0c4c052bd310b"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/RationalQuantifiers.lean",
+      "archive_sha256": "55a9493fd6484c4aaccf4de69aa3b02d6bc9846fe51856e612fc62971b3ff29d",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/RationalQuantifiers.lean",
+      "adapted_sha256": "b559434428cc972e8abda381a21f61f4bde7a436dd74e89786ff913305587f08"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/RationalRemainder.lean",
+      "archive_sha256": "9e132d8136c0c01dd7077d8b159759fb20b27d5f22335b1dd012a0a98018081c",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/RationalRemainder.lean",
+      "adapted_sha256": "2e6582e5b10c0cb5afbc3292083213d4abacbbf4419542c443809b51bafb6640"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/RationalSemialgebraic.lean",
+      "archive_sha256": "c1a9f08f0d78a7e8ca370c328eb2b999116ce22f301e8a77f9707e9169494bde",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/RationalSemialgebraic.lean",
+      "adapted_sha256": "a3a18960732a7e228c68e7489bef62ad5301a07d35de72cd8f036b7509bcd714"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Univariate.lean",
+      "archive_sha256": "c3171f9ad97c9c4ac6d1b0f409bee61f7b69aadb4d83266779395a295426cd2c",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Univariate.lean",
+      "adapted_sha256": "c3171f9ad97c9c4ac6d1b0f409bee61f7b69aadb4d83266779395a295426cd2c"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/Mathlib/Algebra/Polynomial/FieldDivision.lean",
+      "archive_sha256": "3b4cf274940aaffb378eaebd3a26f840d7be6afb984754b045e02e512ef61b5a",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/Mathlib/Algebra/Polynomial/FieldDivision.lean",
+      "adapted_sha256": "3b4cf274940aaffb378eaebd3a26f840d7be6afb984754b045e02e512ef61b5a"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/Mathlib/Algebra/Polynomial/Sturm/Sequence.lean",
+      "archive_sha256": "c466e3d516974a94d9f824fd0a08f9ca7a2581fdd071ab3f20974c6c2bd3d119",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/Mathlib/Algebra/Polynomial/Sturm/Sequence.lean",
+      "adapted_sha256": "8de236610aef06edab4514f7eed317afb84136260f1b5e01689d289e1304e9af"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/BigOperators/Finset/Filter.lean",
+      "archive_sha256": "5d5b50b926ecc376665bf08f7d45e90e22785851746255dbbd92d06945837609",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/BigOperators/Finset/Filter.lean",
+      "adapted_sha256": "5d5b50b926ecc376665bf08f7d45e90e22785851746255dbbd92d06945837609"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Order/Ring/Ordering/Extension.lean",
+      "archive_sha256": "20ed5ecb43ecd0e10aec51f1e83325a057550fe14237d4b8583b85320f0504fe",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Order/Ring/Ordering/Extension.lean",
+      "adapted_sha256": "20ed5ecb43ecd0e10aec51f1e83325a057550fe14237d4b8583b85320f0504fe"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Order/Ring/Ordering/Semireal.lean",
+      "archive_sha256": "ddaf47e8cb2c437e204da261c7e116aca1946108a98ffde494476a62f7ad5b76",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Order/Ring/Ordering/Semireal.lean",
+      "adapted_sha256": "daac8f3baad295c8e819f26030ef700d99b9cbb115267028ad4dce9af33f022b"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Coeff/Basic.lean",
+      "archive_sha256": "3ee39fcca867c16579fec004a170194a5f6fb73c71c8a085fd9fb99b27f4886e",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Coeff/Basic.lean",
+      "adapted_sha256": "3ee39fcca867c16579fec004a170194a5f6fb73c71c8a085fd9fb99b27f4886e"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/Infinity.lean",
+      "archive_sha256": "94e54bdf055856b51ae12878ac6f632cd6292951c06477d14542f77f5568d5cc",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Eval/Infinity.lean",
+      "adapted_sha256": "94e54bdf055856b51ae12878ac6f632cd6292951c06477d14542f77f5568d5cc"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/OneSided.lean",
+      "archive_sha256": "30ea3672a75815d5ab8f64802fb707d16162570df240ee8eb7a9aa01e0b29b13",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Eval/OneSided.lean",
+      "adapted_sha256": "0e55d58251978e053604bee3f180bad1db949f6d7d500d4daf10f8f0693b3c7f"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Eval/Sign.lean",
+      "archive_sha256": "96fb28cb09457be556acaf0629d8518dee9fd7af4b1cdacc5d996c8ce934d119",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Eval/Sign.lean",
+      "adapted_sha256": "96fb28cb09457be556acaf0629d8518dee9fd7af4b1cdacc5d996c8ce934d119"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/LinearFactor.lean",
+      "archive_sha256": "d153af49df0110dd8c63ea5bc97809dd73f90116d6041661725eee36f07b4222",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/LinearFactor.lean",
+      "adapted_sha256": "d153af49df0110dd8c63ea5bc97809dd73f90116d6041661725eee36f07b4222"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/OfFn.lean",
+      "archive_sha256": "3596b82285c1345edab6c13d718a0b0fc0d4b33771723e5ca8a833faeec61227",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/OfFn.lean",
+      "adapted_sha256": "3596b82285c1345edab6c13d718a0b0fc0d4b33771723e5ca8a833faeec61227"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/QuadraticDiscriminant.lean",
+      "archive_sha256": "4442c976cf6fd342c7d0ab195481303a1f615233957019659139b44bcf2e1d82",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/QuadraticDiscriminant.lean",
+      "adapted_sha256": "2146fdb58fef0e7d80baf67e9126576ce7951abf9aa0b17a74ad6af324d27d1e"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Quadratic.lean",
+      "archive_sha256": "d9830aadf4d7a4a36575fc4a86bd7bb435cd2eb50a622f6294aa9416420dd7a9",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Quadratic.lean",
+      "adapted_sha256": "972bb71443f74b3f9006828bf4614addbe3b9bc81a4e66d09284d945211f6c73"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Sampling.lean",
+      "archive_sha256": "aef121dfce5243c881cdd071778db5e01ab1784b54e41bd4f70752401f37f3cf",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Sampling.lean",
+      "adapted_sha256": "5ee055dc98567baed3a0e8f0ef86e907d040f9ff0f57e298bb6369a3e89d5508"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Sign.lean",
+      "archive_sha256": "0ef4ef394ecb0312d0115c5d80b098d5dfacbfde05cb80b14763b5386d997187",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/RealClosed/Sign.lean",
+      "adapted_sha256": "b98bc449f395bd3c980625e8d93f9e66a7f48af28ab6e44e7915f31c856a59e0"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Rolle.lean",
+      "archive_sha256": "6bc30bcce7b3a55c267cae2088491b9f7a5e7eb35de475ec4ed6774d73e9b4ce",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Rolle.lean",
+      "adapted_sha256": "6bc30bcce7b3a55c267cae2088491b9f7a5e7eb35de475ec4ed6774d73e9b4ce"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Basic.lean",
+      "archive_sha256": "d54277d496c7d0795eeec65d13f9ac6c5ca6748df64210207e9ff790490dd715",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Basic.lean",
+      "adapted_sha256": "cef96fcbba6d9359eb5d5238efd44839169dd8358472d43af898cc138be4fa79"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Sequence.lean",
+      "archive_sha256": "ed2fd423a8a798dc0800dc0a39902b7486afa5401ab99dd4a3a65471405804d4",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/CauchyIndex/Sequence.lean",
+      "adapted_sha256": "f226d101217c338f3148ecad2f880369913508eb1ac65f600a055202294c2e6d"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Infinity.lean",
+      "archive_sha256": "ecfb45db6121727f76221aedbdd13fc82471b2e8a2b5332f4c901c26a3411d36",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/Infinity.lean",
+      "adapted_sha256": "7d5264fcf8c0e5e8f44a090da98adc5ed86a0cae5c4477faf250267da56e094a"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Local.lean",
+      "archive_sha256": "b8fb46621c9b9d591f05a468ac64f83adebe0c0e615108a41304866bf17e3083",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/Local.lean",
+      "adapted_sha256": "db721d6a8437eb3f66a2268c1f452391b3690de08d3d39430cd853cbb444cc84"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/OneSided.lean",
+      "archive_sha256": "f772478527f42e25a924ecacac09972338fc940cdcc1f782628ea062f3987cf6",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/OneSided.lean",
+      "adapted_sha256": "7230cbbd27375129090329315721f8ebf62283db616b6596a9aa00dda430c7d9"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Sequence.lean",
+      "archive_sha256": "ca777e2c2bafffb6dc861c2c9def04565fcaffa8713a58f2fd86dba4bc623b08",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/Sequence.lean",
+      "adapted_sha256": "50a4cc2c5be8edf452f2533570a8dac32e75cb7b3561a987b9eec3c6e5490afe"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/SignedRemainders.lean",
+      "archive_sha256": "29cde0f50d8603218286c31f88ac22a202709b5b92fdc470784016a97fd711bf",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/SignedRemainders.lean",
+      "adapted_sha256": "05e1ed6720ca0e50ad6dfdac1068447a43c7e58ee2258c959e742e9e829b79df"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Signs.lean",
+      "archive_sha256": "1343705ae3b7a8256c964c3735709fcd12ddfd8436faa2b82fbb4f52594c5ce4",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/Signs.lean",
+      "adapted_sha256": "d0fbc0050680e6346b77de1db7704d225c9ce74e1d9eb3ba06a3436f08c3f58d"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Sum.lean",
+      "archive_sha256": "5e376d8641f989050774995061ec5f3c9cbda2e8b9415aa0ef9c9a9a43aedc98",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/Sum.lean",
+      "adapted_sha256": "a56acc616fbb5c55264b2632c984f9029b16679c1231bbaca750aeddb71ab5ef"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Tarski.lean",
+      "archive_sha256": "5482a85ea571b2b32da9d8513ec0b7b84b84f275c0e5a66a982745f7b56f9345",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/Tarski.lean",
+      "adapted_sha256": "949117257debbe7cf2780722e8a3fda75908b9dcb0a268cb0a24af07e13c9744"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Sturm/Variation.lean",
+      "archive_sha256": "de6f83bd4243d9337400e3a4772d00ea0d6e41a0dad85fbcf4995dd70f5e4c0e",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Sturm/Variation.lean",
+      "adapted_sha256": "3d742ebf82edc9d4b55665e4bac678d130058d94ec05db67782b3b815386dbae"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/Polynomial/Thom.lean",
+      "archive_sha256": "df893e62bc5ed9c755864827c516adfe24b5c219e7b746e497329807b880cd65",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/Polynomial/Thom.lean",
+      "adapted_sha256": "1f6c7f609e98f48439941c2a156da7addcc4cb41b61acf1e8f047a168b20f6b6"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Algebra/QuadraticDiscriminant.lean",
+      "archive_sha256": "7c09ad25763c6c442e8ab479fd1303034f6762b890ad4fbe6fca42e27bf7e5ca",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Algebra/QuadraticDiscriminant.lean",
+      "adapted_sha256": "7c09ad25763c6c442e8ab479fd1303034f6762b890ad4fbe6fca42e27bf7e5ca"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Finset/Jumps.lean",
+      "archive_sha256": "b122ca15b7979ee299b1148c0892b906417fbdaf19e6c9049aa577779b15eb66",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Data/Finset/Jumps.lean",
+      "adapted_sha256": "b122ca15b7979ee299b1148c0892b906417fbdaf19e6c9049aa577779b15eb66"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Fintype/Fiber.lean",
+      "archive_sha256": "ef8ed3b2110d3344736b6327ba5bdd40f42866821e32e3977c6834cc92032b79",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Data/Fintype/Fiber.lean",
+      "adapted_sha256": "ef8ed3b2110d3344736b6327ba5bdd40f42866821e32e3977c6834cc92032b79"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/PermanencesMinusVariations.lean",
+      "archive_sha256": "4579d9eee7e19996020452fc7047b97559adc02f7727bb499f38f4f9644c5996",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Data/List/PermanencesMinusVariations.lean",
+      "adapted_sha256": "4579d9eee7e19996020452fc7047b97559adc02f7727bb499f38f4f9644c5996"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/Range.lean",
+      "archive_sha256": "00a75c0300a29b6502f16a2ab192345588020b5ae97f3bff03ededd5aa73ccb1",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Data/List/Range.lean",
+      "adapted_sha256": "00a75c0300a29b6502f16a2ab192345588020b5ae97f3bff03ededd5aa73ccb1"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Data/List/SignVariations.lean",
+      "archive_sha256": "6ec6667b94e349326c82ecd4ac30f04ef54fe1e5961395cd2a5463401a8dfa46",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Data/List/SignVariations.lean",
+      "adapted_sha256": "6ec6667b94e349326c82ecd4ac30f04ef54fe1e5961395cd2a5463401a8dfa46"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Matrix/OccCount.lean",
+      "archive_sha256": "108c9f0e35840d0ebd6a630acd5a41d259bf4dc0b02294cab28c0d62fe013d02",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Data/Matrix/OccCount.lean",
+      "adapted_sha256": "c1997018819fe4b3fd785eb3250462b6781d621a2675bd32d1ec801e2e3934ff"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Data/Nat/Choose/Basic.lean",
+      "archive_sha256": "86b193781075626d3c1fdd7919dcdf37f579d135c0f46de2774b4b9135477c5d",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Data/Nat/Choose/Basic.lean",
+      "adapted_sha256": "86b193781075626d3c1fdd7919dcdf37f579d135c0f46de2774b4b9135477c5d"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Data/SignType/Lagrange.lean",
+      "archive_sha256": "57e4b1253b09b261c67472f5e277719c7f851f01621e8827041ef0aad347b8f5",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Data/SignType/Lagrange.lean",
+      "adapted_sha256": "57e4b1253b09b261c67472f5e277719c7f851f01621e8827041ef0aad347b8f5"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Data/SignType/Parity.lean",
+      "archive_sha256": "2c9562ef3e480487638640213cffad40f3a343d4f7b51bad2367a01dc284abfe",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Data/SignType/Parity.lean",
+      "adapted_sha256": "2c9562ef3e480487638640213cffad40f3a343d4f7b51bad2367a01dc284abfe"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/IsRealClosed/Real.lean",
+      "archive_sha256": "bd82514338c935093e34b2f6ac1a12b46198f9511e6aa66d29795441f17b096f",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/FieldTheory/IsRealClosed/Real.lean",
+      "adapted_sha256": "bd82514338c935093e34b2f6ac1a12b46198f9511e6aa66d29795441f17b096f"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/AbstractRolle.lean",
+      "archive_sha256": "5b1fa56ccb406715436df9b43b4c05b83212bcd9eb26f78609d55f733b5c55e8",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/FieldTheory/RealClosure/AbstractRolle.lean",
+      "adapted_sha256": "e74a1b9af14382b9294a47cb91643f8b61f7b7a610f00e6a04791d5fc52ff13e"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/AlgebraicClosed.lean",
+      "archive_sha256": "33640080f1f542200c3eb499787538479b1d216db83c3d65bbe0c43ea74a9ce6",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/FieldTheory/RealClosure/AlgebraicClosed.lean",
+      "adapted_sha256": "a3a12cb88d16f1a89c40121e65911e1d8f40531e7516e308a015c4bb8b864448"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/Complexification.lean",
+      "archive_sha256": "5f9ab2fd5b29934fc713d010363c8c32d6497f5cb007aa04856041b6e9025ad8",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/FieldTheory/RealClosure/Complexification.lean",
+      "adapted_sha256": "127e9830c94ae0d5ca616fee55a5a6abe9c36650692c469324195de0ea47145c"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/FiniteExtension.lean",
+      "archive_sha256": "d7de091cb3b54e30e0ea6b3d20619c6a4f9d71a4d20177474108b8161fe950d5",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/FieldTheory/RealClosure/FiniteExtension.lean",
+      "adapted_sha256": "d7de091cb3b54e30e0ea6b3d20619c6a4f9d71a4d20177474108b8161fe950d5"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/Galois.lean",
+      "archive_sha256": "5e850edc00713e07f2d4e0656684ce9fe64452e004d46c5d0484e006e6fe3927",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/FieldTheory/RealClosure/Galois.lean",
+      "adapted_sha256": "29538385d5223d37db2bba9896193aee8ff8925d44c6eaae3366a984a0c55f7c"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/FieldTheory/RealClosure/IVT.lean",
+      "archive_sha256": "95cfa5de7db821c47fb1a5cc66a0d9a643d1c26e5fa4e5ad9d0021f9d5c0adf9",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/FieldTheory/RealClosure/IVT.lean",
+      "adapted_sha256": "01be8c310a0e31156ab55fc941b67fa96513ad696a5e61795d9eabd1fdda942a"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Defs.lean",
+      "archive_sha256": "55517caee745e95bcb083890d529bac8a126107b855abdf9372a8c7171cf6061",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Defs.lean",
+      "adapted_sha256": "7d1494a865c3fcfa9da1d836ec6996f58517da2cbf4079172eb7235590bdccf5"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Moments.lean",
+      "archive_sha256": "9c4d1395a0263469552bf80e9d25500257eee1d1960a7f89bab5348ce2b7fbb1",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Moments.lean",
+      "adapted_sha256": "63fbf1a400111e767d60f35a08d49c897e8ee4951174408eb7e8778f41e37e51"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Polynomial.lean",
+      "archive_sha256": "fae39cb1d863a8e6564137d1871649636907992aa8d204d7ac29ec42308cadb6",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Polynomial.lean",
+      "adapted_sha256": "36271fa11ebd71bfc4f2319df9d0d0cbeb240c86eb527e9ccf075619442b4759"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Roots.lean",
+      "archive_sha256": "ed37b7dd769b31e8076e380aa7cf545acdea3a3eeac7e1d154532c4f8477c923",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/Roots.lean",
+      "adapted_sha256": "214940c72a6157f7d49c16fc977d0927977557598aa0617f81496318dfff4bce"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/WholeLine.lean",
+      "archive_sha256": "8f2e0e202bf17a8a220402e8dabf687a5742c0c2723d4d3d82d80662f4ba2521",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/Geometry/RealAlgebraic/SignDetermination/WholeLine.lean",
+      "adapted_sha256": "4cab3e23d9bd97ca4e065a6990a19cb16a8c51369daecefa867d1ba9815c74ef"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/GroupTheory/Perm/Inversion.lean",
+      "archive_sha256": "0046bf56975235f3d01311c5fb5e262abf6b21d9d6293b519dbd866932579e53",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/GroupTheory/Perm/Inversion.lean",
+      "adapted_sha256": "0046bf56975235f3d01311c5fb5e262abf6b21d9d6293b519dbd866932579e53"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/LinearAlgebra/Matrix/Congruence.lean",
+      "archive_sha256": "3ada47f990341138d2d56c9bec84703348896045f93953933bf7ce4a5aa0e053",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/LinearAlgebra/Matrix/Congruence.lean",
+      "adapted_sha256": "3ada47f990341138d2d56c9bec84703348896045f93953933bf7ce4a5aa0e053"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/LinearAlgebra/Matrix/CornerMinor.lean",
+      "archive_sha256": "f401b8387b2ce5ecbd6e42beeea4f3c1d60d0631551f13a357d652f474ccc665",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/LinearAlgebra/Matrix/CornerMinor.lean",
+      "adapted_sha256": "a95ef4e51adf6fa3ebaba28fffe91b0348d6e56cff3f3762caceef6f1fcfcff8"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Reductum.lean",
+      "archive_sha256": "7f2c3f1c4d73cf5652ef692921617ad5e637b051f51e56ccdf4398b2be931709",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/RingTheory/Polynomial/Reductum.lean",
+      "adapted_sha256": "7f2c3f1c4d73cf5652ef692921617ad5e637b051f51e56ccdf4398b2be931709"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Basic.lean",
+      "archive_sha256": "7c6a7c3a4448f28a39a78025ec77c18afecc93063160932a6cdc1b9fbffc69be",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Basic.lean",
+      "adapted_sha256": "b951af89e6b100b32a2ebaa6c0b7fda87d1c8ec831b0f8c17b49091e287a784c"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/CauchyIndex.lean",
+      "archive_sha256": "d0c4b5321605935f34e560ef3ffc3e7262ce0fb6db8ee57a783c7805aa08c9c8",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/CauchyIndex.lean",
+      "adapted_sha256": "a1852a6c2676f81d2f739524235be8275593778a7d3b14606b9f077fb89d7095"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/DegreeDrop/Basic.lean",
+      "archive_sha256": "55dbbccc6615e1c66bc4d7d9cd837c2ae6cbbb98b854bda6d763dac67982e60d",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/DegreeDrop/Basic.lean",
+      "adapted_sha256": "7dda0e64cfc05b7bfb2817692b71b186f3d4cc7ba47d6c75abb02740968c8b3f"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Euclidean.lean",
+      "archive_sha256": "60ca8040ff5d95dfaa6039dd296fec5c5759652e4c7cbc8a8b36457520484cdc",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Euclidean.lean",
+      "adapted_sha256": "1e815c71c9701ec90f63069aefe8fd39e39ff53375243dc0c65f8ec2aad66145"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Polynomial.lean",
+      "archive_sha256": "0d5cb75d244dc8a847aae324fe5fc348c63862f4bec76ba26bc20ef4032c383e",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Polynomial.lean",
+      "adapted_sha256": "984b89c08343b31b182839c95f04dd888a3a6dfbaca8567592b77ed47d5d18ac"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Signed.lean",
+      "archive_sha256": "f1b270718afff99b7aa4cea0cc7cff645b18c6a139e40345a38469d65a83fba5",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/Upstream/TauCeti/RingTheory/Polynomial/Subresultant/Signed.lean",
+      "adapted_sha256": "69e0deb83dca8fd81f32f38ddcb8e022fb7745915a1f68d4b22efa6190d0dd24"
+    },
+    {
+      "archive_path": "turan-universality-lean/TuranUniversality/Algebraicity/WholeLineSigns.lean",
+      "archive_sha256": "c6a54e403fcec2a9be32c9436271a515fa5e44aad57bf1c74e516f9fc2b1fe22",
+      "local_path": "TranscendentalTuran/Algebra/Legacy/WholeLineSigns.lean",
+      "adapted_sha256": "e600a8b6319dd11de766382cd8adcaca1909cea38419020f043156b1110e7035"
+    }
+  ]
+}

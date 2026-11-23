@@ -1,0 +1,136 @@
+{
+  "record_kind": "observed_probe_summary",
+  "is_complete_raw_log": false,
+  "summary_written_utc": "2026-11-23T14:08:10Z",
+  "scope": "Independent small isolation probes and read-only review; no Lean compilation or Comparator execution by the independent reviewer.",
+  "frozen_adapter": {
+    "path": "verification/isolation/bwrap-private-network.py",
+    "sha256": "be116b0142850cf2d8a6cd4f3f6c881ab0762b39aee2656d13b9f991bf3b54e4",
+    "shebang": "#!/usr/bin/python3",
+    "python_isolated_startup": false,
+    "python_isolated_startup_note": "-I was recommended but not added to the version frozen for the current Comparator run. The coordinator reported a controlled invoking environment without a custom Python import path.",
+    "outer_unshare": ["--user", "--map-current-user", "--net"],
+    "inserted_bwrap_options": ["--share-net", "--cap-drop", "ALL"],
+    "insertion_location": "After all original bwrap options, immediately before the arity-parsed command separator.",
+    "extra_inherited_fds_closed": true,
+    "all_original_arguments_preserved": true,
+    "all_phases_offline": true,
+    "official_binaries_modified": false,
+    "project_proof_sources_modified": false,
+    "no_sandbox_used": false
+  },
+  "observed_tool_versions": {
+    "bubblewrap": "0.12.0",
+    "unshare": "util-linux 2.41.5",
+    "inspected_lean_source": "leanprover/lean4:v4.35.0-rc2"
+  },
+  "independent_probes": [
+    {
+      "id": "original_no_network_control",
+      "exit_code": 1,
+      "payload_started": false,
+      "observed_error": "bwrap: loopback: Failed to create NETLINK_ROUTE socket: Operation not permitted"
+    },
+    {
+      "id": "root_mapping_without_capability_drop",
+      "exit_code": 0,
+      "uid": 0,
+      "gid": 0,
+      "capabilities": {
+        "CapInh": "0000000000000000",
+        "CapPrm": "000001ffffffffff",
+        "CapEff": "000001ffffffffff",
+        "CapBnd": "000001ffffffffff",
+        "CapAmb": "0000000000000000"
+      },
+      "conclusion": "Rejected as the adapter configuration: real UID zero changes bubblewrap's default capability behavior."
+    },
+    {
+      "id": "private_network_nonroot_control",
+      "outer_mapping": "--map-current-user",
+      "explicit_cap_drop": false,
+      "exit_code": 0,
+      "uid": 1000,
+      "gid": 1000,
+      "all_five_capability_sets_zero": true,
+      "no_new_privs": 1,
+      "seccomp_mode": 2,
+      "visible_pids": [1, 2],
+      "payload_pid": 2,
+      "payload_parent_pid": 1,
+      "network_devices": ["lo"],
+      "ipv4_route_file": "",
+      "root_canary_write_errno": 30,
+      "root_canary_write_error": "EROFS",
+      "host_canary_unchanged": true,
+      "host_home_canary_hidden": true,
+      "host_home_canary_unchanged": true,
+      "temporary_home_writable": true,
+      "explicit_granted_directory_writable": true,
+      "payload_fds": [0, 1, 2]
+    },
+    {
+      "id": "private_network_root_mapping_with_capability_drop",
+      "outer_mapping": "--map-root-user",
+      "explicit_cap_drop": true,
+      "exit_code": 0,
+      "uid": 0,
+      "gid": 0,
+      "all_five_capability_sets_zero": true,
+      "no_new_privs": 1,
+      "seccomp_mode": 2,
+      "namespace_types_observed_different_from_invoker": ["user", "net", "mnt", "pid", "ipc", "uts", "cgroup"],
+      "visible_pids": [1, 2],
+      "payload_pid": 2,
+      "payload_parent_pid": 1,
+      "network_devices": ["lo"],
+      "ipv4_route_file": "",
+      "root_canary_write_errno": 30,
+      "root_canary_write_error": "EROFS",
+      "host_canary_unchanged": true,
+      "host_home_canary_hidden": true,
+      "host_home_canary_unchanged": true,
+      "temporary_home_writable": true,
+      "explicit_granted_directory_writable": true,
+      "payload_fds": [0, 1, 2]
+    },
+    {
+      "id": "arity_parser_and_descriptor_closure_model",
+      "implementation_note": "An inline Python model of the proposed wrapper, using --map-root-user plus --cap-drop ALL; not an execution of the later frozen wrapper file.",
+      "exit_code": 0,
+      "deliberately_inherited_host_netns_fd": 3,
+      "host_netns_fd_absent_in_payload": true,
+      "payload_fds": [0, 1, 2],
+      "setenv_value_equal_to_separator_preserved": true,
+      "payload_arguments_preserved": ["--share-net", "--", "payload"],
+      "all_five_capability_sets_zero": true,
+      "no_new_privs": 1,
+      "namespace_join_attempted": false
+    }
+  ],
+  "coordinator_actual_wrapper_probe": {
+    "evidence_file": "verification/isolation/wrapper-probe.log",
+    "independent_review": "Existing coordinator log read; not rerun by the independent reviewer.",
+    "uid": 1000,
+    "all_five_capability_sets_zero": true,
+    "network_devices": ["lo"],
+    "ipv4_route_file": "",
+    "connect_ex_target": ["192.0.2.1", 443],
+    "connect_ex_errno": 101,
+    "connect_ex_error": "ENETUNREACH",
+    "log_reports_passed": true
+  },
+  "cleanup": {
+    "independent_temporary_canaries_removed": true,
+    "official_tools_unchanged": true,
+    "shared_proof_files_unchanged": true
+  },
+  "limits": [
+    "This JSON is an observations summary, not a complete preserved raw transcript.",
+    "The independent probes did not establish a Comparator verdict or a Palomar registry result.",
+    "The original no-network bwrap invocation failed before its payload, so the successful nonroot control used a fresh outer private network namespace.",
+    "Lifecycle/session options were preserved and inspected; no independent parent-killing experiment was performed.",
+    "Network namespaces do not independently block pathname-based Unix-domain sockets reachable through the mounted filesystem; the official filesystem masks remain unchanged.",
+    "Functional probes do not establish the absence of kernel or bubblewrap implementation vulnerabilities."
+  ]
+}
